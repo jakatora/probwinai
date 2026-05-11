@@ -43,7 +43,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 4.36507936507935,
-  "ai_commentary": null,
-  "generated_at": "2026-05-11T17:25:17.702366Z",
+  "ai_commentary": "Wyrazna roznica klas: Bayern Munich ma ratingi Elo wyzsze o 182 pkt. Bayern Munich ma 4/5 zwyciestw w ostatnich meczach. Model wycenia 'wygrana gospodarza' o 18pp wyzej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-11T17:32:44.740238Z",
   "id": "2026-05-11_bayern-munich_borussia-dortmund"
 }

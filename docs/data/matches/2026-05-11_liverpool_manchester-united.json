@@ -43,7 +43,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 3.6256574812266296,
-  "ai_commentary": null,
-  "generated_at": "2026-05-11T17:25:16.226645Z",
+  "ai_commentary": "Rownorzedne ratingi Elo - mecz wyrownany na papierze. Liverpool ma 3/5 zwyciestw w ostatnich meczach. Model wycenia 'wygrana goscia' o 7pp wyzej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-11T17:32:42.146693Z",
   "id": "2026-05-11_liverpool_manchester-united"
 }

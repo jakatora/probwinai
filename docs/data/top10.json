@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-05-11T17:25:14.631247+00:00",
+  "generated_at": "2026-05-11T17:32:39.354701+00:00",
   "matches": [
     {
       "id": "2026-05-11_arsenal_tottenham",
@@ -40,6 +40,104 @@
         "home": 1.75,
         "draw": 4.0,
         "away": 4.5,
+        "bookmaker": "Betclic (mock)"
+      },
+      "has_insights": true
+    },
+    {
+      "id": "2026-05-11_real-madrid_barcelona",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "league": "La Liga",
+      "kick_off": "2026-05-11T22:00:00+00:00",
+      "odds": {
+        "home": 2.2,
+        "draw": 3.6,
+        "away": 3.1,
+        "bookmaker": "Betclic (mock)"
+      },
+      "has_insights": true
+    },
+    {
+      "id": "2026-05-11_psg_marseille",
+      "home_team": "PSG",
+      "away_team": "Marseille",
+      "league": "Ligue 1",
+      "kick_off": "2026-05-12T00:00:00+00:00",
+      "odds": {
+        "home": 1.55,
+        "draw": 4.4,
+        "away": 6.0,
+        "bookmaker": "Betclic (mock)"
+      },
+      "has_insights": true
+    },
+    {
+      "id": "2026-05-11_manchester-city_chelsea",
+      "home_team": "Manchester City",
+      "away_team": "Chelsea",
+      "league": "Premier League",
+      "kick_off": "2026-05-11T20:00:00+00:00",
+      "odds": {
+        "home": 1.65,
+        "draw": 4.2,
+        "away": 5.0,
+        "bookmaker": "Betclic (mock)"
+      },
+      "has_insights": true
+    },
+    {
+      "id": "2026-05-11_juventus_inter-milan",
+      "home_team": "Juventus",
+      "away_team": "Inter Milan",
+      "league": "Serie A",
+      "kick_off": "2026-05-12T01:00:00+00:00",
+      "odds": {
+        "home": 2.8,
+        "draw": 3.2,
+        "away": 2.6,
+        "bookmaker": "Betclic (mock)"
+      },
+      "has_insights": true
+    },
+    {
+      "id": "2026-05-11_aston-villa_liverpool",
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "league": "Premier League",
+      "kick_off": "2026-05-11T18:00:00+00:00",
+      "odds": {
+        "home": 3.1,
+        "draw": 3.9,
+        "away": 2.05,
+        "bookmaker": "Betclic (mock)"
+      },
+      "has_insights": true
+    },
+    {
+      "id": "2026-05-11_atletico-madrid_sevilla",
+      "home_team": "Atletico Madrid",
+      "away_team": "Sevilla",
+      "league": "La Liga",
+      "kick_off": "2026-05-12T03:00:00+00:00",
+      "odds": {
+        "home": 1.95,
+        "draw": 3.4,
+        "away": 4.0,
+        "bookmaker": "Betclic (mock)"
+      },
+      "has_insights": true
+    },
+    {
+      "id": "2026-05-11_newcastle_brighton",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "league": "Premier League",
+      "kick_off": "2026-05-11T21:00:00+00:00",
+      "odds": {
+        "home": 2.1,
+        "draw": 3.5,
+        "away": 3.4,
         "bookmaker": "Betclic (mock)"
       },
       "has_insights": true

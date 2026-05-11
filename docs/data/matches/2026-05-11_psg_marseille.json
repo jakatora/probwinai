@@ -1,0 +1,49 @@
+{
+  "home_team": "PSG",
+  "away_team": "Marseille",
+  "league": "Ligue 1",
+  "kick_off": "2026-05-12T00:00:00Z",
+  "home_context": {
+    "name": "PSG",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Marseille",
+    "elo": 1701.1282959,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "W",
+        "L",
+        "D",
+        "L"
+      ],
+      "points": 4,
+      "goals_for": 5,
+      "goals_against": 9
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.6208842897460018,
+    "draw": 0.2187206020696143,
+    "away": 0.16039510818438382
+  },
+  "bookmaker_odds": {
+    "home": 1.55,
+    "draw": 4.4,
+    "away": 6.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.910068426197455,
+  "ai_commentary": "Marseille 1/5. Model wycenia 'wygrana gospodarza' o 22pp nizej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-11T17:32:50.305268Z",
+  "id": "2026-05-11_psg_marseille"
+}

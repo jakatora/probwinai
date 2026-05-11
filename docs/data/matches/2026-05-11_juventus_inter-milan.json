@@ -1,0 +1,49 @@
+{
+  "home_team": "Juventus",
+  "away_team": "Inter Milan",
+  "league": "Serie A",
+  "kick_off": "2026-05-12T01:00:00Z",
+  "home_context": {
+    "name": "Juventus",
+    "elo": 1789.74865723,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "D"
+      ],
+      "points": 11,
+      "goals_for": 6,
+      "goals_against": 1
+    }
+  },
+  "away_context": {
+    "name": "Inter Milan",
+    "elo": 1892.42724609,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.3175847091284298,
+    "draw": 0.2645309895716832,
+    "away": 0.417884301299887
+  },
+  "implied_probability": {
+    "home": 0.33876221498371334,
+    "draw": 0.29641693811074915,
+    "away": 0.3648208469055374
+  },
+  "bookmaker_odds": {
+    "home": 2.8,
+    "draw": 3.2,
+    "away": 2.6,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.425824175824179,
+  "ai_commentary": "Wyrazna roznica klas: Inter Milan ma ratingi Elo wyzsze o 103 pkt. Juventus ma 3/5 zwyciestw w ostatnich meczach. Model wycenia 'wygrana goscia' o 5pp wyzej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-11T17:32:53.382536Z",
+  "id": "2026-05-11_juventus_inter-milan"
+}

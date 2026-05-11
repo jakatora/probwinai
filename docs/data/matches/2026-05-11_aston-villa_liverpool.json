@@ -1,0 +1,97 @@
+{
+  "home_team": "Aston Villa",
+  "away_team": "Liverpool",
+  "league": "Premier League",
+  "kick_off": "2026-05-11T18:00:00Z",
+  "home_context": {
+    "name": "Aston Villa",
+    "elo": 1874.75610352,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "L"
+      ],
+      "points": 7,
+      "goals_for": 8,
+      "goals_against": 7
+    }
+  },
+  "away_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "points": 9,
+      "goals_for": 10,
+      "goals_against": 7
+    }
+  },
+  "h2h": [
+    {
+      "date": "2023-09-03",
+      "home_team": "Liverpool",
+      "away_team": "Aston Villa",
+      "home_goals": 3,
+      "away_goals": 0
+    },
+    {
+      "date": "2024-05-13",
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "home_goals": 3,
+      "away_goals": 3
+    },
+    {
+      "date": "2024-11-09",
+      "home_team": "Liverpool",
+      "away_team": "Aston Villa",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "date": "2025-02-19",
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "home_goals": 2,
+      "away_goals": 2
+    },
+    {
+      "date": "2025-11-01",
+      "home_team": "Liverpool",
+      "away_team": "Aston Villa",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ],
+  "model_probability": {
+    "home": 0.3649090561943126,
+    "draw": 0.2798477989098368,
+    "away": 0.3552431448958506
+  },
+  "implied_probability": {
+    "home": 0.3023827534039334,
+    "draw": 0.2403555219364599,
+    "away": 0.4572617246596066
+  },
+  "bookmaker_odds": {
+    "home": 3.1,
+    "draw": 3.9,
+    "away": 2.05,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 6.6795779620327345,
+  "ai_commentary": "Rownorzedne ratingi Elo - mecz wyrownany na papierze. Aston Villa ma 2/5 zwyciestw w ostatnich meczach, Liverpool 3/5. Model wycenia 'wygrana goscia' o 10pp nizej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-11T17:32:53.749447Z",
+  "id": "2026-05-11_aston-villa_liverpool"
+}

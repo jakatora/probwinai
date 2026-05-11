@@ -91,7 +91,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 2.7568922305764243,
-  "ai_commentary": null,
-  "generated_at": "2026-05-11T17:25:15.998384Z",
+  "ai_commentary": "Wyrazna roznica klas: Arsenal ma ratingi Elo wyzsze o 282 pkt. Arsenal ma 3/5 zwyciestw w ostatnich meczach, Tottenham 2/5. Model wycenia 'wygrana gospodarza' o 29pp wyzej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-11T17:32:41.780334Z",
   "id": "2026-05-11_arsenal_tottenham"
 }
