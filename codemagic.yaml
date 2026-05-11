@@ -18,48 +18,53 @@ workflows:
       app_store_connect: ProbWin AI Connect Key  # nazwa Connect API key dodanego w Codemagic UI
 
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.probwinai.app
+      # UWAGA: NIE deklarujemy 'ios_signing:' bloku - wykonuje on automatyczny
+      # pre-check ktory wywala 'No matching profiles found' zanim nasze
+      # skrypty zdaza utworzyc profile. Zamiast tego wszystko robia
+      # 'app-store-connect fetch-signing-files --create' i 'xcode-project use-profiles'.
       vars:
         # Team ID z developer.apple.com (Krzysztof Kapusta)
         APPLE_TEAM_ID: B7J6A7R258
-        XCODE_WORKSPACE: "mobile/ios/Runner.xcworkspace"
+        BUNDLE_ID: com.probwinai.app
+        XCODE_WORKSPACE: "ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
       flutter: stable
+      xcode: latest
+      cocoapods: default
 
     scripts:
-      - name: Set up local properties
-        script: |
-          echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/mobile/android/local.properties"
-
-      - name: Get Flutter packages
+      - name: Set up Flutter (recreate missing iOS scaffolding)
         script: |
           cd mobile
+          # 'flutter create .' nie nadpisze istniejacych plikow, ale dorobi
+          # brakujace pliki iOS (Runner.xcodeproj, Podfile, Flutter framework symlinks).
+          flutter create --platforms=ios . --project-name probwin_ai --org com.probwinai
           flutter pub get
 
-      - name: Generate icons & splash
+      - name: Set up code signing (cert + provisioning profile auto-create)
         script: |
-          cd mobile
-          # UWAGA: wymaga assets/icon.png i assets/splash.png
-          flutter pub run flutter_launcher_icons || echo "Icons skipped (no assets/icon.png)"
-          flutter pub run flutter_native_splash:create || echo "Splash skipped"
+          set -ex
+          # 1. Inicjuj pęk kluczy budowy
+          keychain initialize
+          # 2. Pobierz lub utworz Distribution cert + App Store profile dla com.probwinai.app
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --create
+          # 3. Zaladuj certyfikat do keychain
+          keychain add-certificates
+          # 4. Zastosuj profile do projektu Xcode
+          xcode-project use-profiles
 
       - name: Install pods
         script: |
           cd mobile/ios
           pod install
 
-      - name: Initialize keychain + fetch signing files
+      - name: Generate icons & splash (jezeli sa assety)
         script: |
-          # Codemagic CLI tools: auto-tworzy cert + provisioning profile
-          # przez API key dodany do Codemagic integration.
-          keychain initialize
-          app-store-connect fetch-signing-files com.probwinai.app \
-            --type IOS_APP_STORE \
-            --create
-          keychain add-certificates
-          xcode-project use-profiles
+          cd mobile
+          flutter pub run flutter_launcher_icons || echo "Icons skipped (no assets/icon.png)"
+          flutter pub run flutter_native_splash:create || echo "Splash skipped"
 
       - name: Build IPA
         script: |
@@ -68,8 +73,7 @@ workflows:
             --release \
             --build-name=0.1.0 \
             --build-number=$(($BUILD_NUMBER + 100)) \
-            --dart-define=API_URL=$PROBWIN_API_URL \
-            --export-options-plist=/Users/builder/export_options.plist
+            --dart-define=API_URL=$PROBWIN_API_URL
 
     artifacts:
       - mobile/build/ios/ipa/*.ipa
