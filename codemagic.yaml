@@ -26,7 +26,8 @@ workflows:
         # Team ID z developer.apple.com (Krzysztof Kapusta)
         APPLE_TEAM_ID: B7J6A7R258
         BUNDLE_ID: com.probwinai.app
-        XCODE_WORKSPACE: "ios/Runner.xcworkspace"
+        # WAZNE: sciezki relatywne do mobile/ - tam jest Flutter project
+        XCODE_WORKSPACE: "mobile/ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
       flutter: 3.24.5     # pinned, cached na Codemagic runners - unika timeoutu downloadu
       xcode: latest
@@ -47,17 +48,13 @@ workflows:
           # 1. Inicjuj pek kluczy budowy
           keychain initialize
 
-          # 2. Wygeneruj klucz prywatny RSA 2048 dla CSR.
-          # --create flag Codemagic CLI domyslnie tego nie robi - musimy sami.
+          # 2. Wygeneruj klucz prywatny RSA 2048 dla CSR
           PRIVATE_KEY_PATH="$HOME/probwinai_cert_key.pem"
           openssl genrsa -out "$PRIVATE_KEY_PATH" 2048
           chmod 600 "$PRIVATE_KEY_PATH"
 
           # 3. Pobierz lub utworz Distribution cert + App Store profile.
-          # Codemagic CLI wymaga prefix '@file:' dla sciezki - bez tego
-          # interpretuje argument jako literalna zawartosc klucza.
-          # Bez --certificate-key Apple odrzuca CSR z bledem
-          # "Cannot save Signing Certificates without certificate private key".
+          # Codemagic CLI: @file:PATH = wczytaj sciezka, @env:VAR = z env var.
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
             --create \
@@ -66,8 +63,11 @@ workflows:
           # 4. Zaladuj certyfikat + klucz prywatny do keychain
           keychain add-certificates
 
-          # 5. Zastosuj profile do projektu Xcode
+          # 5. Zastosuj profile do Flutter iOS project (z mobile/ - tam jest Runner.xcodeproj)
+          cd "$CM_BUILD_DIR/mobile"
           xcode-project use-profiles
+          # Pokaz co zostalo zastosowane
+          xcode-project detect-bundle-id || true
 
       - name: Install pods
         script: |
@@ -82,12 +82,47 @@ workflows:
 
       - name: Build IPA
         script: |
+          set -ex
           cd mobile
+          # PROBWIN_API_URL fallback na produkcyjny URL z GitHub Pages
+          API_URL="${PROBWIN_API_URL:-https://jakatora.github.io/probwinai/data}"
           flutter build ipa \
             --release \
             --build-name=0.1.0 \
             --build-number=$(($BUILD_NUMBER + 100)) \
-            --dart-define=API_URL=$PROBWIN_API_URL
+            --dart-define=API_URL="$API_URL" \
+            --export-options-plist=ios/export_options.plist || (
+              # Jesli flutter sam nie wygenerowal export_options, uzyj naszego
+              echo "Retrying with manual export options..."
+              cat > ios/export_options.plist <<EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>method</key>
+  <string>app-store</string>
+  <key>teamID</key>
+  <string>$APPLE_TEAM_ID</string>
+  <key>signingStyle</key>
+  <string>manual</string>
+  <key>stripSwiftSymbols</key>
+  <true/>
+  <key>uploadBitcode</key>
+  <false/>
+  <key>compileBitcode</key>
+  <false/>
+  <key>uploadSymbols</key>
+  <true/>
+</dict>
+</plist>
+EOF
+              flutter build ipa \
+                --release \
+                --build-name=0.1.0 \
+                --build-number=$(($BUILD_NUMBER + 100)) \
+                --dart-define=API_URL="$API_URL" \
+                --export-options-plist=ios/export_options.plist
+            )
 
     artifacts:
       - mobile/build/ios/ipa/*.ipa
