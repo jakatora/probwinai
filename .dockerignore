@@ -1,0 +1,16 @@
+.env
+.git
+.gitignore
+*.pyc
+__pycache__/
+.venv/
+.pytest_cache/
+backend/db/*.sqlite*
+mobile/
+research/
+reports/
+tests/
+docs/
+*.log
+.DS_Store
+README.md

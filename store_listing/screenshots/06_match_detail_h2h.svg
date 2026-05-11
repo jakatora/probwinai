@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1290 2796" width="1290" height="2796">
+  <!-- Screenshot 6: Historia H2H -->
+  <defs>
+    <style>
+      .bg { fill: #0F1419; }
+      .card { fill: #1A212A; stroke: #2D3748; stroke-width: 1; }
+      .panel2 { fill: #232C38; }
+      .text-main { fill: #E6EDF3; font-family: -apple-system, sans-serif; }
+      .text-dim { fill: #8B9BAB; font-family: -apple-system, sans-serif; }
+      .text-blue { fill: #60A5FA; font-family: -apple-system, sans-serif; }
+      .text-warning { fill: #FBBF24; font-family: -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1290" height="2796" class="bg"/>
+
+  <!-- Status bar -->
+  <rect x="491" y="40" width="307" height="124" rx="62" fill="#000"/>
+  <text x="100" y="100" class="text-main" font-size="36" font-weight="600">9:41</text>
+  <g transform="translate(1090, 80)">
+    <rect x="0" y="0" width="55" height="32" rx="6" stroke="#E6EDF3" stroke-width="2" fill="none"/>
+    <rect x="6" y="6" width="40" height="20" rx="2" fill="#E6EDF3"/>
+  </g>
+
+  <!-- Marketing banner -->
+  <rect x="0" y="200" width="1290" height="180" fill="#1A212A"/>
+  <text x="645" y="270" class="text-blue" font-size="32" font-weight="600" text-anchor="middle">HEAD-TO-HEAD</text>
+  <text x="645" y="340" class="text-main" font-size="60" font-weight="800" text-anchor="middle">Historia bezposrednich spotkan</text>
+
+  <!-- App bar -->
+  <g transform="translate(0, 460)">
+    <path d="M 60 60 L 30 90 L 60 120 Z" fill="#E6EDF3"/>
+    <text x="120" y="100" class="text-main" font-size="44" font-weight="600">Analiza meczu</text>
+  </g>
+
+  <!-- H2H Card -->
+  <g transform="translate(80, 620)">
+    <rect width="1130" height="1300" rx="16" class="card"/>
+
+    <text x="40" y="80" class="text-main" font-size="40" font-weight="700">Ostatnie spotkania (H2H)</text>
+
+    <!-- H2H matches -->
+    <g transform="translate(40, 140)">
+
+      <!-- Match 1: 2024-12-01 -->
+      <g>
+        <text x="0" y="40" class="text-dim" font-size="26">2024-12-01</text>
+        <text x="640" y="40" class="text-main" font-size="32" font-weight="500" text-anchor="end">Liverpool</text>
+        <g transform="translate(660, 0)">
+          <rect width="140" height="56" rx="6" class="panel2"/>
+          <text x="70" y="40" class="text-main" font-size="32" font-weight="800" text-anchor="middle">2-1</text>
+        </g>
+        <text x="820" y="40" class="text-main" font-size="32" font-weight="500">Manchester United</text>
+      </g>
+
+      <!-- Match 2 -->
+      <g transform="translate(0, 80)">
+        <text x="0" y="40" class="text-dim" font-size="26">2024-08-15</text>
+        <text x="640" y="40" class="text-main" font-size="32" font-weight="500" text-anchor="end">Manchester United</text>
+        <g transform="translate(660, 0)">
+          <rect width="140" height="56" rx="6" class="panel2"/>
+          <text x="70" y="40" class="text-main" font-size="32" font-weight="800" text-anchor="middle">0-0</text>
+        </g>
+        <text x="820" y="40" class="text-main" font-size="32" font-weight="500">Liverpool</text>
+      </g>
+
+      <!-- Match 3 -->
+      <g transform="translate(0, 160)">
+        <text x="0" y="40" class="text-dim" font-size="26">2024-04-07</text>
+        <text x="640" y="40" class="text-main" font-size="32" font-weight="500" text-anchor="end">Manchester United</text>
+        <g transform="translate(660, 0)">
+          <rect width="140" height="56" rx="6" class="panel2"/>
+          <text x="70" y="40" class="text-main" font-size="32" font-weight="800" text-anchor="middle">2-2</text>
+        </g>
+        <text x="820" y="40" class="text-main" font-size="32" font-weight="500">Liverpool</text>
+      </g>
+
+      <!-- Match 4 -->
+      <g transform="translate(0, 240)">
+        <text x="0" y="40" class="text-dim" font-size="26">2023-12-17</text>
+        <text x="640" y="40" class="text-main" font-size="32" font-weight="500" text-anchor="end">Liverpool</text>
+        <g transform="translate(660, 0)">
+          <rect width="140" height="56" rx="6" class="panel2"/>
+          <text x="70" y="40" class="text-main" font-size="32" font-weight="800" text-anchor="middle">0-0</text>
+        </g>
+        <text x="820" y="40" class="text-main" font-size="32" font-weight="500">Manchester United</text>
+      </g>
+
+      <!-- Match 5 -->
+      <g transform="translate(0, 320)">
+        <text x="0" y="40" class="text-dim" font-size="26">2023-03-05</text>
+        <text x="640" y="40" class="text-main" font-size="32" font-weight="500" text-anchor="end">Liverpool</text>
+        <g transform="translate(660, 0)">
+          <rect width="140" height="56" rx="6" class="panel2"/>
+          <text x="70" y="40" class="text-main" font-size="32" font-weight="800" text-anchor="middle">7-0</text>
+        </g>
+        <text x="820" y="40" class="text-main" font-size="32" font-weight="500">Manchester United</text>
+      </g>
+
+      <!-- Summary stats -->
+      <g transform="translate(0, 480)">
+        <line x1="0" y1="0" x2="1050" y2="0" stroke="#2D3748" stroke-width="2"/>
+        <text x="0" y="60" class="text-dim" font-size="26">PODSUMOWANIE OSTATNICH 5</text>
+
+        <g transform="translate(0, 100)">
+          <text class="text-main" font-size="36" font-weight="700">Liverpool</text>
+          <text x="1050" class="text-main" font-size="36" font-weight="800" text-anchor="end">3W - 2D - 0L</text>
+        </g>
+
+        <g transform="translate(0, 170)">
+          <text class="text-main" font-size="36" font-weight="700">Bramki</text>
+          <text x="1050" class="text-main" font-size="36" font-weight="800" text-anchor="end">11 - 3</text>
+        </g>
+
+        <g transform="translate(0, 240)">
+          <text class="text-main" font-size="36" font-weight="700">Sredni wynik</text>
+          <text x="1050" class="text-main" font-size="36" font-weight="800" text-anchor="end">2.2 - 0.6</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Disclaimer footer -->
+  <g transform="translate(80, 2050)">
+    <text class="text-warning" font-size="28" text-anchor="start">
+      <tspan x="0" dy="0">ProbWin AI to narzedzie informacyjne.</tspan>
+      <tspan x="0" dy="40">Nie rekomenduje zakladow.</tspan>
+      <tspan x="0" dy="40">Hazard moze uzalezniac.</tspan>
+    </text>
+  </g>
+
+  <!-- Home indicator -->
+  <rect x="495" y="2730" width="300" height="14" rx="7" fill="#E6EDF3" opacity="0.5"/>
+</svg>

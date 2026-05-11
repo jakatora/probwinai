@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1290 2796" width="1290" height="2796">
+  <!-- Screenshot 3: Karta meczu z AI komentarzem (kluczowa wartosc aplikacji) -->
+  <defs>
+    <style>
+      .bg { fill: #0F1419; }
+      .card { fill: #1A212A; stroke: #2D3748; stroke-width: 1; }
+      .panel2 { fill: #232C38; }
+      .ai-panel { fill: rgba(96, 165, 250, 0.08); }
+      .text-main { fill: #E6EDF3; font-family: -apple-system, sans-serif; }
+      .text-dim { fill: #8B9BAB; font-family: -apple-system, sans-serif; }
+      .text-blue { fill: #60A5FA; font-family: -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1290" height="2796" class="bg"/>
+
+  <!-- Status bar -->
+  <rect x="491" y="40" width="307" height="124" rx="62" fill="#000"/>
+  <text x="100" y="100" class="text-main" font-size="36" font-weight="600">9:41</text>
+  <g transform="translate(1090, 80)">
+    <rect x="0" y="0" width="55" height="32" rx="6" stroke="#E6EDF3" stroke-width="2" fill="none"/>
+    <rect x="6" y="6" width="40" height="20" rx="2" fill="#E6EDF3"/>
+  </g>
+
+  <!-- Marketing banner -->
+  <rect x="0" y="200" width="1290" height="180" fill="#1A212A"/>
+  <text x="645" y="270" class="text-blue" font-size="32" font-weight="600" text-anchor="middle">SZTUCZNA INTELIGENCJA</text>
+  <text x="645" y="340" class="text-main" font-size="60" font-weight="800" text-anchor="middle">AI tlumaczy kontekst meczu</text>
+
+  <!-- App bar -->
+  <g transform="translate(0, 460)">
+    <path d="M 60 60 L 30 90 L 60 120 Z" fill="#E6EDF3"/>
+    <text x="120" y="100" class="text-main" font-size="44" font-weight="600">Analiza meczu</text>
+  </g>
+
+  <!-- Match header -->
+  <g transform="translate(80, 620)">
+    <text class="text-dim" font-size="30">Premier League</text>
+    <text y="80" class="text-main" font-size="60" font-weight="800">Liverpool vs Man Utd</text>
+    <text y="130" class="text-dim" font-size="30">17 May 2026, 17:00</text>
+  </g>
+
+  <!-- AI Commentary Card -->
+  <g transform="translate(80, 900)">
+    <rect width="1130" height="900" rx="16" class="card"/>
+
+    <!-- Header -->
+    <g transform="translate(40, 50)">
+      <path d="M 30 0 L 36 18 L 54 24 L 36 30 L 30 48 L 24 30 L 6 24 L 24 18 Z" fill="#60A5FA"/>
+      <text x="80" y="40" class="text-main" font-size="40" font-weight="700">Analiza AI</text>
+    </g>
+
+    <!-- Commentary panel -->
+    <g transform="translate(40, 140)">
+      <rect width="1050" height="710" rx="12" class="ai-panel"/>
+      <rect x="0" y="0" width="6" height="710" fill="#60A5FA"/>
+
+      <text x="40" y="80" class="text-main" font-size="36" font-weight="500">
+        <tspan x="40" dy="0">Liverpool faworyt po wymarzonej formie</tspan>
+        <tspan x="40" dy="60">w ostatnich 5 meczach (4W-1D), ale</tspan>
+        <tspan x="40" dy="60">zagra bez Salaha (kontuzja sciegna)</tspan>
+        <tspan x="40" dy="60">i Van Dijka (zawieszenie - 2x zolta</tspan>
+        <tspan x="40" dy="60">w ostatnich 3 meczach).</tspan>
+      </text>
+
+      <text x="40" y="500" class="text-main" font-size="36" font-weight="500">
+        <tspan x="40" dy="0">Manchester United walczy o europejskie</tspan>
+        <tspan x="40" dy="60">puchary - silna motywacja, ale slaba</tspan>
+        <tspan x="40" dy="60">forma wyjazdowa (1W-3L w ostatnich 4).</tspan>
+      </text>
+
+      <text x="40" y="700" class="text-blue" font-size="32" font-weight="600" font-style="italic">Zrodlo: newsy 24h przed meczem</text>
+    </g>
+  </g>
+
+  <!-- Bottom hint of next section -->
+  <g transform="translate(80, 1850)">
+    <rect width="1130" height="200" rx="16" class="card" opacity="0.5"/>
+    <text x="40" y="60" class="text-dim" font-size="28">PRAWDOPODOBIENSTWO WYNIKU</text>
+    <text x="40" y="120" class="text-main" font-size="36" font-weight="600" opacity="0.6">Liverpool (1)</text>
+    <text x="1080" y="120" class="text-blue" font-size="36" font-weight="700" text-anchor="end" opacity="0.6">54%</text>
+  </g>
+
+  <!-- Home indicator -->
+  <rect x="495" y="2730" width="300" height="14" rx="7" fill="#E6EDF3" opacity="0.5"/>
+</svg>

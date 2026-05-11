@@ -1,0 +1,51 @@
+name: probwin_ai
+description: "ProbWin AI - Football statistics, probabilities and AI-powered match insights. Information tool only - does not promote betting."
+publish_to: 'none'
+
+# Wersja: major.minor.patch+buildNumber
+# Build number musi byc unikalny dla kazdego uploadu do sklepu
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.0
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5            # otwieranie helpline / privacy URL
+  package_info_plus: ^8.0.0       # info o wersji aplikacji w settings
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1 # generator ikon aplikacji
+  flutter_native_splash: ^2.4.0   # generator splash screen
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+# === Konfiguracja generatora ikon (uruchom: flutter pub run flutter_launcher_icons) ===
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: assets/icon.png
+  adaptive_icon_background: "#0F1419"
+  adaptive_icon_foreground: assets/icon_foreground.png
+  min_sdk_android: 21
+
+# === Konfiguracja splash screen (uruchom: flutter pub run flutter_native_splash:create) ===
+flutter_native_splash:
+  color: "#0F1419"
+  image: assets/splash.png
+  android_12:
+    image: assets/splash.png
+    color: "#0F1419"

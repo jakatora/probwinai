@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ProbWin AI - App Store Screenshots Preview</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #1a1f2e;
+    color: #e6edf3;
+    padding: 24px;
+  }
+  h1 { font-size: 32px; margin-bottom: 8px; }
+  .subtitle { color: #8b9bab; font-size: 16px; margin-bottom: 24px; }
+  .instructions {
+    background: #232c38;
+    border-left: 4px solid #60a5fa;
+    padding: 16px 24px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    line-height: 1.7;
+  }
+  .instructions h2 { font-size: 18px; margin-bottom: 12px; color: #60a5fa; }
+  .instructions code { background: #0f1419; padding: 2px 8px; border-radius: 4px; color: #4ade80; font-family: monospace; }
+  .instructions ol { padding-left: 20px; }
+  .instructions li { margin-bottom: 6px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  .screenshot {
+    background: #232c38;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 12px;
+  }
+  .screenshot-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4px 12px;
+  }
+  .screenshot-title { font-weight: 600; font-size: 14px; }
+  .screenshot-meta { color: #8b9bab; font-size: 12px; }
+  .screenshot img, .screenshot object {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    background: #0f1419;
+  }
+  .actions {
+    margin: 24px 0;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    background: #60a5fa;
+    color: #0f1419;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .btn-ghost {
+    background: transparent;
+    border: 1px solid #2d3748;
+    color: #e6edf3;
+  }
+</style>
+</head>
+<body>
+
+<h1>ProbWin AI - App Store screenshots</h1>
+<div class="subtitle">6 mockupow 1290 x 2796 px (iPhone 6.7") gotowych do uploadu</div>
+
+<div class="instructions">
+  <h2>Jak skonwertowac SVG na PNG (3 sposoby)</h2>
+
+  <strong>Sposob A: Chrome DevTools (najlatwiej, lokalnie)</strong>
+  <ol>
+    <li>Otworz pojedynczy plik SVG bezposrednio w Chrome (np. drag-drop pliku <code>01_welcome.svg</code> do zakladki)</li>
+    <li>Wcisnij <code>F12</code> -> DevTools</li>
+    <li>Wcisnij <code>Ctrl+Shift+P</code> -> wpisz "Capture full size screenshot" -> Enter</li>
+    <li>PNG zapisze sie w Downloads w rozdzielczosci 1290x2796</li>
+  </ol>
+
+  <strong>Sposob B: CloudConvert (online, najwygodniejszy)</strong>
+  <ol>
+    <li>Wejdz na <a href="https://cloudconvert.com/svg-to-png" target="_blank" style="color:#60a5fa">cloudconvert.com/svg-to-png</a></li>
+    <li>Wgraj wszystkie 6 plikow SVG na raz</li>
+    <li>Ustaw Output Resolution: <code>1290x2796</code></li>
+    <li>Convert -> pobierz ZIP z PNG-ami</li>
+  </ol>
+
+  <strong>Sposob C: Inkscape (local, batch)</strong>
+  <p>W PowerShell, w folderze <code>store_listing/screenshots</code>:</p>
+  <pre style="background:#0f1419; padding:12px; border-radius:6px; overflow-x:auto; margin: 8px 0; font-size: 12px;">
+foreach ($svg in Get-ChildItem *.svg) {
+  inkscape $svg.FullName --export-type=png --export-width=1290 --export-height=2796
+}</pre>
+</div>
+
+<div class="grid">
+  <div class="screenshot">
+    <div class="screenshot-label">
+      <span class="screenshot-title">01. Welcome (responsible gambling)</span>
+      <span class="screenshot-meta">1290 x 2796</span>
+    </div>
+    <object data="01_welcome.svg" type="image/svg+xml"></object>
+  </div>
+
+  <div class="screenshot">
+    <div class="screenshot-label">
+      <span class="screenshot-title">02. Match List (top 10)</span>
+      <span class="screenshot-meta">1290 x 2796</span>
+    </div>
+    <object data="02_match_list.svg" type="image/svg+xml"></object>
+  </div>
+
+  <div class="screenshot">
+    <div class="screenshot-label">
+      <span class="screenshot-title">03. AI Commentary (HERO!)</span>
+      <span class="screenshot-meta">1290 x 2796</span>
+    </div>
+    <object data="03_match_detail_ai.svg" type="image/svg+xml"></object>
+  </div>
+
+  <div class="screenshot">
+    <div class="screenshot-label">
+      <span class="screenshot-title">04. Probability bars</span>
+      <span class="screenshot-meta">1290 x 2796</span>
+    </div>
+    <object data="04_match_detail_probability.svg" type="image/svg+xml"></object>
+  </div>
+
+  <div class="screenshot">
+    <div class="screenshot-label">
+      <span class="screenshot-title">05. Teams stats &amp; form</span>
+      <span class="screenshot-meta">1290 x 2796</span>
+    </div>
+    <object data="05_match_detail_teams.svg" type="image/svg+xml"></object>
+  </div>
+
+  <div class="screenshot">
+    <div class="screenshot-label">
+      <span class="screenshot-title">06. H2H history</span>
+      <span class="screenshot-meta">1290 x 2796</span>
+    </div>
+    <object data="06_match_detail_h2h.svg" type="image/svg+xml"></object>
+  </div>
+</div>
+
+<div class="instructions" style="margin-top: 32px;">
+  <h2>Kolejnosc do uploadu w App Store Connect</h2>
+  <p>App Store wyswietla screenshoty w kolejnosci ktora ustawisz drag-and-drop. Sugerowana:</p>
+  <ol>
+    <li><strong>02_match_list</strong> - hook: "co dostane od aplikacji"</li>
+    <li><strong>03_match_detail_ai</strong> - kluczowa wartosc (AI commentary)</li>
+    <li><strong>04_match_detail_probability</strong> - tech wow (model vs bookmaker)</li>
+    <li><strong>05_match_detail_teams</strong> - statystyki (depth)</li>
+    <li><strong>01_welcome</strong> - na koniec: compliance/responsible gambling</li>
+  </ol>
+  <p>06_match_detail_h2h mozesz pominac jesli wolisz 5 screenshotow (Apple wymaga min 3, max 10).</p>
+</div>
+
+</body>
+</html>

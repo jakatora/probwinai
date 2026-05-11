@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1290 2796" width="1290" height="2796">
+  <!-- Screenshot 4: Paski prawdopodobienstw - model vs bukmacher -->
+  <defs>
+    <style>
+      .bg { fill: #0F1419; }
+      .card { fill: #1A212A; stroke: #2D3748; stroke-width: 1; }
+      .panel2 { fill: #232C38; }
+      .text-main { fill: #E6EDF3; font-family: -apple-system, sans-serif; }
+      .text-dim { fill: #8B9BAB; font-family: -apple-system, sans-serif; }
+      .text-blue { fill: #60A5FA; font-family: -apple-system, sans-serif; }
+      .text-green { fill: #4ADE80; font-family: -apple-system, sans-serif; }
+      .text-red { fill: #F87171; font-family: -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1290" height="2796" class="bg"/>
+
+  <!-- Status bar -->
+  <rect x="491" y="40" width="307" height="124" rx="62" fill="#000"/>
+  <text x="100" y="100" class="text-main" font-size="36" font-weight="600">9:41</text>
+  <g transform="translate(1090, 80)">
+    <rect x="0" y="0" width="55" height="32" rx="6" stroke="#E6EDF3" stroke-width="2" fill="none"/>
+    <rect x="6" y="6" width="40" height="20" rx="2" fill="#E6EDF3"/>
+  </g>
+
+  <!-- Marketing banner -->
+  <rect x="0" y="200" width="1290" height="180" fill="#1A212A"/>
+  <text x="645" y="270" class="text-blue" font-size="32" font-weight="600" text-anchor="middle">MATEMATYKA vs RYNEK</text>
+  <text x="645" y="340" class="text-main" font-size="60" font-weight="800" text-anchor="middle">Transparentne prawdopodobienstwa</text>
+
+  <!-- App bar -->
+  <g transform="translate(0, 460)">
+    <path d="M 60 60 L 30 90 L 60 120 Z" fill="#E6EDF3"/>
+    <text x="120" y="100" class="text-main" font-size="44" font-weight="600">Analiza meczu</text>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(80, 620)">
+    <text class="text-main" font-size="48" font-weight="800">Liverpool vs Man Utd</text>
+    <text y="60" class="text-dim" font-size="32">Premier League · 17 May, 17:00</text>
+  </g>
+
+  <!-- Probability card -->
+  <g transform="translate(80, 800)">
+    <rect width="1130" height="1500" rx="16" class="card"/>
+
+    <text x="40" y="80" class="text-main" font-size="40" font-weight="700">Prawdopodobienstwo wyniku</text>
+
+    <!-- Outcome 1: Liverpool home win -->
+    <g transform="translate(40, 160)">
+      <text class="text-main" font-size="36" font-weight="600">1 - Liverpool</text>
+      <text x="900" class="text-dim" font-size="36" font-weight="500" text-anchor="end">1.85</text>
+      <g transform="translate(950, -30)">
+        <rect width="120" height="50" rx="6" fill="rgba(74, 222, 128, 0.15)"/>
+        <text x="60" y="35" class="text-green" font-size="28" font-weight="700" text-anchor="middle">+8.4%</text>
+      </g>
+
+      <!-- Bar background -->
+      <rect y="50" width="1050" height="36" rx="6" class="panel2"/>
+      <!-- Model bar (54%) -->
+      <rect y="50" width="567" height="36" rx="6" fill="#60A5FA"/>
+
+      <text y="130" class="text-main" font-size="30" font-weight="700">Model: 54.0%</text>
+      <text x="1050" y="130" class="text-dim" font-size="30" text-anchor="end">Bukmacher: 45.6%</text>
+    </g>
+
+    <!-- Outcome 2: Draw -->
+    <g transform="translate(40, 560)">
+      <text class="text-main" font-size="36" font-weight="600">X - Remis</text>
+      <text x="900" class="text-dim" font-size="36" font-weight="500" text-anchor="end">3.80</text>
+      <g transform="translate(950, -30)">
+        <rect width="120" height="50" rx="6" fill="rgba(139, 155, 171, 0.15)"/>
+        <text x="60" y="35" class="text-dim" font-size="28" font-weight="700" text-anchor="middle">-1.2%</text>
+      </g>
+
+      <rect y="50" width="1050" height="36" rx="6" class="panel2"/>
+      <rect y="50" width="220" height="36" rx="6" fill="#60A5FA"/>
+
+      <text y="130" class="text-main" font-size="30" font-weight="700">Model: 21.0%</text>
+      <text x="1050" y="130" class="text-dim" font-size="30" text-anchor="end">Bukmacher: 22.2%</text>
+    </g>
+
+    <!-- Outcome 3: Away win -->
+    <g transform="translate(40, 960)">
+      <text class="text-main" font-size="36" font-weight="600">2 - Manchester United</text>
+      <text x="900" class="text-dim" font-size="36" font-weight="500" text-anchor="end">4.30</text>
+      <g transform="translate(950, -30)">
+        <rect width="120" height="50" rx="6" fill="rgba(248, 113, 113, 0.15)"/>
+        <text x="60" y="35" class="text-red" font-size="28" font-weight="700" text-anchor="middle">-7.2%</text>
+      </g>
+
+      <rect y="50" width="1050" height="36" rx="6" class="panel2"/>
+      <rect y="50" width="263" height="36" rx="6" fill="#60A5FA"/>
+
+      <text y="130" class="text-main" font-size="30" font-weight="700">Model: 25.0%</text>
+      <text x="1050" y="130" class="text-dim" font-size="30" text-anchor="end">Bukmacher: 32.2%</text>
+    </g>
+
+    <!-- Vig info -->
+    <g transform="translate(40, 1380)">
+      <text class="text-dim" font-size="28">Marza bukmachera (vig): 5.32% · Betclic</text>
+    </g>
+  </g>
+
+  <!-- Home indicator -->
+  <rect x="495" y="2730" width="300" height="14" rx="7" fill="#E6EDF3" opacity="0.5"/>
+</svg>

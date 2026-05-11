@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1290 2796" width="1290" height="2796">
+  <!-- Screenshot 2: Lista top 10 meczow dnia -->
+  <defs>
+    <style>
+      .bg { fill: #0F1419; }
+      .card { fill: #1A212A; stroke: #2D3748; stroke-width: 1; }
+      .panel2 { fill: #232C38; }
+      .text-main { fill: #E6EDF3; font-family: -apple-system, sans-serif; }
+      .text-dim { fill: #8B9BAB; font-family: -apple-system, sans-serif; }
+      .text-blue { fill: #60A5FA; font-family: -apple-system, sans-serif; }
+      .text-green { fill: #4ADE80; font-family: -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1290" height="2796" class="bg"/>
+
+  <!-- Status bar -->
+  <rect x="491" y="40" width="307" height="124" rx="62" fill="#000"/>
+  <text x="100" y="100" class="text-main" font-size="36" font-weight="600">9:41</text>
+  <g transform="translate(1090, 80)">
+    <rect x="0" y="0" width="55" height="32" rx="6" stroke="#E6EDF3" stroke-width="2" fill="none"/>
+    <rect x="6" y="6" width="40" height="20" rx="2" fill="#E6EDF3"/>
+  </g>
+
+  <!-- Marketing banner -->
+  <rect x="0" y="200" width="1290" height="180" fill="#1A212A"/>
+  <text x="645" y="270" class="text-blue" font-size="32" font-weight="600" text-anchor="middle">CODZIENNE TOP 10</text>
+  <text x="645" y="340" class="text-main" font-size="60" font-weight="800" text-anchor="middle">Najwazniejsze mecze dnia</text>
+
+  <!-- App bar -->
+  <g transform="translate(0, 460)">
+    <text x="80" y="80" class="text-main" font-size="56" font-weight="800">ProbWin AI</text>
+    <g transform="translate(1140, 35)">
+      <rect width="80" height="80" rx="40" fill="#232C38"/>
+      <circle cx="40" cy="40" r="16" stroke="#8B9BAB" stroke-width="3" fill="none"/>
+      <circle cx="40" cy="40" r="3" fill="#8B9BAB"/>
+    </g>
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(80, 600)">
+    <text class="text-main" font-size="48" font-weight="700">Top 10 meczow dnia</text>
+    <text y="60" class="text-dim" font-size="32">Statystyki + analiza AI dla najwazniejszych spotkan</text>
+  </g>
+
+  <!-- Match cards -->
+  <g transform="translate(80, 760)">
+
+    <!-- Match 1: Liverpool vs Manchester United -->
+    <g>
+      <rect width="1130" height="270" rx="16" class="card"/>
+      <text x="40" y="60" class="text-dim" font-size="28">Premier League</text>
+      <text x="1090" y="60" class="text-dim" font-size="28" text-anchor="end">17 May, 17:00</text>
+      <text x="40" y="135" class="text-main" font-size="48" font-weight="700">Liverpool</text>
+      <text x="565" y="135" class="text-dim" font-size="28" text-anchor="middle">vs</text>
+      <text x="1090" y="135" class="text-main" font-size="48" font-weight="700" text-anchor="end">Manchester United</text>
+
+      <g transform="translate(40, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">1</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">1.85</text>
+      </g>
+      <g transform="translate(180, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">X</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">3.80</text>
+      </g>
+      <g transform="translate(320, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">2</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">4.30</text>
+      </g>
+      <!-- AI sparkle icon -->
+      <g transform="translate(1050, 195)">
+        <path d="M 20 0 L 24 14 L 38 18 L 24 22 L 20 36 L 16 22 L 2 18 L 16 14 Z" fill="#60A5FA"/>
+      </g>
+    </g>
+
+    <!-- Match 2: Real Madrid vs Barcelona -->
+    <g transform="translate(0, 310)">
+      <rect width="1130" height="270" rx="16" class="card"/>
+      <text x="40" y="60" class="text-dim" font-size="28">La Liga</text>
+      <text x="1090" y="60" class="text-dim" font-size="28" text-anchor="end">17 May, 19:00</text>
+      <text x="40" y="135" class="text-main" font-size="48" font-weight="700">Real Madrid</text>
+      <text x="565" y="135" class="text-dim" font-size="28" text-anchor="middle">vs</text>
+      <text x="1090" y="135" class="text-main" font-size="48" font-weight="700" text-anchor="end">Barcelona</text>
+
+      <g transform="translate(40, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">1</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">2.20</text>
+      </g>
+      <g transform="translate(180, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">X</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">3.60</text>
+      </g>
+      <g transform="translate(320, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">2</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">3.10</text>
+      </g>
+      <g transform="translate(1050, 195)">
+        <path d="M 20 0 L 24 14 L 38 18 L 24 22 L 20 36 L 16 22 L 2 18 L 16 14 Z" fill="#60A5FA"/>
+      </g>
+    </g>
+
+    <!-- Match 3: Bayern vs Dortmund -->
+    <g transform="translate(0, 620)">
+      <rect width="1130" height="270" rx="16" class="card"/>
+      <text x="40" y="60" class="text-dim" font-size="28">Bundesliga</text>
+      <text x="1090" y="60" class="text-dim" font-size="28" text-anchor="end">17 May, 20:30</text>
+      <text x="40" y="135" class="text-main" font-size="48" font-weight="700">Bayern Munich</text>
+      <text x="565" y="135" class="text-dim" font-size="28" text-anchor="middle">vs</text>
+      <text x="1090" y="135" class="text-main" font-size="48" font-weight="700" text-anchor="end">B. Dortmund</text>
+
+      <g transform="translate(40, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">1</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">1.75</text>
+      </g>
+      <g transform="translate(180, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">X</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">4.00</text>
+      </g>
+      <g transform="translate(320, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">2</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">4.50</text>
+      </g>
+      <g transform="translate(1050, 195)">
+        <path d="M 20 0 L 24 14 L 38 18 L 24 22 L 20 36 L 16 22 L 2 18 L 16 14 Z" fill="#60A5FA"/>
+      </g>
+    </g>
+
+    <!-- Match 4: PSG vs Marseille -->
+    <g transform="translate(0, 930)">
+      <rect width="1130" height="270" rx="16" class="card"/>
+      <text x="40" y="60" class="text-dim" font-size="28">Ligue 1</text>
+      <text x="1090" y="60" class="text-dim" font-size="28" text-anchor="end">17 May, 21:00</text>
+      <text x="40" y="135" class="text-main" font-size="48" font-weight="700">PSG</text>
+      <text x="565" y="135" class="text-dim" font-size="28" text-anchor="middle">vs</text>
+      <text x="1090" y="135" class="text-main" font-size="48" font-weight="700" text-anchor="end">Marseille</text>
+
+      <g transform="translate(40, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">1</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">1.55</text>
+      </g>
+      <g transform="translate(180, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">X</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">4.40</text>
+      </g>
+      <g transform="translate(320, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">2</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">6.00</text>
+      </g>
+      <g transform="translate(1050, 195)">
+        <path d="M 20 0 L 24 14 L 38 18 L 24 22 L 20 36 L 16 22 L 2 18 L 16 14 Z" fill="#60A5FA"/>
+      </g>
+    </g>
+
+    <!-- Match 5: Arsenal vs Tottenham (partial - bottom fade) -->
+    <g transform="translate(0, 1240)">
+      <rect width="1130" height="270" rx="16" class="card"/>
+      <text x="40" y="60" class="text-dim" font-size="28">Premier League</text>
+      <text x="1090" y="60" class="text-dim" font-size="28" text-anchor="end">18 May, 16:30</text>
+      <text x="40" y="135" class="text-main" font-size="48" font-weight="700">Arsenal</text>
+      <text x="565" y="135" class="text-dim" font-size="28" text-anchor="middle">vs</text>
+      <text x="1090" y="135" class="text-main" font-size="48" font-weight="700" text-anchor="end">Tottenham</text>
+
+      <g transform="translate(40, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">1</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">1.90</text>
+      </g>
+      <g transform="translate(180, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">X</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">3.80</text>
+      </g>
+      <g transform="translate(320, 180)">
+        <rect width="120" height="60" rx="6" class="panel2"/>
+        <text x="20" y="40" class="text-dim" font-size="22" font-weight="600">2</text>
+        <text x="100" y="40" class="text-main" font-size="28" font-weight="600" text-anchor="end">4.20</text>
+      </g>
+      <g transform="translate(1050, 195)">
+        <path d="M 20 0 L 24 14 L 38 18 L 24 22 L 20 36 L 16 22 L 2 18 L 16 14 Z" fill="#60A5FA"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Home indicator -->
+  <rect x="495" y="2730" width="300" height="14" rx="7" fill="#E6EDF3" opacity="0.5"/>
+</svg>

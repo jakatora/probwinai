@@ -1,0 +1,49 @@
+{
+  "home_team": "Bayern Munich",
+  "away_team": "Borussia Dortmund",
+  "league": "Bundesliga",
+  "kick_off": "2026-05-11T23:00:00Z",
+  "home_context": {
+    "name": "Bayern Munich",
+    "elo": 2008.38562012,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "D"
+      ],
+      "points": 13,
+      "goals_for": 19,
+      "goals_against": 10
+    }
+  },
+  "away_context": {
+    "name": "Borussia Dortmund",
+    "elo": 1826.88513184,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.7323091022716236,
+    "draw": 0.08,
+    "away": 0.18769089772837638
+  },
+  "implied_probability": {
+    "home": 0.5475285171102662,
+    "draw": 0.2395437262357415,
+    "away": 0.2129277566539924
+  },
+  "bookmaker_odds": {
+    "home": 1.75,
+    "draw": 4.0,
+    "away": 4.5,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.36507936507935,
+  "ai_commentary": null,
+  "generated_at": "2026-05-11T17:25:17.702366Z",
+  "id": "2026-05-11_bayern-munich_borussia-dortmund"
+}

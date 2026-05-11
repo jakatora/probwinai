@@ -1,0 +1,116 @@
+# Codemagic CI/CD configuration dla ProbWin AI
+#
+# Setup:
+# 1. Stworz konto na codemagic.io (darmowo 500 min/mies)
+# 2. Podlacz GitHub repo z tym projektem
+# 3. W Codemagic UI: dodaj Apple Developer credentials (App Store Connect API key)
+# 4. Trigger: push do brancha 'main' -> automatyczny build iOS
+
+workflows:
+  # ===========================================================================
+  # iOS build dla App Store
+  # ===========================================================================
+  ios-release:
+    name: iOS Release (App Store)
+    instance_type: mac_mini_m1
+    max_build_duration: 60
+    integrations:
+      app_store_connect: ProbWin AI Connect Key  # nazwa Connect API key dodanego w Codemagic UI
+
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.probwinai.app
+      vars:
+        APP_STORE_APPLE_ID: 1234567890  # zastap rzeczywistym App ID z App Store Connect
+        XCODE_WORKSPACE: "mobile/ios/Runner.xcworkspace"
+        XCODE_SCHEME: "Runner"
+      flutter: stable
+
+    scripts:
+      - name: Set up local properties
+        script: |
+          echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/mobile/android/local.properties"
+
+      - name: Get Flutter packages
+        script: |
+          cd mobile
+          flutter pub get
+
+      - name: Generate icons & splash
+        script: |
+          cd mobile
+          # UWAGA: wymaga assets/icon.png i assets/splash.png
+          flutter pub run flutter_launcher_icons || echo "Icons skipped (no assets/icon.png)"
+          flutter pub run flutter_native_splash:create || echo "Splash skipped"
+
+      - name: Install pods
+        script: |
+          cd mobile/ios
+          pod install
+
+      - name: Build IPA
+        script: |
+          cd mobile
+          flutter build ipa \
+            --release \
+            --build-name=0.1.0 \
+            --build-number=$(($BUILD_NUMBER + 100)) \
+            --dart-define=API_URL=$PROBWIN_API_URL \
+            --export-options-plist=/Users/builder/export_options.plist
+
+    artifacts:
+      - mobile/build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        submit_to_app_store: false  # Recznie zatwierdzasz w Connect
+        beta_groups:
+          - "Internal Testers"
+
+  # ===========================================================================
+  # Android build dla Google Play (mozesz tez buildowac lokalnie na Windows)
+  # ===========================================================================
+  android-release:
+    name: Android Release (Google Play)
+    instance_type: mac_mini_m1
+    max_build_duration: 60
+
+    environment:
+      android_signing:
+        - probwinai_keystore  # nazwa keystore uploadanego w Codemagic UI
+      groups:
+        - google_credentials  # zawiera GOOGLE_PLAY_SERVICE_ACCOUNT_CREDENTIALS
+      vars:
+        PACKAGE_NAME: "com.probwinai.app"
+      flutter: stable
+
+    scripts:
+      - name: Set up local properties
+        script: |
+          echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/mobile/android/local.properties"
+
+      - name: Get Flutter packages
+        script: |
+          cd mobile
+          flutter pub get
+
+      - name: Build AAB
+        script: |
+          cd mobile
+          flutter build appbundle \
+            --release \
+            --build-name=0.1.0 \
+            --build-number=$(($BUILD_NUMBER + 100)) \
+            --dart-define=API_URL=$PROBWIN_API_URL
+
+    artifacts:
+      - mobile/build/app/outputs/bundle/release/*.aab
+
+    publishing:
+      google_play:
+        credentials: $GOOGLE_PLAY_SERVICE_ACCOUNT_CREDENTIALS
+        track: internal  # internal/alpha/beta/production
