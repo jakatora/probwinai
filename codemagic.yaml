@@ -22,7 +22,8 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.probwinai.app
       vars:
-        APP_STORE_APPLE_ID: 1234567890  # zastap rzeczywistym App ID z App Store Connect
+        # Team ID z developer.apple.com (Krzysztof Kapusta)
+        APPLE_TEAM_ID: B7J6A7R258
         XCODE_WORKSPACE: "mobile/ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
       flutter: stable
@@ -48,6 +49,17 @@ workflows:
         script: |
           cd mobile/ios
           pod install
+
+      - name: Initialize keychain + fetch signing files
+        script: |
+          # Codemagic CLI tools: auto-tworzy cert + provisioning profile
+          # przez API key dodany do Codemagic integration.
+          keychain initialize
+          app-store-connect fetch-signing-files com.probwinai.app \
+            --type IOS_APP_STORE \
+            --create
+          keychain add-certificates
+          xcode-project use-profiles
 
       - name: Build IPA
         script: |
