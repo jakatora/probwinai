@@ -44,15 +44,27 @@ workflows:
       - name: Set up code signing (cert + provisioning profile auto-create)
         script: |
           set -ex
-          # 1. Inicjuj pęk kluczy budowy
+          # 1. Inicjuj pek kluczy budowy
           keychain initialize
-          # 2. Pobierz lub utworz Distribution cert + App Store profile dla com.probwinai.app
+
+          # 2. Wygeneruj klucz prywatny RSA 2048 dla CSR.
+          # --create flag Codemagic CLI domyslnie tego nie robi - musimy sami.
+          PRIVATE_KEY_PATH="$HOME/probwinai_cert_key.pem"
+          openssl genrsa -out "$PRIVATE_KEY_PATH" 2048
+          chmod 600 "$PRIVATE_KEY_PATH"
+
+          # 3. Pobierz lub utworz Distribution cert + App Store profile.
+          # Przekazujemy nasz klucz prywatny - bez tego Apple odrzuca CSR
+          # z bledem "Cannot save Signing Certificates without certificate private key".
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
-            --create
-          # 3. Zaladuj certyfikat do keychain
+            --create \
+            --certificate-key="$PRIVATE_KEY_PATH"
+
+          # 4. Zaladuj certyfikat + klucz prywatny do keychain
           keychain add-certificates
-          # 4. Zastosuj profile do projektu Xcode
+
+          # 5. Zastosuj profile do projektu Xcode
           xcode-project use-profiles
 
       - name: Install pods
