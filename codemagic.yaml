@@ -28,7 +28,7 @@ workflows:
         BUNDLE_ID: com.probwinai.app
         XCODE_WORKSPACE: "ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
-      flutter: stable
+      flutter: 3.24.5     # pinned, cached na Codemagic runners - unika timeoutu downloadu
       xcode: latest
       cocoapods: default
 
@@ -116,7 +116,7 @@ workflows:
         - google_credentials  # zawiera GOOGLE_PLAY_SERVICE_ACCOUNT_CREDENTIALS
       vars:
         PACKAGE_NAME: "com.probwinai.app"
-      flutter: stable
+      flutter: 3.24.5     # pinned, cached na Codemagic runners - unika timeoutu downloadu
 
     scripts:
       - name: Set up local properties
