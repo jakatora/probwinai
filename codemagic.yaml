@@ -36,10 +36,19 @@ workflows:
     scripts:
       - name: Set up Flutter (recreate missing iOS scaffolding)
         script: |
+          set -ex
           cd mobile
-          # 'flutter create .' nie nadpisze istniejacych plikow, ale dorobi
-          # brakujace pliki iOS (Runner.xcodeproj, Podfile, Flutter framework symlinks).
+          # flutter create dorabia brakujace pliki iOS (Runner.xcodeproj, Podfile, frameworki).
           flutter create --platforms=ios . --project-name probwin_ai --org com.probwinai
+
+          # Flutter wygenerowal bundle ID com.probwinai.probwinAi (org+camelCase(name)).
+          # NASZ wlasciwy bundle ID to com.probwinai.app (zgodny z Apple Bundle ID + AppStore Connect).
+          # Podmieniamy w pbxproj zeby xcode-project use-profiles znalazl matching profile.
+          sed -i '' 's/com\.probwinai\.probwinAi/com.probwinai.app/g' ios/Runner.xcodeproj/project.pbxproj
+          # Weryfikacja
+          grep -c "com.probwinai.app" ios/Runner.xcodeproj/project.pbxproj
+          grep -c "com.probwinai.probwinAi" ios/Runner.xcodeproj/project.pbxproj || echo "OK: brak starych referencji"
+
           flutter pub get
 
       - name: Set up code signing (cert + provisioning profile auto-create)
