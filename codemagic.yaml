@@ -54,12 +54,14 @@ workflows:
           chmod 600 "$PRIVATE_KEY_PATH"
 
           # 3. Pobierz lub utworz Distribution cert + App Store profile.
-          # Przekazujemy nasz klucz prywatny - bez tego Apple odrzuca CSR
-          # z bledem "Cannot save Signing Certificates without certificate private key".
+          # Codemagic CLI wymaga prefix '@file:' dla sciezki - bez tego
+          # interpretuje argument jako literalna zawartosc klucza.
+          # Bez --certificate-key Apple odrzuca CSR z bledem
+          # "Cannot save Signing Certificates without certificate private key".
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
             --create \
-            --certificate-key="$PRIVATE_KEY_PATH"
+            --certificate-key=@file:"$PRIVATE_KEY_PATH"
 
           # 4. Zaladuj certyfikat + klucz prywatny do keychain
           keychain add-certificates
