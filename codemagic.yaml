@@ -22,8 +22,8 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.probwinai.app
       vars:
-        # Team ID z developer.apple.com
-        APPLE_TEAM_ID: C5J4726G3T
+        # Team ID z developer.apple.com (Krzysztof Kapusta)
+        APPLE_TEAM_ID: B7J6A7R258
         XCODE_WORKSPACE: "mobile/ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
       flutter: stable
