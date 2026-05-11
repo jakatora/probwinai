@@ -86,43 +86,13 @@ workflows:
           cd mobile
           # PROBWIN_API_URL fallback na produkcyjny URL z GitHub Pages
           API_URL="${PROBWIN_API_URL:-https://jakatora.github.io/probwinai/data}"
+          # Plist export_options.plist jest w repo (mobile/ios/export_options.plist)
           flutter build ipa \
             --release \
             --build-name=0.1.0 \
             --build-number=$(($BUILD_NUMBER + 100)) \
             --dart-define=API_URL="$API_URL" \
-            --export-options-plist=ios/export_options.plist || (
-              # Jesli flutter sam nie wygenerowal export_options, uzyj naszego
-              echo "Retrying with manual export options..."
-              cat > ios/export_options.plist <<EOF
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-  <key>method</key>
-  <string>app-store</string>
-  <key>teamID</key>
-  <string>$APPLE_TEAM_ID</string>
-  <key>signingStyle</key>
-  <string>manual</string>
-  <key>stripSwiftSymbols</key>
-  <true/>
-  <key>uploadBitcode</key>
-  <false/>
-  <key>compileBitcode</key>
-  <false/>
-  <key>uploadSymbols</key>
-  <true/>
-</dict>
-</plist>
-EOF
-              flutter build ipa \
-                --release \
-                --build-name=0.1.0 \
-                --build-number=$(($BUILD_NUMBER + 100)) \
-                --dart-define=API_URL="$API_URL" \
-                --export-options-plist=ios/export_options.plist
-            )
+            --export-options-plist=ios/export_options.plist
 
     artifacts:
       - mobile/build/ios/ipa/*.ipa
