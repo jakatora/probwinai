@@ -1,0 +1,49 @@
+{
+  "home_team": "Atletico Madrid",
+  "away_team": "Sevilla",
+  "league": "La Liga",
+  "kick_off": "2026-05-13T03:00:00Z",
+  "home_context": {
+    "name": "Atletico Madrid",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Sevilla",
+    "elo": 1613.15478516,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "L",
+        "W",
+        "W"
+      ],
+      "points": 9,
+      "goals_for": 6,
+      "goals_against": 6
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.48519443453442745,
+    "draw": 0.27827327863003926,
+    "away": 0.23653228683553335
+  },
+  "bookmaker_odds": {
+    "home": 1.95,
+    "draw": 3.4,
+    "away": 4.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.693815987933637,
+  "ai_commentary": "Sevilla 3/5. Model wycenia 'wygrana gospodarza' o 9pp nizej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-12T08:31:13.925292Z",
+  "id": "2026-05-12_atletico-madrid_sevilla"
+}
