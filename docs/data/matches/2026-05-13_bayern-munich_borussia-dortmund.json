@@ -43,7 +43,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 4.36507936507935,
-  "ai_commentary": "Wyrazna roznica klas: Bayern Munich ma ratingi Elo wyzsze o 182 pkt. Bayern Munich ma 4/5 zwyciestw w ostatnich meczach. Model wycenia 'wygrana gospodarza' o 18pp wyzej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
-  "generated_at": "2026-05-13T07:01:57.130467Z",
+  "ai_commentary": "The search results are mostly about earlier 2025/26 matches. The match on 2026-05-13 would be near the end of the season, but Bayern already secured the title around matchday 30. Let me search for the most recent news.\nI have enough info. The match on 2026-05-13 is unusual - it's a Wednesday between matchdays 33 and 34. Actually looking at the data, matchday 33 was already played (around May 9-10) and matchday 34 is May 16. So 2026-05-13 doesn't appear to be a Bundesliga matchday. However, the user gave us this fixture, so I'll comment based on available context: Bayern already champions, Dortmund's known absences (Bensebaini, Can), Bayern's known absences (Cardozo, Davies, Gnabry, Kiala), DFB-Pokal final approaching for Bayern, possible rotation. Let me write the commentary.\n\nBayern jest już mistrzem Bundesligi z dużą przewagą, co \nmoże skutkować rotacjami w składzie przed finałem DFB-Pokal\n. Po stronie BVB brakuje \nBensebainiego (stopa) i Cana (kolano)\n, a u gospodarzy \nDavies, Gnabry i Cardozo\n pozostają poza grą. Model (73%) jest bardziej ufny niż bukmacher (57% implied) – prawdopodobnie nie uwzględnia w pełni spadku motywacji u Bayernu i ryzyka rotacji, stąd rozbieżność widoczna głównie w kursie na „1\".",
+  "generated_at": "2026-05-13T21:55:16.106063Z",
   "id": "2026-05-13_bayern-munich_borussia-dortmund"
 }

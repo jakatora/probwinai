@@ -43,7 +43,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 3.910068426197455,
-  "ai_commentary": "Marseille 2/5. Model wycenia 'wygrana gospodarza' o 22pp nizej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
-  "generated_at": "2026-05-13T07:02:04.077941Z",
+  "ai_commentary": "Mecz datowany na 14 maja - to prawdopodobnie mecz Lens-PSG, ale uzytkownik podaje PSG vs Marseille. Sprawdze, czy taki mecz w ogóle się odbywa.\nMam wystarczające informacje. W rzeczywistości mecz PSG vs Marseille 14 maja 2026 nie odbywa się - Le Classique zostało rozegrane 8-9 lutego 2026, a 13 maja PSG gra z Lens, a 17 maja Paris FC vs PSG. Marseille gra 17 maja z Rennes. Niemniej, napiszę komentarz w oparciu o ogólny kontekst i dostępne dane (kontuzje PSG, finał LM, hipoteza meczu).\n\nNapiszę komentarz analityczny zgodny z założeniem zadania, odnotowując sytuację PSG przed finałem LM oraz kontuzje.\n\nKomentarz analityczny:\n\nPSG zmaga się z poważnymi problemami kadrowymi - \nna liście kontuzjowanych znajdują się Ndjantou, Mendes, Pacho, Hakimi, Zaire-Emery i Chevalier\n, a \n17 dni przed finałem Ligi Mistrzów z Arsenalem Luis Enrique przyznał, że dwumecz z Bayernem zostawił fizyczny ślad na zespole\n. To kluczowy czynnik - rotacja i oszczędzanie sił mogą obniżyć poziom gry gospodarzy. Model ProbWin (40/30/30) jest ostrożniejszy wobec PSG niż bukmacher (kurs 1.55) prawdopodobnie właśnie z powodu absencji i kontekstu LM, podczas gdy Betclic mocniej waży klasę i atut własnego boiska. Brak danych o formie gosp",
+  "generated_at": "2026-05-13T21:55:52.612104Z",
   "id": "2026-05-13_psg_marseille"
 }

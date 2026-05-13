@@ -91,7 +91,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 2.7568922305764243,
-  "ai_commentary": "Wyrazna roznica klas: Arsenal ma ratingi Elo wyzsze o 282 pkt. Arsenal ma 3/5 zwyciestw w ostatnich meczach, Tottenham 2/5. Model wycenia 'wygrana gospodarza' o 29pp wyzej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
-  "generated_at": "2026-05-13T07:01:52.649580Z",
+  "ai_commentary": "Mam już wystarczający kontekst. Tworzę komentarz analityczny.\n\nKomentarz analityczny ProbWin AI:\n\nArsenal jako lider Premier League przystępuje do derbów w roli zdecydowanego faworyta, a \nTottenham walczy o utrzymanie i wciąż szuka pierwszego ligowego zwycięstwa w 2026 roku\n. Gunners wygrali pięć ostatnich H2H, mają wyższy Elo (+282) i seryjną formę WWW. Model widzi większą przewagę niż bukmacher (80% vs ~53% z kursu), bo silniej waży H2H i różnicę jakości, podczas gdy Betclic uwzględnia ryzyko rotacji przed finałem LM z PSG oraz absencje (Ben White, Merino, Timber).",
+  "generated_at": "2026-05-13T21:54:41.501082Z",
   "id": "2026-05-13_arsenal_tottenham"
 }

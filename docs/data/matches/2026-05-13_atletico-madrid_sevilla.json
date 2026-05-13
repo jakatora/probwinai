@@ -43,7 +43,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 5.693815987933637,
-  "ai_commentary": "Sevilla 3/5. Model wycenia 'wygrana gospodarza' o 9pp nizej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
-  "generated_at": "2026-05-13T07:02:09.311657Z",
+  "ai_commentary": "Sprawdzę najnowsze informacje o tym meczu.\nMam wystarczająco danych. Przygotuję komentarz.\n\nKomentarz analityczny:\n\n\nAtletico osłabione kontuzjami – Nahuel Molina z naderwaniem ścięgna jest wyłączony na około trzy tygodnie\n, a wcześniej z gry wypadali także \nKoke i Nico Gonzalez przez zawieszenie oraz Barrios i Hancko z problemami mięśniowymi\n. \nSevilla walczy o utrzymanie z 17. miejsca i nie wygrała żadnego z pięciu ostatnich ligowych meczów, przegrywając trzy ostatnie\n, jednak \nAtletico przegrało z nimi tylko raz od grudnia 2021\n. Model daje gościom wyższe szanse niż kurs (30% vs ~25%), co odzwierciedla osłabiony skład gospodarza i spadek motywacji po utracie szans na trofea.",
+  "generated_at": "2026-05-13T21:56:52.566516Z",
   "id": "2026-05-13_atletico-madrid_sevilla"
 }

@@ -91,7 +91,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 5.602240896358546,
-  "ai_commentary": "Rownorzedne ratingi Elo - mecz wyrownany na papierze. Newcastle ma 1/5 zwyciestw w ostatnich meczach, Brighton 3/5. Model i bukmacher zgodni - kurs odpowiada modelowemu prawdopodobienstwu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
-  "generated_at": "2026-05-13T07:02:09.680252Z",
+  "ai_commentary": "Wyniki dotyczą głównie meczu z 2 maja 2026 (3-1 dla Newcastle). Mecz 13 maja to inny termin. Spróbujmy znaleźć aktualne info o meczu z 13 maja.\nMam dosyć kontekstu. Mecz 13 maja 2026 to rewanż - Newcastle właśnie 2 maja wygrał 3-1 z Brighton (zatrzymując serię porażek), więc obecnie spotkanie 13 maja prawdopodobnie odbywa się w kontekście walki Newcastle o utrzymanie/spokojną pozycję, a Brighton walczy o Europę. Forma WDWLW dla Brighton i LLLWD dla Newcastle (z W = wygrana z Brighton 3-1) sugeruje, że pomimo niskiej formy gospodarzy, ostatnie spotkanie wygrali. Napiszę zwięzły komentarz.\n\nNewcastle przerwał fatalną serię porażek dopiero 2 maja, ogrywając Brighton 3-1, ale \nto była najdłuższa seria porażek pod wodzą Howe'a, a zespół wciąż znajduje się w okolicach strefy spadkowej\n, co mocno motywuje gospodarzy. Po stronie Brighton problemem pozostają absencje – \nWebster, Tzimas, Gomez, March i Milner są wykluczeni\n, a Seagulls walczą o europejskie puchary. Model ProbWin (40/27/33) jest bliższy parytetowi niż kurs Betclic (2.10 na gospodarza), bo bukmacher mocniej dyskontuje ostatnie zwycięstwo Newcastle i powrót Joelintona oraz Gordona; model wyżej wycenia jakość Brighton w długim oknie (Elo 1854 > 1837) i historyczną",
+  "generated_at": "2026-05-13T21:57:04.079372Z",
   "id": "2026-05-13_newcastle_brighton"
 }

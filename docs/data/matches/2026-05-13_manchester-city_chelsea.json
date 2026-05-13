@@ -43,7 +43,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 4.415584415584428,
-  "ai_commentary": "Wyrazna roznica klas: Manchester City ma ratingi Elo wyzsze o 139 pkt. Chelsea 0/5. Model wycenia 'remis' o 12pp nizej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
-  "generated_at": "2026-05-13T07:02:04.444540Z",
+  "ai_commentary": "Uwaga: zauważam, że według wyszukiwania mecz 13 maja 2026 to City vs Crystal Palace, a City vs Chelsea to finał FA Cup 16 maja. Ale komentarz piszę zgodnie z danymi przekazanymi przez użytkownika (Man City vs Chelsea, PL). Wykorzystam ogólne info o kontuzjach i formie.\n\nKomentarz analityczny:\n\n\nCity pozostaje w walce o tytuł, choć traci pięć punktów do Arsenalu przy jednym meczu zaległym\n, co podbija motywację gospodarzy, natomiast Chelsea przyjeżdża w fatalnej formie (LLLLD). Dodatkowo \nu City brakuje Rodriego, Gvardiola i Khusanova\n, a \nChelsea gra bez Sancheza, Garnacho, Neto i Gittensa\n, co osłabia gości bardziej w ofensywie. Model (67%) jest bardziej optymistyczny niż bukmacher (~61%), prawdopodobnie mocniej waży różnicę Elo i formę Chelsea, podczas gdy kurs uwzględnia kadrowe braki City i ryzyko rotacji.",
+  "generated_at": "2026-05-13T21:56:14.389411Z",
   "id": "2026-05-13_manchester-city_chelsea"
 }

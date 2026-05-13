@@ -43,7 +43,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 5.425824175824179,
-  "ai_commentary": "Wyrazna roznica klas: Inter Milan ma ratingi Elo wyzsze o 103 pkt. Juventus ma 3/5 zwyciestw w ostatnich meczach. Model wycenia 'wygrana goscia' o 5pp wyzej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
-  "generated_at": "2026-05-13T07:02:08.575680Z",
+  "ai_commentary": "Mam wystarczająco informacji. Piszę komentarz.\n\nKomentarz analityczny:\n\nInter przyjeżdża z wyższym ratingiem Elo (1892 vs 1790) i statusem mistrza Włoch, jednak \nLautaro Martinez zmaga się z problemem mięśnia płaszczkowatego i w ostatnich tygodniach opuszczał mecze\n, co osłabia ofensywę gości. Juventus pod wodzą \nSpallettiego wygrał 19 z 33 spotkań\n i gra u siebie w dobrej formie (WWDDW). Różnica między modelem (42% na 2) a Betclic (kurs 2.6 ≈ 38%) wynika prawdopodobnie z tego, że bukmacher mocniej waży atut własnego boiska Juventusu, podczas gdy model premiuje wyższy Elo Interu.",
+  "generated_at": "2026-05-13T21:56:29.578820Z",
   "id": "2026-05-13_juventus_inter-milan"
 }

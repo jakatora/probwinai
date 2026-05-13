@@ -91,7 +91,7 @@
     "bookmaker": "Betclic (mock)"
   },
   "vig_pct": 6.6795779620327345,
-  "ai_commentary": "Rownorzedne ratingi Elo - mecz wyrownany na papierze. Aston Villa ma 1/5 zwyciestw w ostatnich meczach, Liverpool 3/5. Model wycenia 'wygrana goscia' o 10pp nizej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
-  "generated_at": "2026-05-13T07:02:08.943315Z",
+  "ai_commentary": "Komentarz analityczny:\n\nStawka jest wysoka po obu stronach – \nVilla i Liverpool mają tyle samo punktów, a Reds są czwarci jedynie dzięki lepszemu bilansowi bramek, co oznacza walkę o Ligę Mistrzów\n. Kluczowy czynnik to kadra Liverpoolu: \nSlot może być pozbawiony nawet ośmiu zawodników\n, a \nKonate, Alisson, Salah i Wirtz wymagają oceny przed meczem\n. Z drugiej strony \nEmery stoi przed dylematem rotacji przed finałem Ligi Europy z Freiburgiem\n. Stąd model wycenia szanse symetrycznie (36/36), podczas gdy bukmacher faworyzuje gościa ze względu na historię H2H i wyższe Elo, nie dyskontując w pełni kryzysu kadrowego Liverpoolu i rotacji Villi.",
+  "generated_at": "2026-05-13T21:56:40.822449Z",
   "id": "2026-05-13_aston-villa_liverpool"
 }
