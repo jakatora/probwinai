@@ -51,31 +51,28 @@ workflows:
 
           flutter pub get
 
-      - name: Set up code signing (cert + provisioning profile auto-create)
+      - name: Set up code signing (persistent private key)
         script: |
           set -ex
-          # 1. Inicjuj pek kluczy budowy
           keychain initialize
 
-          # 2. Wygeneruj klucz prywatny RSA 2048 dla CSR
+          # Klucz prywatny przychodzi z Codemagic env var CERTIFICATE_PRIVATE_KEY (base64 PEM).
+          # Ta sama wartosc jest uzywana w kazdym buildzie - wiec Apple ma 1 cert na zawsze.
           PRIVATE_KEY_PATH="$HOME/probwinai_cert_key.pem"
-          openssl genrsa -out "$PRIVATE_KEY_PATH" 2048
+          echo "$CERTIFICATE_PRIVATE_KEY" | base64 --decode > "$PRIVATE_KEY_PATH"
           chmod 600 "$PRIVATE_KEY_PATH"
 
-          # 3. Pobierz lub utworz Distribution cert + App Store profile.
-          # Codemagic CLI: @file:PATH = wczytaj sciezka, @env:VAR = z env var.
+          # fetch-signing-files: jezeli Apple ma juz cert dla tego klucza -> reuse;
+          # jezeli nie -> stworzy 1 cert (jedyny raz). Profil App Store stworzy jak nie ma.
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
             --create \
             --certificate-key=@file:"$PRIVATE_KEY_PATH"
 
-          # 4. Zaladuj certyfikat + klucz prywatny do keychain
           keychain add-certificates
 
-          # 5. Zastosuj profile do Flutter iOS project (z mobile/ - tam jest Runner.xcodeproj)
           cd "$CM_BUILD_DIR/mobile"
           xcode-project use-profiles
-          # Pokaz co zostalo zastosowane
           xcode-project detect-bundle-id || true
 
       - name: Install pods

@@ -27,3 +27,4 @@ mobile/ios/Flutter/Generated.xcconfig
 mobile/ios/Flutter/flutter_export_environment.sh
 *.log
 .DS_Store
+.keys/
