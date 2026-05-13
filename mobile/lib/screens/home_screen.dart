@@ -167,7 +167,7 @@ class _EmptyView extends StatelessWidget {
                 style: TextStyle(color: AppColors.text, fontSize: 16)),
             const SizedBox(height: 8),
             const Text(
-                'Uruchom refresh na serwerze:\npy scripts/refresh_daily.py',
+                'Sprawdz polaczenie z internetem i sprobuj ponownie.',
                 textAlign: TextAlign.center,
                 style: TextStyle(color: AppColors.textDim, fontSize: 12)),
             const SizedBox(height: 16),
