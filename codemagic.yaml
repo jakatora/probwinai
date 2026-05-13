@@ -18,18 +18,14 @@ workflows:
       app_store_connect: ProbWin AI Connect Key  # nazwa Connect API key dodanego w Codemagic UI
 
     environment:
-      # UWAGA: NIE deklarujemy 'ios_signing:' bloku - wykonuje on automatyczny
-      # pre-check ktory wywala 'No matching profiles found' zanim nasze
-      # skrypty zdaza utworzyc profile. Zamiast tego wszystko robia
-      # 'app-store-connect fetch-signing-files --create' i 'xcode-project use-profiles'.
+      groups:
+        - ios_signing   # zawiera CERTIFICATE_PRIVATE_KEY (secure)
       vars:
-        # Team ID z developer.apple.com (Krzysztof Kapusta)
         APPLE_TEAM_ID: B7J6A7R258
         BUNDLE_ID: com.probwinai.app
-        # WAZNE: sciezki relatywne do mobile/ - tam jest Flutter project
         XCODE_WORKSPACE: "mobile/ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
-      flutter: 3.29.0     # bumped for CardThemeData (Flutter 3.27+ API)
+      flutter: 3.29.0
       xcode: latest
       cocoapods: default
 
