@@ -29,7 +29,7 @@ workflows:
         # WAZNE: sciezki relatywne do mobile/ - tam jest Flutter project
         XCODE_WORKSPACE: "mobile/ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
-      flutter: 3.24.5     # pinned, cached na Codemagic runners - unika timeoutu downloadu
+      flutter: 3.29.0     # bumped for CardThemeData (Flutter 3.27+ API)
       xcode: latest
       cocoapods: default
 
@@ -130,7 +130,7 @@ workflows:
         - google_credentials  # zawiera GOOGLE_PLAY_SERVICE_ACCOUNT_CREDENTIALS
       vars:
         PACKAGE_NAME: "com.probwinai.app"
-      flutter: 3.24.5     # pinned, cached na Codemagic runners - unika timeoutu downloadu
+      flutter: 3.29.0     # bumped for CardThemeData (Flutter 3.27+ API)
 
     scripts:
       - name: Set up local properties

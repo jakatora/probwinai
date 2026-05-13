@@ -41,7 +41,7 @@ ThemeData buildTheme() => ThemeData(
         secondary: AppColors.accent,
         error: AppColors.danger,
       ),
-      cardTheme: const CardTheme(
+      cardTheme: const CardThemeData(
         color: AppColors.panel,
         elevation: 0,
         shape: RoundedRectangleBorder(
