@@ -189,7 +189,7 @@ class _ProbabilityCard extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              'Marza bukmachera (vig): ${insights.vigPct.toStringAsFixed(2)}% • ${insights.bookmakerOdds.bookmaker}',
+              'Marza bukmachera (vig): ${insights.vigPct.toStringAsFixed(2)}% • ${insights.bookmakerOdds.bookmaker.replaceAll(RegExp(r"\s*\(mock\)"), "")}',
               style:
                   const TextStyle(color: AppColors.textDim, fontSize: 12),
             ),

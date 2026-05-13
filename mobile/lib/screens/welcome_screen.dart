@@ -110,7 +110,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 onChanged: (v) => setState(() => _termsAccepted = v ?? false),
                 title: GestureDetector(
                   onTap: () => _openUrl(
-                      "https://probwinai.github.io/privacy.html"),
+                      "https://jakatora.github.io/probwinai/privacy.html"),
                   child: const Text.rich(
                     TextSpan(
                       style:
