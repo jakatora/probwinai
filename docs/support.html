@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support - ProbWin AI</title>
+<meta name="description" content="Pomoc, FAQ i kontakt dla aplikacji ProbWin AI.">
+<meta name="theme-color" content="#0f1419">
+<style>
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #0f1419; color: #e6edf3; line-height: 1.6;
+  margin: 0;
+}
+.wrap { max-width: 800px; margin: 0 auto; padding: 32px 24px 80px; }
+
+nav { display: flex; gap: 24px; align-items: center; padding: 16px 0; border-bottom: 1px solid #1f2937; }
+nav .brand { font-weight: 800; font-size: 20px; }
+nav a { color: #9bbaff; text-decoration: none; font-size: 14px; }
+nav .spacer { flex: 1; }
+
+h1 { font-size: 36px; margin: 48px 0 8px; }
+.lead { color: #9bbaff; font-size: 18px; margin-bottom: 40px; }
+h2 { color: #4ade80; margin-top: 48px; font-size: 22px; border-bottom: 1px solid #1f2937; padding-bottom: 8px; }
+
+.faq { background: #182029; border: 1px solid #2d3748; border-radius: 12px; padding: 4px 24px; margin: 12px 0; }
+.faq summary { cursor: pointer; padding: 18px 0; font-weight: 600; list-style: none; position: relative; padding-right: 32px; }
+.faq summary::after { content: "+"; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 24px; color: #60a5fa; }
+.faq[open] summary::after { content: "-"; }
+.faq[open] summary { border-bottom: 1px solid #2d3748; }
+.faq p { color: #b9c2cd; font-size: 14px; padding: 16px 0; margin: 0; }
+
+.contact-card {
+  background: linear-gradient(135deg, #182029, #1a2333);
+  border: 1px solid #2d3748;
+  border-radius: 16px; padding: 28px;
+  margin: 32px 0;
+}
+.contact-card h3 { margin-top: 0; color: #60a5fa; }
+.contact-card a { color: #4ade80; text-decoration: none; font-weight: 600; }
+.contact-card a:hover { text-decoration: underline; }
+.contact-card .row { display: flex; gap: 12px; margin: 8px 0; align-items: center; font-size: 15px; }
+.contact-card .row span:first-child { width: 90px; color: #8b9bab; }
+
+.alert {
+  background: rgba(248, 113, 113, 0.1);
+  border-left: 3px solid #f87171;
+  padding: 16px 24px; border-radius: 0 8px 8px 0;
+  margin: 32px 0; font-size: 14px;
+}
+.alert strong { color: #f87171; }
+
+footer {
+  margin-top: 80px; padding: 32px 0; border-top: 1px solid #1f2937;
+  font-size: 13px; color: #8b9bab; text-align: center;
+}
+footer a { color: #9bbaff; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav>
+  <div class="brand"><a href="index.html" style="color: inherit; text-decoration: none;">ProbWin AI</a></div>
+  <div class="spacer"></div>
+  <a href="index.html">Strona glowna</a>
+  <a href="privacy.html">Privacy</a>
+</nav>
+
+<h1>Pomoc &amp; Support</h1>
+<p class="lead">Wszystko czego potrzebujesz, by korzystac z ProbWin AI bez problemow.</p>
+
+<div class="contact-card">
+  <h3>Kontakt</h3>
+  <div class="row"><span>Email:</span><a href="mailto:contact@probwinai.app">contact@probwinai.app</a></div>
+  <div class="row"><span>Czas odpowiedzi:</span><span style="color:#e6edf3">do 48h roboczych</span></div>
+  <div class="row"><span>GitHub:</span><a href="https://github.com/jakatora/probwinai/issues">Zglos problem</a></div>
+</div>
+
+<h2>Najczesciej zadawane pytania (FAQ)</h2>
+
+<details class="faq">
+  <summary>Skad pochodza dane o meczach?</summary>
+  <p>Kursy bukmacherskie pobieramy raz dziennie z publicznego API <a href="https://the-odds-api.com" style="color:#9bbaff">the-odds-api.com</a> (agreguje Betclic, Pinnacle, Bet365 i innych). Forma druzyn z football-data.co.uk i clubelo.com. Komentarz analityczny generuje model AI Anthropic Claude.</p>
+</details>
+
+<details class="faq">
+  <summary>Jak czesto dane sie odswiezaja?</summary>
+  <p>Codziennie o 08:00 czasu polskiego (06:00 UTC). GitHub Actions cron uruchamia skrypt, ktory generuje nowy plik <code>top10.json</code> i automatycznie publikuje go na GitHub Pages. Aplikacja pobiera nowe dane przy nastepnym otwarciu.</p>
+</details>
+
+<details class="faq">
+  <summary>Czy moge zaobstawiac przez aplikacje?</summary>
+  <p><strong>Nie.</strong> ProbWin AI to aplikacja informacyjna - prezentuje statystyki i kursy, ale nie umozliwia obstawiania. Zaden link nie prowadzi do bukmachera. Nie wspolpracujemy z zadnym operatorem hazardowym.</p>
+</details>
+
+<details class="faq">
+  <summary>Czy potrzebuje konta? Czy zbieracie moje dane?</summary>
+  <p>Nie. Aplikacja nie wymaga rejestracji ani logowania. Nie zbieramy emaila, lokalizacji, identyfikatorow reklamowych ani historii uzycia. Wszystkie ustawienia (np. wybor ulubionej druzyny) sa zapisywane wylacznie lokalnie na Twoim urzadzeniu. Pelne info: <a href="privacy.html">polityka prywatnosci</a>.</p>
+</details>
+
+<details class="faq">
+  <summary>Co oznacza "prawdopodobienstwo 64%"?</summary>
+  <p>To <em>implikowane</em> prawdopodobienstwo wyliczone z kursow bukmacherskich. Wzor: <code>P = (1 / kurs) / suma odwroconych kursow</code>. Przyklad: kurs 1.85 -> P ~ 51% po normalizacji marży bukmachera. Liczba pokazuje na ile rynek "wycenia" dany wynik - <strong>nie</strong> jest to gwarancja zwyciestwa.</p>
+</details>
+
+<details class="faq">
+  <summary>Skad sie biora 'mock' dane?</summary>
+  <p>Jezeli widzisz w aplikacji adnotacje "Betclic (mock)" lub "AI commentary disabled", oznacza to ze cron nie mial dostepu do API danego dnia (np. limit darmowego planu the-odds-api wyczerpany). Dane pokazuja realistyczne przyklady, ale nie sa kursami bieżącymi. Podejmuje dzialania zeby ten stan minimalizowac.</p>
+</details>
+
+<details class="faq">
+  <summary>Aplikacja sie zawiesza / nie ladnja sie dane.</summary>
+  <p>1) Sprawdz polaczenie internetowe. 2) Zamknij aplikacje calkowicie i otworz ponownie. 3) Jezeli problem trwa - napisz na <a href="mailto:contact@probwinai.app">contact@probwinai.app</a> z opisem (model telefonu, wersja iOS/Android, screenshot bledu).</p>
+</details>
+
+<details class="faq">
+  <summary>Czy aplikacja jest darmowa? Czy beda reklamy?</summary>
+  <p>Tak, aplikacja jest w 100% darmowa. <strong>Nie</strong> ma reklam. <strong>Nie</strong> ma platnych funkcji premium (na ten moment). Utrzymanie pokrywa GitHub Pages (darmowy hosting) + GitHub Actions (darmowe minuty na cron).</p>
+</details>
+
+<details class="faq">
+  <summary>Mam pomysl na nowa funkcje. Gdzie zglosic?</summary>
+  <p>Najlepiej przez <a href="https://github.com/jakatora/probwinai/issues/new">GitHub Issues</a> (publiczne, transparentne) lub mailem na <a href="mailto:contact@probwinai.app">contact@probwinai.app</a>. Czytam kazda wiadomosc.</p>
+</details>
+
+<details class="faq">
+  <summary>Jak usunac aplikacje i wszystkie moje dane?</summary>
+  <p>Wszystkie dane sa lokalne na urzadzeniu. Wystarczy odinstalowac aplikacje (przytrzymaj ikone -> Usun aplikacje). Nic nie pozostaje na zadnym serwerze, bo nic na serwer nigdy nie wyslalismy.</p>
+</details>
+
+<div class="alert">
+<strong>Hazard - odpowiedzialna gra.</strong> Hazard moze uzalezniac. Pomoc 24/7 (Polska): <a href="tel:+48801199990" style="color:#9bbaff">801 199 990</a> (bezplatna). Miedzynarodowo: <a href="https://www.begambleaware.org" style="color:#9bbaff">www.begambleaware.org</a>. Aplikacja jest dla osob 18+.
+</div>
+
+<h2>Zglaszanie bledow</h2>
+<p style="color:#b9c2cd; font-size:15px">
+Jezeli zauwazyles blad w danych (zly wynik, brakujacy mecz, dziwny komentarz AI) - prosze daj znac. Zaznacz w mailu: <strong>nazwy druzyn</strong>, <strong>date meczu</strong> oraz <strong>screenshot</strong>. Naprawie i zaktualizuje dane przy nastepnym refreshu.
+</p>
+
+<h2>Status systemu</h2>
+<p style="color:#b9c2cd; font-size:15px">
+Status danych mozesz sprawdzic bezposrednio: <a href="data/top10.json">top10.json</a>. Pole <code>generated_at</code> pokazuje, kiedy ostatnio dane byly odswiezone. Jezeli starsze niz 36h - cron sie zepsul, zglos prosze.
+</p>
+
+<footer>
+ProbWin AI Support &middot; <a href="index.html">Strona glowna</a> &middot; <a href="privacy.html">Polityka prywatnosci</a>
+</footer>
+
+</div>
+</body>
+</html>

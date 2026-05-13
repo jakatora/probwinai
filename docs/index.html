@@ -3,214 +3,180 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ProbWin AI - Football Stats with AI Insight</title>
-<meta name="description" content="Daily top 10 football matches with statistical probabilities and AI commentary. Sport analytics, no betting.">
+<title>ProbWin AI - Statystyki meczow + AI komentarz</title>
+<meta name="description" content="Top 10 meczow dnia z analiza prawdopodobienstw i komentarzem AI. Aplikacja informacyjna - bez zakladow.">
 <meta name="theme-color" content="#0f1419">
+<meta property="og:title" content="ProbWin AI">
+<meta property="og:description" content="Top 10 meczow dnia + AI komentarz. Aplikacja informacyjna dla fanow pilki.">
+<meta property="og:type" content="website">
 <style>
+* { box-sizing: border-box; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background: #0f1419;
   color: #e6edf3;
   line-height: 1.6;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 24px;
+  margin: 0;
 }
-header {
-  text-align: center;
-  padding: 60px 0 40px;
-  border-bottom: 1px solid #2d3748;
-  margin-bottom: 40px;
-}
-.logo {
-  width: 96px;
-  height: 96px;
-  margin: 0 auto 16px;
+.wrap { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+nav { display: flex; gap: 24px; align-items: center; padding: 16px 0; border-bottom: 1px solid #1f2937; }
+nav .brand { font-weight: 800; font-size: 20px; }
+nav a { color: #9bbaff; text-decoration: none; font-size: 14px; }
+nav a:hover { color: #fff; }
+nav .spacer { flex: 1; }
+
+.hero { padding: 80px 0 60px; text-align: center; }
+.icon-big {
+  width: 128px; height: 128px; margin: 0 auto 32px;
   background: linear-gradient(135deg, #0F1419, #1A2333);
-  border-radius: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.logo::before {
-  content: "P";
-  font-size: 56px;
-  font-weight: 900;
-  color: #E6EDF3;
-}
-h1 { font-size: 32px; margin-bottom: 8px; }
-.tagline { color: #8b9bab; font-size: 16px; }
-.cta { display: flex; gap: 12px; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
-.btn {
-  background: #60a5fa;
-  color: #0f1419;
-  padding: 12px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-}
-.btn-ghost {
-  background: transparent;
-  color: #e6edf3;
+  border-radius: 30px;
+  display: flex; align-items: flex-end; justify-content: center;
+  padding-bottom: 16px;
   border: 1px solid #2d3748;
+  position: relative;
 }
-h2 { color: #4ade80; margin-top: 48px; }
+.icon-big::before { content: "P"; font-size: 64px; font-weight: 900; color: #E6EDF3; }
+.icon-big::after {
+  content: ""; position: absolute; bottom: 50px;
+  width: 70px; height: 30px;
+  background:
+    linear-gradient(to top, #60a5fa 30%, transparent 30%) 0 100%/22% 50% no-repeat,
+    linear-gradient(to top, #4ade80 30%, transparent 30%) 50% 100%/22% 80% no-repeat,
+    linear-gradient(to top, #60a5fa 30%, transparent 30%) 100% 100%/22% 100% no-repeat;
+}
+
+h1 { font-size: 48px; margin: 0 0 16px; letter-spacing: -1px; }
+.tagline { color: #9bbaff; font-size: 22px; margin-bottom: 40px; }
+.cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.btn {
+  background: #60a5fa; color: #0f1419;
+  padding: 14px 32px; border-radius: 10px;
+  text-decoration: none; font-weight: 700; font-size: 16px;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.btn-ghost { background: transparent; color: #e6edf3; border: 1px solid #2d3748; }
+.btn:hover { transform: translateY(-1px); }
+
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin: 80px 0; }
+.feat {
+  background: #182029; border: 1px solid #2d3748;
+  border-radius: 16px; padding: 28px;
+}
+.feat .ico { font-size: 32px; margin-bottom: 12px; display: block; }
+.feat h3 { margin: 0 0 8px; color: #60a5fa; font-size: 18px; }
+.feat p { margin: 0; color: #b9c2cd; font-size: 14px; }
+
+.section { margin: 100px 0; }
+.section h2 { font-size: 32px; margin-bottom: 24px; color: #4ade80; }
+.section p { color: #b9c2cd; font-size: 16px; max-width: 700px; }
+
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 32px; }
+.step { background: #182029; border-radius: 12px; padding: 20px; border: 1px solid #2d3748; }
+.step .num { font-size: 28px; color: #4ade80; font-weight: 800; }
+.step strong { color: #e6edf3; display: block; margin: 4px 0; }
+.step span { color: #8b9bab; font-size: 13px; }
+
 .note {
   background: rgba(251, 191, 36, 0.1);
   border-left: 3px solid #fbbf24;
-  padding: 16px 24px;
-  margin: 24px 0;
-  border-radius: 0 8px 8px 0;
+  padding: 20px 28px; border-radius: 0 12px 12px 0;
+  margin: 32px 0;
+  font-size: 14px;
 }
-a { color: #60a5fa; }
-code {
-  background: #1a212a;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-family: monospace;
-  font-size: 13px;
-}
+.note strong { color: #fbbf24; }
+
 footer {
-  margin-top: 80px;
-  padding: 24px 0;
-  border-top: 1px solid #2d3748;
-  text-align: center;
-  color: #8b9bab;
-  font-size: 13px;
+  margin-top: 80px; padding: 32px 0; border-top: 1px solid #1f2937;
+  display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between;
+  font-size: 13px; color: #8b9bab;
 }
+footer a { color: #9bbaff; text-decoration: none; }
+
+@media (max-width: 600px) { h1 { font-size: 36px; } .tagline { font-size: 18px; } }
 </style>
 </head>
 <body>
+<div class="wrap">
 
-<header>
-  <div class="logo"></div>
-  <h1>ProbWin AI</h1>
-  <p class="tagline">Football statistics &middot; Match probabilities &middot; AI commentary</p>
+<nav>
+  <div class="brand">ProbWin AI</div>
+  <div class="spacer"></div>
+  <a href="support.html">Support</a>
+  <a href="privacy.html">Privacy</a>
+  <a href="data/top10.json">API JSON</a>
+</nav>
+
+<section class="hero">
+  <div class="icon-big"></div>
+  <h1>Top 10 mecz&oacute;w dnia.</h1>
+  <p class="tagline">Prawdopodobienstwa wyliczone z kursow + AI komentarz.</p>
   <div class="cta">
-    <a href="data/top10.json" class="btn">View today's top 10 (JSON)</a>
-    <a href="#privacy" class="btn btn-ghost">Privacy &amp; Terms</a>
+    <a href="#how" class="btn">Jak to dziala?</a>
+    <a href="support.html" class="btn btn-ghost">Pomoc &amp; FAQ</a>
   </div>
-</header>
-
-<div class="note">
-ProbWin AI is an <strong>informational tool</strong>. Not a licensed gambling operator. Does not accept bets. Does not guarantee profits. App for users 18+.
-<br><br>
-ProbWin AI to <strong>narzedzie informacyjne</strong>. Nie jest licencjonowanym operatorem hazardowym, nie przyjmuje zakladow, nie gwarantuje zyskow. Aplikacja jest dla osob 18+.
-</div>
-
-<h2>How it works</h2>
-<p>Every day at 08:00 CEST, GitHub Actions fetches:</p>
-<ul>
-  <li>Upcoming matches and bookmaker odds (the-odds-api.com)</li>
-  <li>Team Elo ratings (Clubelo.com)</li>
-  <li>Form and head-to-head (football-data.co.uk)</li>
-  <li>AI commentary (Anthropic Claude with web_search)</li>
-</ul>
-<p>Results are exported to <code>data/top10.json</code> served by GitHub Pages. The mobile app downloads this JSON - no traditional backend required.</p>
-
-<h2>API endpoints (static JSON)</h2>
-<ul>
-  <li><code>GET data/top10.json</code> - lista top 10 meczow dnia</li>
-  <li><code>GET data/matches/{id}.json</code> - pelne insights dla 1 meczu</li>
-</ul>
-
-<hr style="margin: 60px 0; border-color: #2d3748;">
-
-<section id="privacy">
-<h1 style="color: #60a5fa;">Polityka prywatnosci - ProbWin AI (PL)</h1>
-<p><strong>Ostatnia aktualizacja:</strong> 2026-05-11</p>
-
-<h2>1. Administrator danych</h2>
-<p><strong>[Imie / nazwa]</strong><br>
-<strong>[Adres]</strong><br>
-<strong>Email: [kontakt@example.com]</strong></p>
-
-<h2>2. Co zbieramy</h2>
-<p>Aplikacja zbiera wylacznie:</p>
-<ul>
-<li>Anonimowe ustawienia (adres serwera API) - lokalnie na urzadzeniu, NIE wysylane do nas</li>
-<li>Zaakceptowanie regulaminu - jednorazowy flag lokalnie</li>
-<li>Wybor ulubionych druzyn - lokalnie, opcjonalnie</li>
-</ul>
-<p><strong>NIE zbieramy</strong> imienia, emaila, lokalizacji, identyfikatorow reklamowych, historii zakladow ani danych platniczych.</p>
-
-<h2>3. Logi serwera</h2>
-<p>Aplikacja korzysta z GitHub Pages do hostowania statycznych JSONow. GitHub moze zbierac standardowe logi (IP, User-Agent) zgodnie z <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. NIE laczymy ich z indywidualnymi uzytkownikami.</p>
-
-<h2>4. Uslugi zewnetrzne</h2>
-<p>Codzienne odswiezanie danych (po stronie serwera) korzysta z: the-odds-api.com, Clubelo.com, football-data.co.uk, Anthropic Claude API. Aplikacja mobilna pobiera tylko statyczne JSONy z GitHub Pages.</p>
-
-<h2>5. Twoje prawa (RODO)</h2>
-<p>Masz prawo do dostepu, sprostowania, usuniecia, ograniczenia przetwarzania, sprzeciwu, przenoszenia oraz wniesienia skargi do UODO. Kontakt: [kontakt@example.com].</p>
-
-<h2>6. Hazard - odpowiedzialna gra</h2>
-<p>Hazard moze uzalezniac. Pomoc 24/7 (Polska): <a href="tel:+48801199990">801 199 990</a> (bezplatna). Aplikacja pyta o pelnoletnosc przy starcie i nie jest przeznaczona dla osob ponizej 18 lat.</p>
-
-<h1 style="color: #60a5fa; margin-top: 60px;">Regulamin korzystania - ProbWin AI (PL)</h1>
-
-<h2>1. Charakter aplikacji</h2>
-<p>ProbWin AI prezentuje statystyki sportowe, prawdopodobienstwa wynikow i komentarz AI. Aplikacja <strong>NIE jest operatorem hazardowym</strong>, <strong>NIE przyjmuje zakladow</strong>, <strong>NIE rekomenduje konkretnych zakladow</strong>.</p>
-
-<h2>2. Wiek</h2>
-<p>Korzystanie dozwolone wylacznie dla osob 18+.</p>
-
-<h2>3. Wylaczenia odpowiedzialnosci</h2>
-<p>Operator nie odpowiada za decyzje uzytkownika dotyczace zakladow zawartych u osob trzecich. Modele statystyczne nie gwarantuja zysku.</p>
-
-<h2>4. Kontakt</h2>
-<p>Email: [kontakt@example.com]</p>
 </section>
 
-<hr style="margin: 60px 0; border-color: #2d3748;">
+<div class="note">
+<strong>Aplikacja informacyjna.</strong> ProbWin AI prezentuje statystyki i kursy bukmacherskie (publicznie dostepne). Nie przyjmuje zakladow, nie rekomenduje konkretnych zakladow, nie jest licencjonowanym operatorem hazardowym. Dostep wylacznie dla osob 18+.
+</div>
 
-<section id="privacy-en">
-<h1 style="color: #60a5fa;">Privacy Policy - ProbWin AI (EN)</h1>
-<p><strong>Last updated:</strong> 2026-05-11</p>
+<div class="features">
+  <div class="feat">
+    <span class="ico">&#x1F4CA;</span>
+    <h3>Top 10 codziennie</h3>
+    <p>Najciekawsze mecze dnia z lig europejskich (Premier League, La Liga, Bundesliga, Serie A, Ligue 1).</p>
+  </div>
+  <div class="feat">
+    <span class="ico">&#x1F3AF;</span>
+    <h3>Prawdopodobienstwa</h3>
+    <p>Implikowane prawdopodobienstwa wynikow (1, X, 2, BTTS, Over/Under) wyliczone z kursow Betclic, Pinnacle, Bet365.</p>
+  </div>
+  <div class="feat">
+    <span class="ico">&#x1F916;</span>
+    <h3>Komentarz AI</h3>
+    <p>Krotka analiza kazdego meczu - forma, statystyki H2H, kontekst rozgrywek. Generowane przez Claude AI.</p>
+  </div>
+  <div class="feat">
+    <span class="ico">&#x1F510;</span>
+    <h3>Bez konta</h3>
+    <p>Nie zbieramy danych. Nie wymagamy rejestracji. Nie ma reklam. Wszystko dostepne od razu.</p>
+  </div>
+</div>
 
-<h2>1. Data Controller</h2>
-<p><strong>[Full Name]</strong><br>
-<strong>[Address]</strong><br>
-<strong>Email: [contact@example.com]</strong></p>
+<section class="section" id="how">
+  <h2>Jak to dziala?</h2>
+  <p>Caly proces jest w pelni zautomatyzowany. Codziennie rano dostajesz swieze dane, bez klikania.</p>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><strong>08:00 rano</strong><span>Pobieramy kursy z popularnych bukmacherow</span></div>
+    <div class="step"><div class="num">2</div><strong>Wybor 10 meczow</strong><span>Algorytm wybiera najciekawsze spotkania dnia</span></div>
+    <div class="step"><div class="num">3</div><strong>Analiza AI</strong><span>Generujemy komentarz dla kazdego meczu</span></div>
+    <div class="step"><div class="num">4</div><strong>W aplikacji</strong><span>Otwierasz app - dane juz tam czekaja</span></div>
+  </div>
+</section>
 
-<h2>2. What We Collect</h2>
-<p>The App collects only:</p>
-<ul>
-<li>Anonymous settings (API URL) - locally on device, NOT sent to us</li>
-<li>Terms acceptance flag - one-time, locally</li>
-<li>Favorite teams - locally, optional</li>
-</ul>
-<p>We do <strong>NOT</strong> collect names, emails, location, advertising IDs, betting history, or payment data.</p>
+<section class="section">
+  <h2>Dla kogo to jest?</h2>
+  <p>
+    <strong>Tak:</strong> kibice ktorzy chca zrozumiec mecze glebiej, analitycy szukajacy szybkiego przegladu dnia, fani statystyki sportowej.
+    <br><br>
+    <strong>Nie:</strong> aplikacja nie sluzy do obstawiania, nie typuje "pewniakow", nie jest narzedziem dla problemowych graczy.
+  </p>
+</section>
 
-<h2>3. Server Logs</h2>
-<p>The app uses GitHub Pages for hosting static JSONs. GitHub may collect standard logs per <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. NOT linked to individual users.</p>
-
-<h2>4. Third-party Services</h2>
-<p>Daily server-side data refresh uses: the-odds-api.com, Clubelo.com, football-data.co.uk, Anthropic Claude API. Mobile app only fetches static JSON from GitHub Pages.</p>
-
-<h2>5. Your Rights (GDPR)</h2>
-<p>Rights to access, rectification, erasure, restriction, objection, portability. Contact: [contact@example.com].</p>
-
-<h2>6. Responsible Gambling</h2>
-<p>Gambling can be addictive. 24/7 help: Poland <a href="tel:+48801199990">801 199 990</a>. International: <a href="https://www.begambleaware.org">www.begambleaware.org</a>. App is for users 18+.</p>
-
-<h1 style="color: #60a5fa; margin-top: 60px;">Terms of Service - ProbWin AI (EN)</h1>
-
-<h2>1. Nature of the App</h2>
-<p>ProbWin AI presents sport statistics, outcome probabilities, and AI commentary. The App is <strong>NOT a gambling operator</strong>, <strong>does NOT accept bets</strong>, <strong>does NOT recommend specific bets</strong>.</p>
-
-<h2>2. Age</h2>
-<p>Use permitted only for users aged 18+.</p>
-
-<h2>3. Liability Disclaimer</h2>
-<p>Operator is not responsible for user decisions regarding bets placed with third parties.</p>
-
-<h2>4. Contact</h2>
-<p>Email: [contact@example.com]</p>
+<section class="section">
+  <h2>Pobierz</h2>
+  <p>App Store i Google Play - wkrotce.</p>
 </section>
 
 <footer>
-ProbWin AI v0.1.0 &middot; Sport analytics with AI &middot; <a href="mailto:[contact@example.com]">contact@example.com</a>
+  <div>ProbWin AI v0.1.0 &middot; &copy; 2026 Krzysztof Kapusta</div>
+  <div>
+    <a href="support.html">Support</a> &middot;
+    <a href="privacy.html">Privacy &amp; Terms</a> &middot;
+    <a href="mailto:contact@probwinai.app">contact@probwinai.app</a>
+  </div>
 </footer>
 
+</div>
 </body>
 </html>
