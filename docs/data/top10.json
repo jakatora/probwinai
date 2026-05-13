@@ -1,13 +1,13 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-05-12T08:30:56.681815+00:00",
+  "generated_at": "2026-05-13T07:01:49.103549+00:00",
   "matches": [
     {
-      "id": "2026-05-12_arsenal_tottenham",
+      "id": "2026-05-13_arsenal_tottenham",
       "home_team": "Arsenal",
       "away_team": "Tottenham",
       "league": "Premier League",
-      "kick_off": "2026-05-12T19:00:00+00:00",
+      "kick_off": "2026-05-13T19:00:00+00:00",
       "odds": {
         "home": 1.9,
         "draw": 3.8,
@@ -17,11 +17,11 @@
       "has_insights": true
     },
     {
-      "id": "2026-05-12_liverpool_manchester-united",
+      "id": "2026-05-13_liverpool_manchester-united",
       "home_team": "Liverpool",
       "away_team": "Manchester United",
       "league": "Premier League",
-      "kick_off": "2026-05-13T02:00:00+00:00",
+      "kick_off": "2026-05-14T02:00:00+00:00",
       "odds": {
         "home": 1.85,
         "draw": 3.8,
@@ -31,11 +31,11 @@
       "has_insights": true
     },
     {
-      "id": "2026-05-12_bayern-munich_borussia-dortmund",
+      "id": "2026-05-13_bayern-munich_borussia-dortmund",
       "home_team": "Bayern Munich",
       "away_team": "Borussia Dortmund",
       "league": "Bundesliga",
-      "kick_off": "2026-05-12T23:00:00+00:00",
+      "kick_off": "2026-05-13T23:00:00+00:00",
       "odds": {
         "home": 1.75,
         "draw": 4.0,
@@ -45,11 +45,11 @@
       "has_insights": true
     },
     {
-      "id": "2026-05-12_real-madrid_barcelona",
+      "id": "2026-05-13_real-madrid_barcelona",
       "home_team": "Real Madrid",
       "away_team": "Barcelona",
       "league": "La Liga",
-      "kick_off": "2026-05-12T22:00:00+00:00",
+      "kick_off": "2026-05-13T22:00:00+00:00",
       "odds": {
         "home": 2.2,
         "draw": 3.6,
@@ -59,11 +59,11 @@
       "has_insights": true
     },
     {
-      "id": "2026-05-12_psg_marseille",
+      "id": "2026-05-13_psg_marseille",
       "home_team": "PSG",
       "away_team": "Marseille",
       "league": "Ligue 1",
-      "kick_off": "2026-05-13T00:00:00+00:00",
+      "kick_off": "2026-05-14T00:00:00+00:00",
       "odds": {
         "home": 1.55,
         "draw": 4.4,
@@ -73,11 +73,11 @@
       "has_insights": true
     },
     {
-      "id": "2026-05-12_manchester-city_chelsea",
+      "id": "2026-05-13_manchester-city_chelsea",
       "home_team": "Manchester City",
       "away_team": "Chelsea",
       "league": "Premier League",
-      "kick_off": "2026-05-12T20:00:00+00:00",
+      "kick_off": "2026-05-13T20:00:00+00:00",
       "odds": {
         "home": 1.65,
         "draw": 4.2,
@@ -87,11 +87,11 @@
       "has_insights": true
     },
     {
-      "id": "2026-05-12_juventus_inter-milan",
+      "id": "2026-05-13_juventus_inter-milan",
       "home_team": "Juventus",
       "away_team": "Inter Milan",
       "league": "Serie A",
-      "kick_off": "2026-05-13T01:00:00+00:00",
+      "kick_off": "2026-05-14T01:00:00+00:00",
       "odds": {
         "home": 2.8,
         "draw": 3.2,
@@ -101,11 +101,11 @@
       "has_insights": true
     },
     {
-      "id": "2026-05-12_aston-villa_liverpool",
+      "id": "2026-05-13_aston-villa_liverpool",
       "home_team": "Aston Villa",
       "away_team": "Liverpool",
       "league": "Premier League",
-      "kick_off": "2026-05-12T18:00:00+00:00",
+      "kick_off": "2026-05-13T18:00:00+00:00",
       "odds": {
         "home": 3.1,
         "draw": 3.9,
@@ -115,11 +115,11 @@
       "has_insights": true
     },
     {
-      "id": "2026-05-12_atletico-madrid_sevilla",
+      "id": "2026-05-13_atletico-madrid_sevilla",
       "home_team": "Atletico Madrid",
       "away_team": "Sevilla",
       "league": "La Liga",
-      "kick_off": "2026-05-13T03:00:00+00:00",
+      "kick_off": "2026-05-14T03:00:00+00:00",
       "odds": {
         "home": 1.95,
         "draw": 3.4,
@@ -129,11 +129,11 @@
       "has_insights": true
     },
     {
-      "id": "2026-05-12_newcastle_brighton",
+      "id": "2026-05-13_newcastle_brighton",
       "home_team": "Newcastle",
       "away_team": "Brighton",
       "league": "Premier League",
-      "kick_off": "2026-05-12T21:00:00+00:00",
+      "kick_off": "2026-05-13T21:00:00+00:00",
       "odds": {
         "home": 2.1,
         "draw": 3.5,
