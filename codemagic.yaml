@@ -68,7 +68,10 @@ workflows:
           keychain add-certificates
 
           cd "$CM_BUILD_DIR/mobile"
-          xcode-project use-profiles
+          # use-profiles aplikuje profile do projektu I generuje poprawny
+          # export_options.plist z mapowaniem bundle ID -> profil UUID.
+          xcode-project use-profiles \
+            --export-options-plist "$CM_BUILD_DIR/export_options.plist"
           xcode-project detect-bundle-id || true
 
       - name: Install pods
@@ -86,15 +89,15 @@ workflows:
         script: |
           set -ex
           cd mobile
-          # PROBWIN_API_URL fallback na produkcyjny URL z GitHub Pages
           API_URL="${PROBWIN_API_URL:-https://jakatora.github.io/probwinai/data}"
-          # Plist export_options.plist jest w repo (mobile/ios/export_options.plist)
+          # Uzywamy export_options.plist wygenerowanego przez xcode-project use-profiles
+          # (ma poprawne mapowanie provisioning profili) - NIE naszego recznego z repo.
           flutter build ipa \
             --release \
             --build-name=0.1.0 \
             --build-number=$(($BUILD_NUMBER + 100)) \
             --dart-define=API_URL="$API_URL" \
-            --export-options-plist=ios/export_options.plist
+            --export-options-plist="$CM_BUILD_DIR/export_options.plist"
 
     artifacts:
       - mobile/build/ios/ipa/*.ipa
