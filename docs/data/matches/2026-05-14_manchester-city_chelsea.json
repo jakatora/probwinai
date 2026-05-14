@@ -1,0 +1,49 @@
+{
+  "home_team": "Manchester City",
+  "away_team": "Chelsea",
+  "league": "Premier League",
+  "kick_off": "2026-05-14T20:00:00Z",
+  "home_context": {
+    "name": "Manchester City",
+    "elo": 1967.23547363,
+    "form": null
+  },
+  "away_context": {
+    "name": "Chelsea",
+    "elo": 1827.88745117,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "D"
+      ],
+      "points": 1,
+      "goals_for": 2,
+      "goals_against": 11
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.6716672228579009,
+    "draw": 0.10890879156626722,
+    "away": 0.2194239855758319
+  },
+  "implied_probability": {
+    "home": 0.5804311774461027,
+    "draw": 0.2280265339966832,
+    "away": 0.19154228855721392
+  },
+  "bookmaker_odds": {
+    "home": 1.65,
+    "draw": 4.2,
+    "away": 5.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.415584415584428,
+  "ai_commentary": "Sprawdzę najnowsze informacje o tym meczu.\nKomentarz:\n\nCity gra u siebie z mocno osłabionym przeciwnikiem - \nChelsea jest bez Sancheza, Garnacho, Estevao, Gittensa i Pedro Neto\n, a forma Bluesów (LLLLD) potwierdza spadek dyspozycji przed końcem sezonu. Po stronie gospodarzy \nbrakuje Rodriego, Gvardiola i Khusanova\n, co osłabia defensywę, ale ofensywa pozostaje pełnowartościowa. Model ProbWin (67%) jest wyżej niż implikowane prawdopodobieństwo bukmachera (~58%), co może wynikać z silniejszego ważenia formy gościa i kadrowych braków Chelsea, których kursy nie dyskontują w pełni.",
+  "generated_at": "2026-05-14T07:04:14.180349Z",
+  "id": "2026-05-14_manchester-city_chelsea"
+}

@@ -1,0 +1,49 @@
+{
+  "home_team": "Atletico Madrid",
+  "away_team": "Sevilla",
+  "league": "La Liga",
+  "kick_off": "2026-05-15T03:00:00Z",
+  "home_context": {
+    "name": "Atletico Madrid",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Sevilla",
+    "elo": 1613.15478516,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "L",
+        "W",
+        "W"
+      ],
+      "points": 9,
+      "goals_for": 6,
+      "goals_against": 6
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.48519443453442745,
+    "draw": 0.27827327863003926,
+    "away": 0.23653228683553335
+  },
+  "bookmaker_odds": {
+    "home": 1.95,
+    "draw": 3.4,
+    "away": 4.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.693815987933637,
+  "ai_commentary": "Mam wystarczająco danych. Pisze komentarz.\n\nAtletico gra u siebie z bezpieczną pozycją w czołowej czwórce, podczas gdy \nSevilla walczy o utrzymanie, mając tylko dwa punkty przewagi nad strefą spadkową\n – to wyrównuje motywację mimo różnicy klasy. Po stronie gospodarzy istotne są \nuraz Molina (naderwanie ścięgna podkolanowego, około trzech tygodni przerwy)\n i prawdopodobna rotacja Simeone. Kurs 1.95 na gospodarzy odpowiada ~51%, czyli więcej niż 40% modelu – bukmacher prawdopodobnie mocniej waży jakość kadry i atut własnego boiska, model uwzględnia desperację Sevilli (forma WLLWW pokazuje, że potrafi wygrywać) i kadrowe ubytki Atletico.",
+  "generated_at": "2026-05-14T07:04:56.243053Z",
+  "id": "2026-05-14_atletico-madrid_sevilla"
+}

@@ -1,0 +1,49 @@
+{
+  "home_team": "Juventus",
+  "away_team": "Inter Milan",
+  "league": "Serie A",
+  "kick_off": "2026-05-15T01:00:00Z",
+  "home_context": {
+    "name": "Juventus",
+    "elo": 1789.74865723,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "D",
+        "D",
+        "W"
+      ],
+      "points": 11,
+      "goals_for": 5,
+      "goals_against": 1
+    }
+  },
+  "away_context": {
+    "name": "Inter Milan",
+    "elo": 1892.42724609,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.3175847091284298,
+    "draw": 0.2645309895716832,
+    "away": 0.417884301299887
+  },
+  "implied_probability": {
+    "home": 0.33876221498371334,
+    "draw": 0.29641693811074915,
+    "away": 0.3648208469055374
+  },
+  "bookmaker_odds": {
+    "home": 2.8,
+    "draw": 3.2,
+    "away": 2.6,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.425824175824179,
+  "ai_commentary": "Komentarz:\n\nInter przyjeżdża do Turynu jako wyraźny faworyt według modelu (42% vs 32%), co potwierdza przewaga w ratingu Elo o ponad 100 punktów. \nInter prowadzi w Serie A z dziewięciopunktową przewagą po niedawnym zwycięstwie 4-3 z Como\n, jednak \nLautaro Martinez ma problem z mięśniem lewej łydki i opuścił ostatnie spotkania\n, co osłabia ofensywę gości. Po stronie Juventusu \nbrakuje Perina, Cabala i Milika, a Yildiz jest najskuteczniejszym strzelcem zespołu\n. Rozbieżność między modelem a bukmacherem (kurs 2.6 implikuje ok. 38%) wynika prawdopodobnie z uwzględnienia czynnika gospodarza i braku Lautaro w wycenie Betclic.",
+  "generated_at": "2026-05-14T07:04:29.242310Z",
+  "id": "2026-05-14_juventus_inter-milan"
+}

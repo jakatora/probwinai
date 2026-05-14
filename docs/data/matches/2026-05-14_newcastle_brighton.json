@@ -1,0 +1,97 @@
+{
+  "home_team": "Newcastle",
+  "away_team": "Brighton",
+  "league": "Premier League",
+  "kick_off": "2026-05-14T21:00:00Z",
+  "home_context": {
+    "name": "Newcastle",
+    "elo": 1837.14758301,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "L",
+        "L",
+        "W",
+        "D"
+      ],
+      "points": 4,
+      "goals_for": 6,
+      "goals_against": 7
+    }
+  },
+  "away_context": {
+    "name": "Brighton",
+    "elo": 1854.48791504,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "W"
+      ],
+      "points": 10,
+      "goals_for": 11,
+      "goals_against": 5
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-05-11",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "date": "2024-10-19",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "date": "2025-05-04",
+      "home_team": "Brighton",
+      "away_team": "Newcastle",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "date": "2025-10-18",
+      "home_team": "Brighton",
+      "away_team": "Newcastle",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-02",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 3,
+      "away_goals": 1
+    }
+  ],
+  "model_probability": {
+    "home": 0.40427292858085917,
+    "draw": 0.2702461845995079,
+    "away": 0.32548088681963294
+  },
+  "implied_probability": {
+    "home": 0.45092838196286467,
+    "draw": 0.2705570291777188,
+    "away": 0.27851458885941643
+  },
+  "bookmaker_odds": {
+    "home": 2.1,
+    "draw": 3.5,
+    "away": 3.4,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.602240896358546,
+  "ai_commentary": "The user mentions the match is on 2026-05-14 21:00, but the search results suggest the match was actually played on May 2, 2026 (Newcastle 3-1 Brighton, which matches the H2H data). This might be a midweek rescheduled fixture or a different match. Let me check if there's another fixture.\nThe 14 May 2026 fixture seems to be a different (possibly midweek/rescheduled) match. The most recent H2H confirms Newcastle 3-1 Brighton on May 2, 2026. The user's data shows that match in H2H. So this 14 May match is a separate fixture. I'll use the relevant context: Newcastle ended losing streak, has injury issues (Schar, Livramento, Krafth, Miley season-ending), Brighton chasing Europe, Newcastle 14th 8 pts above drop. Let me write the commentary based on available data.\n\nNewcastle vs Brighton (14.05.2026) – komentarz analityczny:\n\n\nNewcastle przed serią z Brighton tkwił w kryzysie z czterema kolejnymi porażkami, plasując się na 14. miejscu z ośmioma punktami przewagi nad strefą spadkową\n, ale przerwał tę serię ogrywając Mewy 3-1 na St James' Park, co potwierdza dane H2H. Kluczowe czynniki to kadrowe straty gospodarzy – \nkontuzjowani Schar, Livramento i Krafth\n oraz \nsezonowa kontuzja Lewisa Mileya\n osłabiają tył, podczas gdy \nBrighton walczy o europejskie puchary i przyjeżdża po serii pięciu meczów bez porażki\n. Różnica między modelem (40% na 1) a kursem bukmachera (2.10) jest niewielka – obaj wskazują gospodarza, lecz model docenia świeży triumf 3-1",
+  "generated_at": "2026-05-14T07:05:16.653734Z",
+  "id": "2026-05-14_newcastle_brighton"
+}

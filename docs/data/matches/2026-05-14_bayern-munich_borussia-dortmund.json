@@ -1,0 +1,49 @@
+{
+  "home_team": "Bayern Munich",
+  "away_team": "Borussia Dortmund",
+  "league": "Bundesliga",
+  "kick_off": "2026-05-14T23:00:00Z",
+  "home_context": {
+    "name": "Bayern Munich",
+    "elo": 2008.38562012,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "W"
+      ],
+      "points": 13,
+      "goals_for": 17,
+      "goals_against": 8
+    }
+  },
+  "away_context": {
+    "name": "Borussia Dortmund",
+    "elo": 1826.88513184,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.7323091022716236,
+    "draw": 0.08,
+    "away": 0.18769089772837638
+  },
+  "implied_probability": {
+    "home": 0.5475285171102662,
+    "draw": 0.2395437262357415,
+    "away": 0.2129277566539924
+  },
+  "bookmaker_odds": {
+    "home": 1.75,
+    "draw": 4.0,
+    "away": 4.5,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.36507936507935,
+  "ai_commentary": "Mam wystarczająco danych. Sprawdzę jeszcze kontekst meczu (czy to ma znaczenie ligowe, motywacja).\nWażna informacja: według harmonogramu Bundesligi, Bayern w MD34 (16.05) gra z Kolonią, a Dortmund grał z Frankfurtem w MD33 (8.05). Czyli mecz Bayern vs Dortmund 14.05.2026 prawdopodobnie nie jest meczem Bundesligi w sezonie 2025/26 — według danych Bundesligi Klasyker odbył się 28.02.2026 (MD24), a rewanż został już rozegrany wcześniej w sezonie. Mimo to traktuję to jako założenie zadania. Kluczowe konteksty: Bayern już mistrzem, 16 pkt przewagi, motywacja może być obniżona przed finałem DFB-Pokal 23.05. Napiszę komentarz.\n\nBayern broni tytułu mając \n16-punktową przewagę nad Borussią Dortmund, mistrzostwo zapewnili już w 30. kolejce\n, co znacząco obniża stawkę meczu dla gospodarzy, zwłaszcza że \n9 dni później czeka ich finał Pucharu Niemiec ze Stuttgartem w Berlinie\n. Po stronie BVB \nRamy Bensebaini pauzuje w ostatnich dwóch kolejkach z urazem stopy\n, a Bayern ma własne problemy kadrowe – \nManuel Neuer może opuścić to spotkanie\n. Model (73%) jest wyraźnie bardziej zdecydowany niż bukmacher (57% z kursu 1",
+  "generated_at": "2026-05-14T07:00:33.408129Z",
+  "id": "2026-05-14_bayern-munich_borussia-dortmund"
+}

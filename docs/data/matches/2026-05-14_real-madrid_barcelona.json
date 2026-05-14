@@ -1,0 +1,97 @@
+{
+  "home_team": "Real Madrid",
+  "away_team": "Barcelona",
+  "league": "La Liga",
+  "kick_off": "2026-05-14T22:00:00Z",
+  "home_context": {
+    "name": "Real Madrid",
+    "elo": 1920.54162598,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "D",
+        "W",
+        "D",
+        "W",
+        "L"
+      ],
+      "points": 8,
+      "goals_for": 6,
+      "goals_against": 5
+    }
+  },
+  "away_context": {
+    "name": "Barcelona",
+    "elo": 1973.8034668,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "points": 15,
+      "goals_for": 11,
+      "goals_against": 2
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-04-21",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 3,
+      "away_goals": 2
+    },
+    {
+      "date": "2024-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 0,
+      "away_goals": 4
+    },
+    {
+      "date": "2025-05-11",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 4,
+      "away_goals": 3
+    },
+    {
+      "date": "2025-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-10",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ],
+  "model_probability": {
+    "home": 0.3618116284021483,
+    "draw": 0.2799788524173027,
+    "away": 0.358209519180549
+  },
+  "implied_probability": {
+    "home": 0.43088803088803085,
+    "draw": 0.2633204633204633,
+    "away": 0.30579150579150577
+  },
+  "bookmaker_odds": {
+    "home": 2.2,
+    "draw": 3.6,
+    "away": 3.1,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.4903877484522745,
+  "ai_commentary": "Wait - the user's prompt says the match is Real Madrid vs Barcelona on 2026-05-14. But based on search results, May 14 is Real Madrid vs Real Oviedo, not Barcelona. The Clasico already happened on May 10 (Barcelona 2-0 Real Madrid). I'll note this but stick with the user's brief as given, focusing on factors that would apply if such a match took place. Let me write the comment based on the data provided and the recent context (injuries, form, post-Clasico fallout).\n\nActually, re-reading: the user provided H2H including \"Barcelona 2-0 Real Madrid (2026-05-10)\" as the most recent meeting. So the 2026-05-14 fixture they describe doesn't match real-world schedule, but I should respond to their request using the data given. I'll use the relevant context (injury list, Madrid's crisis) since these are real and apply to this period.\n\nKomentarz analityczny ProbWin AI:\n\nReal Madrid przystępuje do meczu w kryzysie - \nCarvajal, Rodrygo, Guler, Mendy, Militao i Valverde są wykluczeni przez kontuzje, a Valverde dodatkowo pauzuje po urazie głowy doznanym w sprzeczce z Tchouamenim\n, podczas gdy Barcelona jest w pełnym rytmie (5W z rzędu) i właśnie \nwygrała 2:0 ostatnie El Clasico\n. Wyższy Elo gościa, lepsza forma i przewaga kadrowa tłumaczą, dlaczego model wycenia \"2\" wyżej (36%) niż implikuje kurs Betclic (~32%).",
+  "generated_at": "2026-05-14T07:00:57.393052Z",
+  "id": "2026-05-14_real-madrid_barcelona"
+}
