@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../api/api_client.dart';
+import '../services/subscription_service.dart';
 import '../theme.dart';
 
 class SettingsScreen extends StatelessWidget {
   final ApiClient api;
-  const SettingsScreen({super.key, required this.api});
+  final SubscriptionService subscription;
+  const SettingsScreen({
+    super.key,
+    required this.api,
+    required this.subscription,
+  });
 
   Future<void> _open(String url) async {
     final uri = Uri.parse(url);
@@ -19,6 +25,46 @@ class SettingsScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+          Card(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Subskrypcja',
+                      style: TextStyle(
+                          color: AppColors.text,
+                          fontWeight: FontWeight.w600,
+                          fontSize: 16)),
+                  const SizedBox(height: 8),
+                  Text(
+                    subscription.isSubscribed
+                        ? 'Aktywna subskrypcja miesieczna. Dziekujemy!'
+                        : subscription.trialActive
+                            ? 'Darmowy okres: pozostalo '
+                                '${subscription.trialDaysLeft} dni.'
+                            : 'Darmowy okres zakonczony.',
+                    style: const TextStyle(
+                        color: AppColors.textDim, fontSize: 13),
+                  ),
+                  const SizedBox(height: 12),
+                  if (subscription.isSubscribed)
+                    _LinkRow(
+                      label: 'Zarzadzaj subskrypcja',
+                      onTap: () => _open(
+                          'https://apps.apple.com/account/subscriptions'),
+                    )
+                  else ...[
+                    _LinkRow(
+                      label: 'Przywroc zakup',
+                      onTap: () => subscription.restore(),
+                    ),
+                  ],
+                ],
+              ),
+            ),
+          ),
+          const SizedBox(height: 16),
           Card(
             child: Padding(
               padding: const EdgeInsets.all(16),

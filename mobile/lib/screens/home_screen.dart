@@ -2,15 +2,22 @@
 import 'package:flutter/material.dart';
 import '../api/api_client.dart';
 import '../models/match.dart';
+import '../services/subscription_service.dart';
 import '../theme.dart';
 import '../widgets/match_card.dart';
 import 'match_detail_screen.dart';
+import 'paywall_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final ApiClient api;
+  final SubscriptionService subscription;
 
-  const HomeScreen({super.key, required this.api});
+  const HomeScreen({
+    super.key,
+    required this.api,
+    required this.subscription,
+  });
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -43,7 +50,11 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: const Icon(Icons.settings_outlined),
             onPressed: () => Navigator.of(context).push(
               MaterialPageRoute(
-                  builder: (_) => SettingsScreen(api: widget.api)),
+                builder: (_) => SettingsScreen(
+                  api: widget.api,
+                  subscription: widget.subscription,
+                ),
+              ),
             ),
           ),
         ],
@@ -66,12 +77,28 @@ class _HomeScreenState extends State<HomeScreen> {
             if (matches.isEmpty) {
               return _EmptyView(onRetry: _refresh);
             }
+            final sub = widget.subscription;
+            final showTrialBanner = !sub.isSubscribed && sub.trialActive;
             return ListView.builder(
               padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
-              itemCount: matches.length + 1,
+              itemCount: matches.length + (showTrialBanner ? 2 : 1),
               itemBuilder: (context, i) {
                 if (i == 0) return _Header(count: matches.length);
-                final m = matches[i - 1];
+                if (showTrialBanner && i == 1) {
+                  return _TrialBanner(
+                    daysLeft: sub.trialDaysLeft,
+                    onTap: () => Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (_) => PaywallScreen(
+                          subscription: sub,
+                          dismissible: true,
+                          onUnlocked: () => Navigator.of(context).pop(),
+                        ),
+                      ),
+                    ),
+                  );
+                }
+                final m = matches[i - 1 - (showTrialBanner ? 1 : 0)];
                 return MatchCard(
                   match: m,
                   onTap: () => Navigator.of(context).push(
@@ -142,6 +169,60 @@ class _ErrorView extends StatelessWidget {
                 onPressed: () => onRetry(),
                 child: const Text('Sprobuj ponownie')),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class _TrialBanner extends StatelessWidget {
+  final int daysLeft;
+  final VoidCallback onTap;
+  const _TrialBanner({required this.daysLeft, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 12),
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(12),
+        child: Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: AppColors.panel,
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: AppColors.accent2),
+          ),
+          child: Row(
+            children: [
+              const Icon(Icons.workspace_premium,
+                  color: AppColors.accent2, size: 28),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      daysLeft == 1
+                          ? 'Ostatni dzien darmowego dostepu'
+                          : 'Darmowy dostep: $daysLeft dni',
+                      style: const TextStyle(
+                          color: AppColors.text,
+                          fontWeight: FontWeight.w700,
+                          fontSize: 14),
+                    ),
+                    const SizedBox(height: 2),
+                    const Text('Subskrybuj, aby korzystac bez przerwy',
+                        style: TextStyle(
+                            color: AppColors.textDim, fontSize: 12)),
+                  ],
+                ),
+              ),
+              const Icon(Icons.arrow_forward_ios,
+                  color: AppColors.textDim, size: 14),
+            ],
+          ),
         ),
       ),
     );

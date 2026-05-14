@@ -19,6 +19,7 @@ dependencies:
   shared_preferences: ^2.2.2
   url_launcher: ^6.2.5            # otwieranie helpline / privacy URL
   package_info_plus: ^8.0.0       # info o wersji aplikacji w settings
+  in_app_purchase: ^3.2.0         # subskrypcja miesieczna po 3-dniowym trialu
 
 dev_dependencies:
   flutter_test:
