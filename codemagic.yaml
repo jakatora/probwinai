@@ -94,7 +94,7 @@ workflows:
           # (ma poprawne mapowanie provisioning profili) - NIE naszego recznego z repo.
           flutter build ipa \
             --release \
-            --build-name=0.1.0 \
+            --build-name=0.1.1 \
             --build-number=$(($BUILD_NUMBER + 100)) \
             --dart-define=API_URL="$API_URL" \
             --export-options-plist="$CM_BUILD_DIR/export_options.plist"
@@ -143,7 +143,7 @@ workflows:
           cd mobile
           flutter build appbundle \
             --release \
-            --build-name=0.1.0 \
+            --build-name=0.1.1 \
             --build-number=$(($BUILD_NUMBER + 100)) \
             --dart-define=API_URL=$PROBWIN_API_URL
 
