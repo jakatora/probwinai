@@ -1,0 +1,97 @@
+{
+  "home_team": "Newcastle",
+  "away_team": "Brighton",
+  "league": "Premier League",
+  "kick_off": "2026-05-15T21:00:00Z",
+  "home_context": {
+    "name": "Newcastle",
+    "elo": 1837.14758301,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "L",
+        "L",
+        "W",
+        "D"
+      ],
+      "points": 4,
+      "goals_for": 6,
+      "goals_against": 7
+    }
+  },
+  "away_context": {
+    "name": "Brighton",
+    "elo": 1854.48791504,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "W"
+      ],
+      "points": 10,
+      "goals_for": 11,
+      "goals_against": 5
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-05-11",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "date": "2024-10-19",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "date": "2025-05-04",
+      "home_team": "Brighton",
+      "away_team": "Newcastle",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "date": "2025-10-18",
+      "home_team": "Brighton",
+      "away_team": "Newcastle",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-02",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 3,
+      "away_goals": 1
+    }
+  ],
+  "model_probability": {
+    "home": 0.40427292858085917,
+    "draw": 0.2702461845995079,
+    "away": 0.32548088681963294
+  },
+  "implied_probability": {
+    "home": 0.45092838196286467,
+    "draw": 0.2705570291777188,
+    "away": 0.27851458885941643
+  },
+  "bookmaker_odds": {
+    "home": 2.1,
+    "draw": 3.5,
+    "away": 3.4,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.602240896358546,
+  "ai_commentary": "Rownorzedne ratingi Elo - mecz wyrownany na papierze. Newcastle ma 1/5 zwyciestw w ostatnich meczach, Brighton 3/5. Model i bukmacher zgodni - kurs odpowiada modelowemu prawdopodobienstwu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-15T07:07:36.501396Z",
+  "id": "2026-05-15_newcastle_brighton"
+}

@@ -1,0 +1,49 @@
+{
+  "home_team": "Liverpool",
+  "away_team": "Manchester United",
+  "league": "Premier League",
+  "kick_off": "2026-05-16T02:00:00Z",
+  "home_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "D"
+      ],
+      "points": 10,
+      "goals_for": 10,
+      "goals_against": 6
+    }
+  },
+  "away_context": {
+    "name": "Manchester United",
+    "elo": 1896.59924316,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4725556935605835,
+    "draw": 0.23521767979782585,
+    "away": 0.29222662664159066
+  },
+  "implied_probability": {
+    "home": 0.5216280925778132,
+    "draw": 0.25395051875498803,
+    "away": 0.22442138866719874
+  },
+  "bookmaker_odds": {
+    "home": 1.85,
+    "draw": 3.8,
+    "away": 4.3,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.6256574812266296,
+  "ai_commentary": "Wait - the match in question is Liverpool vs Manchester United on 2026-05-16 at Anfield (since Liverpool is host). The results I see are from May 3 at Old Trafford. Let me search for the May 16 fixture specifically.\nThe user's specified match is Liverpool (home) vs Man United on 2026-05-16, but the actual Premier League fixture from this season was on May 3 at Old Trafford. There seems to be a mismatch. The user has given me data treating Liverpool as host. I should write the analytical comment based on the data provided, supplementing with relevant recent news. The latest news (May 14 from premierinjuries) gives the most current info - Salah returning from bench, Konaté training, Alisson decision, Wirtz doubt. That's the most useful recent context.\n\nLet me write the commentary based on the data provided plus what we know.\n\nKomentarz analityczny:\n\n\nLiverpool zbliża się do odzyskania kluczowych graczy – Konaté wrócił do treningów, a Salah ma być dostępny z ławki po niedawnym urazie mięśniowym\n, jednak \ndecyzja o Alissonie zapadnie późno, a Wirtz pauzował z powodu infekcji\n, co osłabia ofensywny rytm gospodarzy. United przyjeżdżają w bardzo dobrej formie pod Carrickiem i \nw tym sezonie wygrali już 2-1 na Anfield w październiku\n, co model ProbWin (47/24/29) wydaje się ignorować mocniej niż bukmacher – stąd kurs 1.85 na gospodarza wygląda na bardziej konserwatywny niż implikowane prawdopodobieństwo modelu. Różnica wynika głównie z premiowania przez model Elo i formy domowej Liverpoolu, podczas gdy rynek uwzględnia kontek",
+  "generated_at": "2026-05-15T07:06:04.708432Z",
+  "id": "2026-05-15_liverpool_manchester-united"
+}

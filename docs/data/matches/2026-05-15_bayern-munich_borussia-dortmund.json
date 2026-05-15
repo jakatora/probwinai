@@ -1,0 +1,49 @@
+{
+  "home_team": "Bayern Munich",
+  "away_team": "Borussia Dortmund",
+  "league": "Bundesliga",
+  "kick_off": "2026-05-15T23:00:00Z",
+  "home_context": {
+    "name": "Bayern Munich",
+    "elo": 2008.38562012,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "W"
+      ],
+      "points": 13,
+      "goals_for": 17,
+      "goals_against": 8
+    }
+  },
+  "away_context": {
+    "name": "Borussia Dortmund",
+    "elo": 1826.88513184,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.7323091022716236,
+    "draw": 0.08,
+    "away": 0.18769089772837638
+  },
+  "implied_probability": {
+    "home": 0.5475285171102662,
+    "draw": 0.2395437262357415,
+    "away": 0.2129277566539924
+  },
+  "bookmaker_odds": {
+    "home": 1.75,
+    "draw": 4.0,
+    "away": 4.5,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.36507936507935,
+  "ai_commentary": "Mam wystarczające informacje. Bayern już zapewnił sobie tytuł, co jest kluczowym kontekstem motywacyjnym. Piszę komentarz.\n\nKomentarz analityczny:\n\n\nBayern przystępuje do meczu z już zapewnionym 35. tytułem mistrzowskim, mając 13 punktów przewagi nad drugim Dortmundem\n, co istotnie obniża stawkę spotkania dla gospodarzy i może skutkować rotacjami przed finałem Pucharu Niemiec. \nBVB wciąż walczy o pozycję wicemistrza i w tym sezonie przegrał z mistrzem zarówno u siebie, jak i na wyjeździe\n, więc motywacja gości jest wyższa niż sugeruje sam Elo. Stąd model ProbWin (73%) wydaje się zawyżać szanse Bayernu względem kursu Betclic (1.75 ≈ 57%), który uwzględnia czynnik motywacji i możliwych zmian w składzie.",
+  "generated_at": "2026-05-15T07:06:38.508440Z",
+  "id": "2026-05-15_bayern-munich_borussia-dortmund"
+}

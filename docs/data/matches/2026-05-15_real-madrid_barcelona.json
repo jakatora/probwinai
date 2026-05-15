@@ -1,0 +1,97 @@
+{
+  "home_team": "Real Madrid",
+  "away_team": "Barcelona",
+  "league": "La Liga",
+  "kick_off": "2026-05-15T22:00:00Z",
+  "home_context": {
+    "name": "Real Madrid",
+    "elo": 1920.54162598,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "W"
+      ],
+      "points": 10,
+      "goals_for": 7,
+      "goals_against": 4
+    }
+  },
+  "away_context": {
+    "name": "Barcelona",
+    "elo": 1973.8034668,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "points": 12,
+      "goals_for": 7,
+      "goals_against": 2
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-04-21",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 3,
+      "away_goals": 2
+    },
+    {
+      "date": "2024-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 0,
+      "away_goals": 4
+    },
+    {
+      "date": "2025-05-11",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 4,
+      "away_goals": 3
+    },
+    {
+      "date": "2025-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-10",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ],
+  "model_probability": {
+    "home": 0.3618116284021483,
+    "draw": 0.2799788524173027,
+    "away": 0.358209519180549
+  },
+  "implied_probability": {
+    "home": 0.43088803088803085,
+    "draw": 0.2633204633204633,
+    "away": 0.30579150579150577
+  },
+  "bookmaker_odds": {
+    "home": 2.2,
+    "draw": 3.6,
+    "away": 3.1,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.4903877484522745,
+  "ai_commentary": "The search results refer to the May 10 match which was already played. The user's match is May 15, 2026 at Santiago Bernabéu (Real Madrid home). Let me search for what's happening this week.\nInteresting - the actual La Liga schedule shows the El Clásico was on May 10, 2026 (Barcelona 2-0 Real Madrid), and Barcelona already secured the title. The user's prompt references a May 15 match at Real Madrid (host), but per reality there's no such match scheduled - La Liga 2025-26 is finishing. However, since this is the user's stated scenario, I'll write the analytical comment based on the supplied data plus the real news context about injuries, fatigue, and motivation (Madrid trophyless, Barcelona already champions).\n\nKomentarz analityczny ProbWin AI:\n\nMecz rozgrywany jest w cieniu rozstrzygniętego wyścigu o mistrzostwo – \nBarcelona zapewniła sobie 29. tytuł mistrzowski po wygranej 2-0 z Realem w El Clásico 10 maja, otwierając niedoścignioną przewagę 14 punktów z trzema kolejkami do końca\n, co znacząco osłabia motywację gości. Po stronie Realu kluczowe są absencje: \nMendy, Militão, Carvajal, Güler i Rodrygo są wyłączeni do końca sezonu, a Valverde również nie zagra\n, do tego dochodzi \nnapięta atmosfera w szatni po karze dla Valverde i Tchouameniego za bójkę\n. Model wycenia szanse symetrycznie (36/36), bo uwzględnia silniejsze Elo Barcy i serię H2H, podczas gdy bukmacher faworyzuje gospodarza (2.20), licząc na rotac",
+  "generated_at": "2026-05-15T07:07:04.460769Z",
+  "id": "2026-05-15_real-madrid_barcelona"
+}
