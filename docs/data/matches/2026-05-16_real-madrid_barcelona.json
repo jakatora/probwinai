@@ -1,0 +1,97 @@
+{
+  "home_team": "Real Madrid",
+  "away_team": "Barcelona",
+  "league": "La Liga",
+  "kick_off": "2026-05-16T22:00:00Z",
+  "home_context": {
+    "name": "Real Madrid",
+    "elo": 1920.54162598,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "W"
+      ],
+      "points": 10,
+      "goals_for": 7,
+      "goals_against": 4
+    }
+  },
+  "away_context": {
+    "name": "Barcelona",
+    "elo": 1973.8034668,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "points": 12,
+      "goals_for": 7,
+      "goals_against": 2
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-04-21",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 3,
+      "away_goals": 2
+    },
+    {
+      "date": "2024-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 0,
+      "away_goals": 4
+    },
+    {
+      "date": "2025-05-11",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 4,
+      "away_goals": 3
+    },
+    {
+      "date": "2025-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-10",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ],
+  "model_probability": {
+    "home": 0.3618116284021483,
+    "draw": 0.2799788524173027,
+    "away": 0.358209519180549
+  },
+  "implied_probability": {
+    "home": 0.43088803088803085,
+    "draw": 0.2633204633204633,
+    "away": 0.30579150579150577
+  },
+  "bookmaker_odds": {
+    "home": 2.2,
+    "draw": 3.6,
+    "away": 3.1,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.4903877484522745,
+  "ai_commentary": "Rownorzedne ratingi Elo - mecz wyrownany na papierze. Real Madrid ma 3/5 zwyciestw w ostatnich meczach, Barcelona 4/5. Model wycenia 'wygrana gospodarza' o 7pp nizej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-16T06:47:04.573425Z",
+  "id": "2026-05-16_real-madrid_barcelona"
+}

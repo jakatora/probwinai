@@ -1,0 +1,49 @@
+{
+  "home_team": "Liverpool",
+  "away_team": "Manchester United",
+  "league": "Premier League",
+  "kick_off": "2026-05-17T02:00:00Z",
+  "home_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "D"
+      ],
+      "points": 10,
+      "goals_for": 10,
+      "goals_against": 6
+    }
+  },
+  "away_context": {
+    "name": "Manchester United",
+    "elo": 1896.59924316,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4725556935605835,
+    "draw": 0.23521767979782585,
+    "away": 0.29222662664159066
+  },
+  "implied_probability": {
+    "home": 0.5216280925778132,
+    "draw": 0.25395051875498803,
+    "away": 0.22442138866719874
+  },
+  "bookmaker_odds": {
+    "home": 1.85,
+    "draw": 3.8,
+    "away": 4.3,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.6256574812266296,
+  "ai_commentary": "Rownorzedne ratingi Elo - mecz wyrownany na papierze. Liverpool ma 3/5 zwyciestw w ostatnich meczach. Model wycenia 'wygrana goscia' o 7pp wyzej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-16T06:46:58.390477Z",
+  "id": "2026-05-16_liverpool_manchester-united"
+}
