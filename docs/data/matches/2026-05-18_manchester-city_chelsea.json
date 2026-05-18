@@ -1,0 +1,49 @@
+{
+  "home_team": "Manchester City",
+  "away_team": "Chelsea",
+  "league": "Premier League",
+  "kick_off": "2026-05-18T20:00:00Z",
+  "home_context": {
+    "name": "Manchester City",
+    "elo": 1967.23547363,
+    "form": null
+  },
+  "away_context": {
+    "name": "Chelsea",
+    "elo": 1827.88745117,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "D"
+      ],
+      "points": 1,
+      "goals_for": 2,
+      "goals_against": 11
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.6716672228579009,
+    "draw": 0.10890879156626722,
+    "away": 0.2194239855758319
+  },
+  "implied_probability": {
+    "home": 0.5804311774461027,
+    "draw": 0.2280265339966832,
+    "away": 0.19154228855721392
+  },
+  "bookmaker_odds": {
+    "home": 1.65,
+    "draw": 4.2,
+    "away": 5.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.415584415584428,
+  "ai_commentary": "Wyrazna roznica klas: Manchester City ma ratingi Elo wyzsze o 139 pkt. Chelsea 0/5. Model wycenia 'remis' o 12pp nizej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-05-18T07:21:44.751343Z",
+  "id": "2026-05-18_manchester-city_chelsea"
+}
