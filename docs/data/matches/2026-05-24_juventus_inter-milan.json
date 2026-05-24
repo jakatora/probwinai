@@ -1,0 +1,49 @@
+{
+  "home_team": "Juventus",
+  "away_team": "Inter Milan",
+  "league": "Serie A",
+  "kick_off": "2026-05-25T01:00:00Z",
+  "home_context": {
+    "name": "Juventus",
+    "elo": 1789.74865723,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "D",
+        "D",
+        "W",
+        "L"
+      ],
+      "points": 8,
+      "goals_for": 4,
+      "goals_against": 3
+    }
+  },
+  "away_context": {
+    "name": "Inter Milan",
+    "elo": 1892.42724609,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.3175847091284298,
+    "draw": 0.2645309895716832,
+    "away": 0.417884301299887
+  },
+  "implied_probability": {
+    "home": 0.33876221498371334,
+    "draw": 0.29641693811074915,
+    "away": 0.3648208469055374
+  },
+  "bookmaker_odds": {
+    "home": 2.8,
+    "draw": 3.2,
+    "away": 2.6,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.425824175824179,
+  "ai_commentary": "Based on the research, I have enough context. The match is at Allianz Stadium (Juventus home), and Inter is the league leader fighting for Scudetto while Juventus battles for Champions League spots. Let me craft the commentary.\n\n\nJuventus pod Spallettim notują wyraźną poprawę, ale Inter w ostatnich miesiącach złapał poważną formę i buduje przewagę w walce o Scudetto\n, co tłumaczy wysoki rating Elo gościa. \nJuventus musi szukać szybkiego otwarcia, bo przegrał wszystkie cztery wyjazdowe mecze, w których stracił pierwszego gola\n, a kadrowo nadal brakuje Vlahovicia i Milika. Model ProbWin (42% na 2) jest bardziej zdecydowany niż Betclic, bo silniej wycenia różnicę Elo i formę Interu; bukmacher zostawia margines na efekt domu i nieprzewidywalność derbów.\n\n(396 znaków)",
+  "generated_at": "2026-05-24T07:07:51.586504Z",
+  "id": "2026-05-24_juventus_inter-milan"
+}

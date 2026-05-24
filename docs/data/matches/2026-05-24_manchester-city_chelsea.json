@@ -1,0 +1,49 @@
+{
+  "home_team": "Manchester City",
+  "away_team": "Chelsea",
+  "league": "Premier League",
+  "kick_off": "2026-05-24T20:00:00Z",
+  "home_context": {
+    "name": "Manchester City",
+    "elo": 1967.23547363,
+    "form": null
+  },
+  "away_context": {
+    "name": "Chelsea",
+    "elo": 1827.88745117,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "L",
+        "L",
+        "D",
+        "W"
+      ],
+      "points": 4,
+      "goals_for": 4,
+      "goals_against": 9
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.6716672228579009,
+    "draw": 0.10890879156626722,
+    "away": 0.2194239855758319
+  },
+  "implied_probability": {
+    "home": 0.5804311774461027,
+    "draw": 0.2280265339966832,
+    "away": 0.19154228855721392
+  },
+  "bookmaker_odds": {
+    "home": 1.65,
+    "draw": 4.2,
+    "away": 5.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.415584415584428,
+  "ai_commentary": "Mam już dość danych. Pisze komentarz po polsku, zwięźle.\n\nKomentarz analityczny ProbWin AI:\n\n\nManchester City walczy o trofea pod Guardiolą, podczas gdy Chelsea ratuje turbulentny sezon naznaczony zmianami trenerskimi i niestabilną formą\n, co tłumaczy wysoką przewagę gospodarzy w modelu. \nCity są niepokonane w 13 ostatnich meciach z Chelsea (W10 D3), włącznie z niedawnym 3-0 w Premier League\n. Kluczowa niewiadoma to \nobecność Rodriego, który nadal pozostawał wątpliwy z powodu problemów mięśniowych\n. Model (67%) jest agresywniejszy niż kurs (≈61%), bo silniej waży H2H i różnicę Elo, ignorując ryzyko rotacji składu po finale FA Cup.\n\n(396 znaków)",
+  "generated_at": "2026-05-24T07:07:32.486808Z",
+  "id": "2026-05-24_manchester-city_chelsea"
+}

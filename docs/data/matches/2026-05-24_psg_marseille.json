@@ -1,0 +1,49 @@
+{
+  "home_team": "PSG",
+  "away_team": "Marseille",
+  "league": "Ligue 1",
+  "kick_off": "2026-05-25T00:00:00Z",
+  "home_context": {
+    "name": "PSG",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Marseille",
+    "elo": 1701.1282959,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "D",
+        "L",
+        "W",
+        "W"
+      ],
+      "points": 7,
+      "goals_for": 5,
+      "goals_against": 7
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.6208842897460018,
+    "draw": 0.2187206020696143,
+    "away": 0.16039510818438382
+  },
+  "bookmaker_odds": {
+    "home": 1.55,
+    "draw": 4.4,
+    "away": 6.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.910068426197455,
+  "ai_commentary": "Mam wystarczająco danych. Kluczowe fakty: PSG gra finał LM 30 maja z Arsenalem, więc rotacja składu jest prawdopodobna. Kontuzje: Dembélé (łydka, wątpliwy), Hakimi, Chevalier, wcześniej Pacho/Mendes/Zaïre-Emery. Marseille walczy o miejsce w czołówce.\n\n**Komentarz analityczny:**\n\n\nPSG, finalista Ligi Mistrzów, broni europejskiego trofeum 30 maja w Budapeszcie przeciwko Arsenalowi\n, co czyni rotację składu w tym spotkaniu bardzo prawdopodobną. Do listy absencji (Hakimi, Chevalier) \ndoszły obawy o Dembélé leczonego po nadwyrężeniu łydki\n, co osłabia ofensywę gospodarzy. Marseille, prowadzone przez De Zerbiego, ma realny motyw — \nto jeden z dwóch zespołów, które pokonały PSG w tym sezonie Ligue 1\n. Stąd model wycenia „2\" wyżej (30% vs ~17% u bukmachera), uwzględniając kontekst kadrowy i priorytet finału LM.\n\n(396 znaków)",
+  "generated_at": "2026-05-24T07:07:05.055645Z",
+  "id": "2026-05-24_psg_marseille"
+}

@@ -1,0 +1,97 @@
+{
+  "home_team": "Aston Villa",
+  "away_team": "Liverpool",
+  "league": "Premier League",
+  "kick_off": "2026-05-24T18:00:00Z",
+  "home_context": {
+    "name": "Aston Villa",
+    "elo": 1874.75610352,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "L",
+        "D",
+        "W"
+      ],
+      "points": 7,
+      "goals_for": 11,
+      "goals_against": 10
+    }
+  },
+  "away_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "L",
+        "D",
+        "L"
+      ],
+      "points": 7,
+      "goals_for": 10,
+      "goals_against": 10
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-05-13",
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "home_goals": 3,
+      "away_goals": 3
+    },
+    {
+      "date": "2024-11-09",
+      "home_team": "Liverpool",
+      "away_team": "Aston Villa",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "date": "2025-02-19",
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "home_goals": 2,
+      "away_goals": 2
+    },
+    {
+      "date": "2025-11-01",
+      "home_team": "Liverpool",
+      "away_team": "Aston Villa",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "date": "2026-05-15",
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "home_goals": 4,
+      "away_goals": 2
+    }
+  ],
+  "model_probability": {
+    "home": 0.3649090561943126,
+    "draw": 0.2798477989098368,
+    "away": 0.3552431448958506
+  },
+  "implied_probability": {
+    "home": 0.3023827534039334,
+    "draw": 0.2403555219364599,
+    "away": 0.4572617246596066
+  },
+  "bookmaker_odds": {
+    "home": 3.1,
+    "draw": 3.9,
+    "away": 2.05,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 6.6795779620327345,
+  "ai_commentary": "Wyniki dotyczą meczu z 15 maja. Mecz w danych (24 maja) wydaje się być rewanżem/innym spotkaniem - prawdopodobnie zakończeniem sezonu. Sprawdźmy aktualności na 24 maja.\nWszystkie wyniki dotyczą meczu z 15 maja 2026 (który już się odbył - Villa wygrała 4-2). Mecz w danych użytkownika z datą 24 maja 2026 prawdopodobnie nie istnieje w rzeczywistym kalendarzu PL (Villa grała wtedy z Man City, Liverpool z Brentford na zakończenie sezonu). To może być błąd w danych zadania, ale komentarz analityczny napiszę bazując na dostępnym kontekście (forma, kontuzje, motywacja z ostatnich meczów).\n\nKomentarz analityczny:\n\nKluczowy kontekst: \nAston Villa wygrała 4-2 ostatnie starcie 15 maja, dublet Watkinsa oraz trafienia Rogersa i McGinna zapewniły im miejsce w top 5\n, co potwierdza ofensywną przewagę gospodarzy. \nVilla ma jednak fatalny bilans historyczny - tylko jedno zwycięstwo w 16 ostatnich ligowych meczach z Liverpoolem\n, co tłumaczy ostrożność bukmachera wobec gospodarzy. Po stronie Liverpoolu utrzymują się problemy kadrowe - \nEkitike, Bradley, Leoni i Endo są długoterminowo wyłączeni\n, a forma wyjazdowa jest słaba. Model wyrównuje szanse (36/36) prawdopodobnie ze względu na świeży wynik H2H i przewagę Villi u siebie, podczas gdy bukmac",
+  "generated_at": "2026-05-24T07:08:09.385360Z",
+  "id": "2026-05-24_aston-villa_liverpool"
+}
