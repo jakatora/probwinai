@@ -1,0 +1,49 @@
+{
+  "home_team": "Atletico Madrid",
+  "away_team": "Sevilla",
+  "league": "La Liga",
+  "kick_off": "2026-05-26T03:00:00Z",
+  "home_context": {
+    "name": "Atletico Madrid",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Sevilla",
+    "elo": 1613.15478516,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ],
+      "points": 9,
+      "goals_for": 6,
+      "goals_against": 5
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.48519443453442745,
+    "draw": 0.27827327863003926,
+    "away": 0.23653228683553335
+  },
+  "bookmaker_odds": {
+    "home": 1.95,
+    "draw": 3.4,
+    "away": 4.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.693815987933637,
+  "ai_commentary": "Mam wystarczające informacje. Kluczowe konteksty: to ostatnia kolejka, Atletico jest 4. (walka o 3. miejsce - przy meczu Villarreal-Atletico 23.05 obie drużyny miały 69 pkt), Sevilla wcześniej zapewniła sobie utrzymanie (17.05). Daty się trochę nie zgadzają - mecz w bazie to 26.05 ale wg Wikipedii mecze zakończyły się 23.05. Napiszę komentarz w oparciu o znane fakty.\n\n\nSevilla zapewniła już utrzymanie w La Liga\n, co istotnie obniża stawkę meczu dla gospodarzy, podczas gdy \nAtletico walczy o trzecie miejsce w tabeli\n i ma jasny cel sportowy. \nSimeone notuje cztery wygrane w ostatnich pięciu kolejkach ligowych\n, co tłumaczy niski kurs na \"1\". Rozbieżność modelu (40%) wobec bukmachera (51% z 1.95) może wynikać z braku Elo gospodarza i ostatnich strat kadrowych Atletico (Koke, Nico Gonzalez, Barrios, Hancko), które zwiększają wariancję wyniku.\n\n(396 znaków)",
+  "generated_at": "2026-05-25T07:40:14.324875Z",
+  "id": "2026-05-25_atletico-madrid_sevilla"
+}

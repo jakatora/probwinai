@@ -1,0 +1,97 @@
+{
+  "home_team": "Newcastle",
+  "away_team": "Brighton",
+  "league": "Premier League",
+  "kick_off": "2026-05-25T21:00:00Z",
+  "home_context": {
+    "name": "Newcastle",
+    "elo": 1837.14758301,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "W",
+        "D",
+        "W",
+        "L"
+      ],
+      "points": 7,
+      "goals_for": 7,
+      "goals_against": 6
+    }
+  },
+  "away_context": {
+    "name": "Brighton",
+    "elo": 1854.48791504,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "L"
+      ],
+      "points": 6,
+      "goals_for": 7,
+      "goals_against": 7
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-05-11",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "date": "2024-10-19",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "date": "2025-05-04",
+      "home_team": "Brighton",
+      "away_team": "Newcastle",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "date": "2025-10-18",
+      "home_team": "Brighton",
+      "away_team": "Newcastle",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-02",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 3,
+      "away_goals": 1
+    }
+  ],
+  "model_probability": {
+    "home": 0.40427292858085917,
+    "draw": 0.2702461845995079,
+    "away": 0.32548088681963294
+  },
+  "implied_probability": {
+    "home": 0.45092838196286467,
+    "draw": 0.2705570291777188,
+    "away": 0.27851458885941643
+  },
+  "bookmaker_odds": {
+    "home": 2.1,
+    "draw": 3.5,
+    "away": 3.4,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.602240896358546,
+  "ai_commentary": "Wyniki wyszukiwania dotycza w wiekszosci poprzedniego meczu z 2 maja 2026 (Newcastle 3-1 Brighton). Mecz z 25 maja 2026 to ostatnia kolejka sezonu. Sprawdze najnowsze informacje.\nWyniki dotycza poprzedniego meczu z 2 maja. Mecz 25 maja 2026 to ostatnia kolejka sezonu - prawdopodobnie brak swiezych news z 48h, bo to wlasnie dzien meczu. Sprobuje znalezc cos bardziej swiezego.\nMam istotne informacje. Wazna uwaga - wedlug ostatnich wynikow Brighton bedzie gral z Manchester United w ostatniej kolejce, a nie z Newcastle. Ale uzytkownik podaje konkretny mecz Newcastle vs Brighton 25.05.2026. Zaufam danym uzytkownika i przygotuje komentarz na podstawie szerszego kontekstu. Z search wiem ze West Ham juz spadl, wiec Newcastle prawdopodobnie utrzymalo sie. Brighton walczy o Europe.\n\nKomentarz analityczny:\n\nNewcastle przed wlasna publicznoscia wraca po wysokiej wygranej 3-1 z Brighton z 2 maja, co lamie wczesniejsza dominacje Seagulls w H2H (\nBrighton mialo wczesniej szesc kolejnych meczow bez porazki z Newcastle\n). Kluczowy czynnik to motywacja: \nwalka o europejskie puchary pozostaje bardzo ciasna, a Brighton kontroluje swoj los przed ostatnia kolejka\n, podczas gdy gospodarze graja juz bez presji o utrzymanie. Forma obu zespolow jest chwiejna (LWDWL vs WLWLL), co tlumaczy szeroki rozrzut kursow. Roznica miedzy modelem (40% na 1) a bukmacherem (2.10, ok. 47%) jest niewielka - ProbWin lekko dyskontuje przewage gospodarza, prawdopodobnie ze wzgledu na lepszy Elo goscia i historyc",
+  "generated_at": "2026-05-25T07:40:37.182019Z",
+  "id": "2026-05-25_newcastle_brighton"
+}

@@ -1,0 +1,49 @@
+{
+  "home_team": "Manchester City",
+  "away_team": "Chelsea",
+  "league": "Premier League",
+  "kick_off": "2026-05-25T20:00:00Z",
+  "home_context": {
+    "name": "Manchester City",
+    "elo": 1967.23547363,
+    "form": null
+  },
+  "away_context": {
+    "name": "Chelsea",
+    "elo": 1827.88745117,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "L",
+        "D",
+        "W",
+        "L"
+      ],
+      "points": 4,
+      "goals_for": 5,
+      "goals_against": 10
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.6716672228579009,
+    "draw": 0.10890879156626722,
+    "away": 0.2194239855758319
+  },
+  "implied_probability": {
+    "home": 0.5804311774461027,
+    "draw": 0.2280265339966832,
+    "away": 0.19154228855721392
+  },
+  "bookmaker_odds": {
+    "home": 1.65,
+    "draw": 4.2,
+    "away": 5.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.415584415584428,
+  "ai_commentary": "Mam wystarczające dane. Pisze komentarz.\n\nKomentarz analityczny:\n\nCity gra u siebie w ostatniej kolejce sezonu z jasnym celem - \ntylko wygrane utrzymują ich w walce o tytuł z Arsenalem\n, co maksymalizuje motywację gospodarzy. Chelsea przyjeżdża po zwycięstwie 2-1 ze Spurs i walczy o pozycję europejską, ale forma LLDWL i absencje w defensywie City (Gvardiol po złamaniu piszczeli) tworzą mieszany obraz. Model (67%) jest nieco wyższy niż implikowane prawdopodobieństwo kursu (~58%), co sugeruje, że bukmacher mocniej waży ryzyko rotacji składu City przy ewentualnie przesądzonym tytule.\n\n(391 znaków)",
+  "generated_at": "2026-05-25T07:39:09.793073Z",
+  "id": "2026-05-25_manchester-city_chelsea"
+}

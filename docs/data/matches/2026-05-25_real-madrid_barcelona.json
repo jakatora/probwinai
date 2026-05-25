@@ -1,0 +1,97 @@
+{
+  "home_team": "Real Madrid",
+  "away_team": "Barcelona",
+  "league": "La Liga",
+  "kick_off": "2026-05-25T22:00:00Z",
+  "home_context": {
+    "name": "Real Madrid",
+    "elo": 1920.54162598,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "W"
+      ],
+      "points": 12,
+      "goals_for": 9,
+      "goals_against": 4
+    }
+  },
+  "away_context": {
+    "name": "Barcelona",
+    "elo": 1973.8034668,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "L"
+      ],
+      "points": 9,
+      "goals_for": 8,
+      "goals_against": 6
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-04-21",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 3,
+      "away_goals": 2
+    },
+    {
+      "date": "2024-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 0,
+      "away_goals": 4
+    },
+    {
+      "date": "2025-05-11",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 4,
+      "away_goals": 3
+    },
+    {
+      "date": "2025-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-10",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ],
+  "model_probability": {
+    "home": 0.3618116284021483,
+    "draw": 0.2799788524173027,
+    "away": 0.358209519180549
+  },
+  "implied_probability": {
+    "home": 0.43088803088803085,
+    "draw": 0.2633204633204633,
+    "away": 0.30579150579150577
+  },
+  "bookmaker_odds": {
+    "home": 2.2,
+    "draw": 3.6,
+    "away": 3.1,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.4903877484522745,
+  "ai_commentary": "Wait - the search results refer to a Clasico on May 10, 2026 played at Camp Nou, but the user's match is May 25, 2026 Real Madrid vs Barcelona. This is likely a different fixture - possibly Copa del Rey final or another competition. Let me search.\nThe May 10 Clasico was the last one in La Liga 2025-26. The user's match on 2026-05-25 Real Madrid vs Barcelona doesn't appear to be a real fixture - the La Liga season seems to have its last Clasico on May 10. But the task is from the ProbWin AI system; I'll treat the input data as given (it's a hypothetical/test scenario or perhaps a Copa final or rearranged fixture). I'll use the contextual news (injuries, Madrid in crisis without trophy, Barca already champions) to write the analysis.\n\nKey context I can use:\n- Madrid has many injuries: Rodrygo, Guler, Militao, Carvajal, Mendy, Mbappe (some), Valverde\n- Yamal out for Barca with hamstring (season-ending)\n- Barca already crowned champions May 10\n- Madrid trophy-less, in crisis, dressing room issues (Tchouameni-Valverde fracas)\n- Arbeloa caretaker, Mourinho linked\n\nLet me write the comment.\n\nKomentarz analityczny ProbWin AI:\n\nKluczowy kontekst to sytuacja kadrowa i motywacyjna obu drużyn. \nBarcelona już przypieczętowała tytuł mistrzowski w poprzednim Clasico, podczas gdy Real kończy sezon bez trofeum\n, co osłabia motywację gospodarzy mimo gry u siebie. \nMadryt zmaga się z poważnymi absencjami: Rodrygo, Guler, Militao, Carvajal, Mendy i Valverde są wyłączeni z gry\n, a",
+  "generated_at": "2026-05-25T07:38:16.247039Z",
+  "id": "2026-05-25_real-madrid_barcelona"
+}

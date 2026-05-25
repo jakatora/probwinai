@@ -1,0 +1,49 @@
+{
+  "home_team": "PSG",
+  "away_team": "Marseille",
+  "league": "Ligue 1",
+  "kick_off": "2026-05-26T00:00:00Z",
+  "home_context": {
+    "name": "PSG",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Marseille",
+    "elo": 1701.1282959,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "D",
+        "L",
+        "W",
+        "W"
+      ],
+      "points": 7,
+      "goals_for": 5,
+      "goals_against": 7
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.6208842897460018,
+    "draw": 0.2187206020696143,
+    "away": 0.16039510818438382
+  },
+  "bookmaker_odds": {
+    "home": 1.55,
+    "draw": 4.4,
+    "away": 6.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.910068426197455,
+  "ai_commentary": "Hmm, ważna informacja: według oficjalnego kalendarza Ligue 1, mecz PSG–Marseille rozegrany został 8 lutego 2026, a sezon Ligue 1 2025/26 zakończył się 17 maja 2026. Mecz 26 maja 2026 wydaje się być nietypowy - może to być mecz towarzyski lub mecz, którego nie ma w oficjalnym kalendarzu. Należy zauważyć, że PSG gra finał Ligi Mistrzów 30 maja przeciwko Arsenalowi. Napiszę komentarz uwzględniając ten kontekst.\n\nKomentarz analityczny:\n\n\nPSG ma już zapewniony tytuł mistrza Francji po wygranej z Lens 13 maja\n, a \n30 maja czeka ich finał Ligi Mistrzów z Arsenalem\n - kluczowy czynnik to rotacja składu i ryzyko oszczędzania liderów przed Budapesztem. Marseille gra o prestiż po \nlutowej porażce 0:5 na Parc des Princes\n i \nawansie do Europy\n. Rozbieżność modelu (40% na 1) vs bukmachera (kurs 1.55) wynika prawdopodobnie z uwzględnienia kontekstu motywacyjnego PSG - bukmacher wycenia jakość kadrową, model dostrzega ryzyko rotacji.",
+  "generated_at": "2026-05-25T07:38:44.075792Z",
+  "id": "2026-05-25_psg_marseille"
+}

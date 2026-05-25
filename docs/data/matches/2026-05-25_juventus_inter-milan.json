@@ -1,0 +1,49 @@
+{
+  "home_team": "Juventus",
+  "away_team": "Inter Milan",
+  "league": "Serie A",
+  "kick_off": "2026-05-26T01:00:00Z",
+  "home_context": {
+    "name": "Juventus",
+    "elo": 1789.74865723,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "D",
+        "D",
+        "W",
+        "L",
+        "D"
+      ],
+      "points": 6,
+      "goals_for": 4,
+      "goals_against": 5
+    }
+  },
+  "away_context": {
+    "name": "Inter Milan",
+    "elo": 1892.42724609,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.3175847091284298,
+    "draw": 0.2645309895716832,
+    "away": 0.417884301299887
+  },
+  "implied_probability": {
+    "home": 0.33876221498371334,
+    "draw": 0.29641693811074915,
+    "away": 0.3648208469055374
+  },
+  "bookmaker_odds": {
+    "home": 2.8,
+    "draw": 3.2,
+    "away": 2.6,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.425824175824179,
+  "ai_commentary": "Based on the search results, I have enough context. Inter has already won the Scudetto and finished their season at Bologna, so this Juventus vs Inter fixture context suggests it's the season finale. Let me write the comment.\n\nKomentarz analityczny:\n\n\nInter ma już zapewnione mistrzostwo Serie A i awans do Ligi Mistrzów\n, co realnie obniża motywację gości w końcówce sezonu, podczas gdy Juventus pod wodzą Spallettiego nadal walczy o miejsce premiowane LM. \nNiepokojąca jest sytuacja kadrowa Interu — Chivu zgłosił obawy o uraz Stefana de Vrij\n, co osłabia defensywę gości. Różnica między modelem (42% na 2) a kursem (2.60) wynika głównie z wyższego Elo Interu — bukmacher mocniej dyskontuje czynnik braku stawki dla mistrza.",
+  "generated_at": "2026-05-25T07:39:33.217706Z",
+  "id": "2026-05-25_juventus_inter-milan"
+}

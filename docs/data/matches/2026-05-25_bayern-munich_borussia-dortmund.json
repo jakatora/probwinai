@@ -1,0 +1,49 @@
+{
+  "home_team": "Bayern Munich",
+  "away_team": "Borussia Dortmund",
+  "league": "Bundesliga",
+  "kick_off": "2026-05-25T23:00:00Z",
+  "home_context": {
+    "name": "Bayern Munich",
+    "elo": 2008.38562012,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "points": 13,
+      "goals_for": 17,
+      "goals_against": 9
+    }
+  },
+  "away_context": {
+    "name": "Borussia Dortmund",
+    "elo": 1826.88513184,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.7323091022716236,
+    "draw": 0.08,
+    "away": 0.18769089772837638
+  },
+  "implied_probability": {
+    "home": 0.5475285171102662,
+    "draw": 0.2395437262357415,
+    "away": 0.2129277566539924
+  },
+  "bookmaker_odds": {
+    "home": 1.75,
+    "draw": 4.0,
+    "away": 4.5,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.36507936507935,
+  "ai_commentary": "Komentarz analityczny:\n\nBayern wchodzi w Klasyk z wyraźną przewagą Elo (181 pkt) i serią WWDWW, a \nManuel Neuer może opuścić kluczowe starcie z Dortmundem z powodu kontuzji\n, co lekko osłabia gospodarzy w bramce. Model ProbWin (73%) jest znacznie bardziej skrajny niż Betclic (57% z kursu 1.75) — bukmacher uwzględnia marżę i ryzyko derbowej niespodzianki przy braku danych H2H i formy gościa, podczas gdy model opiera się głównie na różnicy siły.",
+  "generated_at": "2026-05-25T07:37:59.276651Z",
+  "id": "2026-05-25_bayern-munich_borussia-dortmund"
+}
