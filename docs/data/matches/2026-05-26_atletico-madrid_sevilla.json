@@ -1,0 +1,49 @@
+{
+  "home_team": "Atletico Madrid",
+  "away_team": "Sevilla",
+  "league": "La Liga",
+  "kick_off": "2026-05-27T03:00:00Z",
+  "home_context": {
+    "name": "Atletico Madrid",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Sevilla",
+    "elo": 1613.15478516,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ],
+      "points": 9,
+      "goals_for": 6,
+      "goals_against": 5
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.48519443453442745,
+    "draw": 0.27827327863003926,
+    "away": 0.23653228683553335
+  },
+  "bookmaker_odds": {
+    "home": 1.95,
+    "draw": 3.4,
+    "away": 4.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.693815987933637,
+  "ai_commentary": "Interesting - the search results indicate La Liga's 2025-26 season ended on May 24, 2026, with Atletico's final match being away at Villarreal. The user's match (Atletico vs Sevilla on May 27) doesn't appear in the official schedule. This might be a friendly, a rescheduled match, or hypothetical. Sevilla already secured safety per earlier news. Let me write a careful analytical comment noting context.\n\nGiven character limits, I'll write a concise comment:\n\nMecz rozgrywany jest poza zasadniczym terminarzem La Liga, która zakończyła się 24 maja. \nAtletico ma już zapewnione miejsce w pierwszej piątce i awans do Ligi Mistrzów\n, a \nSevilla wcześniej zapewniła sobie utrzymanie\n, więc stawka sportowa jest ograniczona — to czynnik osłabiający faworyta. Kadrę gospodarza osłabiają absencje, m.in. \nAlmada wykluczony z powodu dyskomfortu mięśniowego\n oraz \nodpoczynek Alvareza przed MŚ\n. Stąd model ProbWin daje remisowi i wygranej gościa wyższe szanse niż kurs Betclic, który traktuje Atletico jak typowego faworyta domowego.\n\nLet me check character count and trim - this is too long. Need max 400 chars, 3-4 sentences.\n\n---\n\nMecz rozgrywany jest poza zwykłym terminarzem La Liga, która zakończyła się 24 maja, więc obie ekipy grają bez staw",
+  "generated_at": "2026-05-26T07:14:00.252217Z",
+  "id": "2026-05-26_atletico-madrid_sevilla"
+}

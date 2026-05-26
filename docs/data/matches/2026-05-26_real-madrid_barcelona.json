@@ -1,0 +1,97 @@
+{
+  "home_team": "Real Madrid",
+  "away_team": "Barcelona",
+  "league": "La Liga",
+  "kick_off": "2026-05-26T22:00:00Z",
+  "home_context": {
+    "name": "Real Madrid",
+    "elo": 1920.54162598,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "W"
+      ],
+      "points": 12,
+      "goals_for": 9,
+      "goals_against": 4
+    }
+  },
+  "away_context": {
+    "name": "Barcelona",
+    "elo": 1973.8034668,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "L"
+      ],
+      "points": 9,
+      "goals_for": 8,
+      "goals_against": 6
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-04-21",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 3,
+      "away_goals": 2
+    },
+    {
+      "date": "2024-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 0,
+      "away_goals": 4
+    },
+    {
+      "date": "2025-05-11",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 4,
+      "away_goals": 3
+    },
+    {
+      "date": "2025-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-10",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ],
+  "model_probability": {
+    "home": 0.3618116284021483,
+    "draw": 0.2799788524173027,
+    "away": 0.358209519180549
+  },
+  "implied_probability": {
+    "home": 0.43088803088803085,
+    "draw": 0.2633204633204633,
+    "away": 0.30579150579150577
+  },
+  "bookmaker_odds": {
+    "home": 2.2,
+    "draw": 3.6,
+    "away": 3.1,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.4903877484522745,
+  "ai_commentary": "Notuję, że ostatni Clasico 10 maja 2026 odbył się już, a w danych użytkownika gospodarzem jest Real Madrid (mecz 26 maja w La Liga - prawdopodobnie to inny mecz, lub kontekst hipotetyczny). Ważne fakty: liczne kontuzje Realu (Rodrygo, Militao, Güler, Mendy, Carvajal, Valverde), Mbappé wątpliwy, Yamal kontuzjowany w Barcelonie.\n\n\nMendy, Militão, Carvajal, Güler i Rodrygo zostali wykluczeni do końca sezonu, Valverde również opuści mecz, a dostępność Courtois i Tchouaméniego pozostaje niepewna; Mbappé jest pod znakiem zapytania po urazie w meczu z Betisem.\n Po stronie Barcelony \nLamine Yamal został wykluczony do końca sezonu z powodu urazu ścięgna podkolanowego\n. Kadrowo Real traci więcej kluczowych ogniw, zwłaszcza w ofensywie i obronie, co tłumaczy wyższy kurs na \"1\" niż sugerowałby Elo i atut własnego boiska. Model ProbWin (36/28/36) zrównuje szanse obu drużyn, podczas gdy Betclic faworyzuje gospodarza (2.20) — różnica wynika prawdopodobnie z wyższego ratingu Elo Barcy (1974 vs 1921) i \nserii czterech zwycięstw w pięciu ostatnich Cl",
+  "generated_at": "2026-05-26T07:12:06.401740Z",
+  "id": "2026-05-26_real-madrid_barcelona"
+}

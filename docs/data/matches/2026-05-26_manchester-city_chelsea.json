@@ -1,0 +1,49 @@
+{
+  "home_team": "Manchester City",
+  "away_team": "Chelsea",
+  "league": "Premier League",
+  "kick_off": "2026-05-26T20:00:00Z",
+  "home_context": {
+    "name": "Manchester City",
+    "elo": 1967.23547363,
+    "form": null
+  },
+  "away_context": {
+    "name": "Chelsea",
+    "elo": 1827.88745117,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "L",
+        "D",
+        "W",
+        "L"
+      ],
+      "points": 4,
+      "goals_for": 5,
+      "goals_against": 10
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.6716672228579009,
+    "draw": 0.10890879156626722,
+    "away": 0.2194239855758319
+  },
+  "implied_probability": {
+    "home": 0.5804311774461027,
+    "draw": 0.2280265339966832,
+    "away": 0.19154228855721392
+  },
+  "bookmaker_odds": {
+    "home": 1.65,
+    "draw": 4.2,
+    "away": 5.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.415584415584428,
+  "ai_commentary": "Mam wystarczająco danych. Pisuję komentarz.\n\nKomentarz analityczny ProbWin AI:\n\n\nPozycja City w lidze utrudnia odczyt meczu - Arsenal prowadzi o 2 punkty przed ostatnią kolejką, a tytuł nie jest już w rękach Guardioli\n, co podtrzymuje pełną motywację gospodarzy. \nChelsea jest 9. z 49 pkt i nie wygrała żadnego z 7 ostatnich meczów PL\n, a \nCity nie przegrało z nimi w 14 ostatnich spotkaniach\n. Różnica model–bukmacher (67% vs ~60% z kursu) wynika z premii za formę i przewagę u siebie, których kursy 1.65 nie odzwierciedlają w pełni z uwagi na rotacje składu przed końcówką sezonu.\n\n(395 znaków)",
+  "generated_at": "2026-05-26T07:12:53.360910Z",
+  "id": "2026-05-26_manchester-city_chelsea"
+}

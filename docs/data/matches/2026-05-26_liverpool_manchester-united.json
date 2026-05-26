@@ -1,0 +1,49 @@
+{
+  "home_team": "Liverpool",
+  "away_team": "Manchester United",
+  "league": "Premier League",
+  "kick_off": "2026-05-27T02:00:00Z",
+  "home_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "D",
+        "L",
+        "D"
+      ],
+      "points": 5,
+      "goals_for": 9,
+      "goals_against": 10
+    }
+  },
+  "away_context": {
+    "name": "Manchester United",
+    "elo": 1896.59924316,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4725556935605835,
+    "draw": 0.23521767979782585,
+    "away": 0.29222662664159066
+  },
+  "implied_probability": {
+    "home": 0.5216280925778132,
+    "draw": 0.25395051875498803,
+    "away": 0.22442138866719874
+  },
+  "bookmaker_odds": {
+    "home": 1.85,
+    "draw": 3.8,
+    "away": 4.3,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.6256574812266296,
+  "ai_commentary": "The match date given is 2026-05-27, but the search results refer to a fixture on May 3, 2026. The Premier League season would be over by May 27. This is likely a hypothetical/test scenario. I'll write the analytical commentary based on the most recent news (Salah's injury, Alisson's situation) while noting the context.\n\nLiverpool to gospodarz w danych, więc piszę z tej perspektywy.\n\n---\n\nKluczowym czynnikiem pozostaje sytuacja kadrowa Liverpoolu — \nabsencja Mohameda Salaha z powodu urazu ścięgna podkolanowego to istotne zaburzenie taktyczne\n, a \nAlisson i Mamardashvili są kontuzjowani, więc bramki bronił Freddie Woodman\n. Forma gospodarza (WLDLD) jest chwiejna, co tłumaczy ostrożność modelu (47%) wobec niskiego kursu bukmachera (1.85) — rynek wycenia markę i atut własnego boiska wyżej niż realną przewagę jakościową przy osłabionym składzie.",
+  "generated_at": "2026-05-26T07:11:31.912589Z",
+  "id": "2026-05-26_liverpool_manchester-united"
+}
