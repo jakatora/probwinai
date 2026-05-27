@@ -1,0 +1,49 @@
+{
+  "home_team": "Liverpool",
+  "away_team": "Manchester United",
+  "league": "Premier League",
+  "kick_off": "2026-05-28T02:00:00Z",
+  "home_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "D",
+        "L",
+        "D"
+      ],
+      "points": 5,
+      "goals_for": 9,
+      "goals_against": 10
+    }
+  },
+  "away_context": {
+    "name": "Manchester United",
+    "elo": 1896.59924316,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4725556935605835,
+    "draw": 0.23521767979782585,
+    "away": 0.29222662664159066
+  },
+  "implied_probability": {
+    "home": 0.5216280925778132,
+    "draw": 0.25395051875498803,
+    "away": 0.22442138866719874
+  },
+  "bookmaker_odds": {
+    "home": 1.85,
+    "draw": 3.8,
+    "away": 4.3,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.6256574812266296,
+  "ai_commentary": "Let me search for more recent news about the May 28 match specifically.\nSearches return results about a May 3 match at Old Trafford (gameweek 35), but the user's match is on May 28, 2026 at Anfield (Liverpool hosting). This looks like it could be a rescheduled match or a later fixture. Let me provide an analytical comment based on available context. The user specifies Liverpool as home (gospodarz), so it's at Anfield. Based on Elo ratings and odds, Liverpool is favored.\n\nGiven I have context about the season (United finished strong under Carrick, Liverpool has injury issues with Salah/Isak earlier, Champions League race), I'll write the commentary.\n\n\nLiverpool i United walczą o pozycje gwarantujące Ligę Mistrzów, co podnosi stawkę pojedynku\n, a forma gospodarzy (WLDLD) jest niejednolita mimo przewagi Elo. \nWcześniej w sezonie Liverpool zmagał się z absencjami kluczowych napastników, Salaha i Isaka\n, co przy braku danych H2H zwiększa niepewność modelu. Kurs bukmachera (1.85) implikuje ok. 54% szans gospodarza, podczas gdy ProbWin AI daje 47% — różnica wynika prawdopodobnie z większej wagi nadanej chwiejnej formie Liverpoolu i braku formy gościa w modelu. Bukmacher mocniej dyskontuje atut Anfield i wyższy Elo.",
+  "generated_at": "2026-05-27T07:25:33.310435Z",
+  "id": "2026-05-27_liverpool_manchester-united"
+}

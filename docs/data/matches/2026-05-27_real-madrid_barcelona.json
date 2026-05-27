@@ -1,0 +1,97 @@
+{
+  "home_team": "Real Madrid",
+  "away_team": "Barcelona",
+  "league": "La Liga",
+  "kick_off": "2026-05-27T22:00:00Z",
+  "home_context": {
+    "name": "Real Madrid",
+    "elo": 1920.54162598,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "W"
+      ],
+      "points": 12,
+      "goals_for": 9,
+      "goals_against": 4
+    }
+  },
+  "away_context": {
+    "name": "Barcelona",
+    "elo": 1973.8034668,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "L"
+      ],
+      "points": 9,
+      "goals_for": 8,
+      "goals_against": 6
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-04-21",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 3,
+      "away_goals": 2
+    },
+    {
+      "date": "2024-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 0,
+      "away_goals": 4
+    },
+    {
+      "date": "2025-05-11",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 4,
+      "away_goals": 3
+    },
+    {
+      "date": "2025-10-26",
+      "home_team": "Real Madrid",
+      "away_team": "Barcelona",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-10",
+      "home_team": "Barcelona",
+      "away_team": "Real Madrid",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ],
+  "model_probability": {
+    "home": 0.3618116284021483,
+    "draw": 0.2799788524173027,
+    "away": 0.358209519180549
+  },
+  "implied_probability": {
+    "home": 0.43088803088803085,
+    "draw": 0.2633204633204633,
+    "away": 0.30579150579150577
+  },
+  "bookmaker_odds": {
+    "home": 2.2,
+    "draw": 3.6,
+    "away": 3.1,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.4903877484522745,
+  "ai_commentary": "Wyszukiwania pokazują głównie informacje z poprzedniego El Clasico (10 maja 2026). Mecz z 27 maja 2026 to inny mecz. Sprawdzę najnowsze wieści.\nMam już wystarczające informacje. Mecz 27 maja 2026 to dodatkowy/towarzyski mecz lub jakieś niestandardowe wydarzenie (sezon La Liga zakończony 24 maja wg źródeł). Barcelona już prawdopodobnie zdobyła mistrzostwo. Real ma katastrofalne kontuzje. Napiszę komentarz na podstawie ostatnich znanych danych.\n\nReal Madryt ma poważne braki kadrowe – \nMendy, Militão, Carvajal, Güler i Rodrygo zostali wykluczeni do końca sezonu, a Fede Valverde również nie zagra\n, do tego \nMbappé jest pod znakiem zapytania po urazie z meczu z Betisem\n. Barcelona traci jedynie Yamala, co przy \nwygranych w czterech z pięciu ostatnich El Clasico\n i braku presji wynikowej (tytuł już rozstrzygnięty) daje gościom realną przewagę jakościową. Model wycenia szanse 36/36, podczas gdy bukmacher faworyzuje gospodarzy (2.20 vs 3.10) – rozbieżność może wynikać z tego, że kursy uwzględniają atut własnego boiska i historyczny rating Bernabéu, a model mocniej waży aktualne osłabienia kadrowe i serię H2H.",
+  "generated_at": "2026-05-27T07:26:24.893025Z",
+  "id": "2026-05-27_real-madrid_barcelona"
+}

@@ -1,0 +1,97 @@
+{
+  "home_team": "Aston Villa",
+  "away_team": "Liverpool",
+  "league": "Premier League",
+  "kick_off": "2026-05-27T18:00:00Z",
+  "home_context": {
+    "name": "Aston Villa",
+    "elo": 1874.75610352,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "L",
+        "D",
+        "W",
+        "W"
+      ],
+      "points": 7,
+      "goals_for": 9,
+      "goals_against": 8
+    }
+  },
+  "away_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "D",
+        "L",
+        "D"
+      ],
+      "points": 5,
+      "goals_for": 9,
+      "goals_against": 10
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-05-13",
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "home_goals": 3,
+      "away_goals": 3
+    },
+    {
+      "date": "2024-11-09",
+      "home_team": "Liverpool",
+      "away_team": "Aston Villa",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "date": "2025-02-19",
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "home_goals": 2,
+      "away_goals": 2
+    },
+    {
+      "date": "2025-11-01",
+      "home_team": "Liverpool",
+      "away_team": "Aston Villa",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "date": "2026-05-15",
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "home_goals": 4,
+      "away_goals": 2
+    }
+  ],
+  "model_probability": {
+    "home": 0.3649090561943126,
+    "draw": 0.2798477989098368,
+    "away": 0.3552431448958506
+  },
+  "implied_probability": {
+    "home": 0.3023827534039334,
+    "draw": 0.2403555219364599,
+    "away": 0.4572617246596066
+  },
+  "bookmaker_odds": {
+    "home": 3.1,
+    "draw": 3.9,
+    "away": 2.05,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 6.6795779620327345,
+  "ai_commentary": "Wait - the data in the prompt shows a match on 2026-05-27, but the H2H lists Aston Villa 4-2 Liverpool on 2026-05-15. So this appears to be the final-day fixture (gameweek 38?). Let me check what's happening on May 27, 2026 - actually this might be a separate match. Let me search for the most recent news.\nThe user's prompt has data with the match date 2026-05-27, but real-world data shows the actual fixture was May 15, 2026 (already played - Villa won 4-2). This must be a hypothetical/test scenario or the user input has wrong date. I'll work with the data provided (Aston Villa vs Liverpool) but note that Liverpool's season is essentially complete based on news. Given the prompt's H2H already includes the 4-2 May 15 result, this could be a friendly or replayed scenario - I should treat it as scheduled and base commentary on the data given plus news about player form/injuries.\n\nLet me write the commentary based on available info - key context: Villa just won Europa League (May 20), Villa already secured top 5/CL, Liverpool injury issues (Isak, Frimpong, Salah managed minutes), Villa motivation potentially reduced after winning trophy.\n\nKomentarz analityczny ProbWin AI:\n\nLiverpool przyjeżdża na Villa Park osłabiony – \nJeremie Frimpong i Alexander Isak opuścili poprzednie spotkanie, a Mohamed Salah i Florian Wirtz wracali po urazie i chorobie tylko na ławkę\n, co znacząco obniża potencjał ofensywny gości. Po stronie Villi \nawans do Ligi Mistrzów został już zapewniony, a Watkins jest w świetnej dyspozycji strzeleckiej\n, jednak po triumfie w finale Ligi Europy motywacja w lidze może być rozproszona. Różnica między modelem (36/36) a bukmacherem (2,05 na gościa) wynika z tego, że kursy mocniej",
+  "generated_at": "2026-05-27T07:27:56.047424Z",
+  "id": "2026-05-27_aston-villa_liverpool"
+}

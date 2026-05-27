@@ -1,0 +1,49 @@
+{
+  "home_team": "Manchester City",
+  "away_team": "Chelsea",
+  "league": "Premier League",
+  "kick_off": "2026-05-27T20:00:00Z",
+  "home_context": {
+    "name": "Manchester City",
+    "elo": 1967.23547363,
+    "form": null
+  },
+  "away_context": {
+    "name": "Chelsea",
+    "elo": 1827.88745117,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "L",
+        "D",
+        "W",
+        "L"
+      ],
+      "points": 4,
+      "goals_for": 5,
+      "goals_against": 10
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.6716672228579009,
+    "draw": 0.10890879156626722,
+    "away": 0.2194239855758319
+  },
+  "implied_probability": {
+    "home": 0.5804311774461027,
+    "draw": 0.2280265339966832,
+    "away": 0.19154228855721392
+  },
+  "bookmaker_odds": {
+    "home": 1.65,
+    "draw": 4.2,
+    "away": 5.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.415584415584428,
+  "ai_commentary": "Mam wystarczająco danych. Tworzę komentarz analityczny po polsku, max 400 znaków.\n\nCity gra u siebie, ma znacznie wyższy Elo, świetną historię H2H (\nbrak porażki z Chelsea w 14 ostatnich meczach\n), Chelsea w słabej formie (LLDWL). Model daje 67% na City, kurs bukmachera implikuje ~58% – różnica wynika z motywacji końcówki sezonu i niepewności składu.\n\n---\n\n**Komentarz analityczny:**\n\n\nManchester City nie przegrał z Chelsea w 14 ostatnich meczach (11Z, 3R)\n, co w połączeniu z przewagą Elo (1967 vs 1828) i atutem Etihadu czyni gospodarzy zdecydowanym faworytem. Słaba forma Chelsea (LLDWL) potwierdza dysproporcję. Model ProbWin (67%) jest bardziej zdecydowany niż kurs Betclic (~58% implikowanego), co sugeruje, że bukmacher uwzględnia ryzyko rotacji składu City pod koniec sezonu.",
+  "generated_at": "2026-05-27T07:27:15.131487Z",
+  "id": "2026-05-27_manchester-city_chelsea"
+}
