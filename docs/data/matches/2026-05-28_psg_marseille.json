@@ -1,0 +1,49 @@
+{
+  "home_team": "PSG",
+  "away_team": "Marseille",
+  "league": "Ligue 1",
+  "kick_off": "2026-05-29T00:00:00Z",
+  "home_context": {
+    "name": "PSG",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Marseille",
+    "elo": 1701.1282959,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "D",
+        "L",
+        "W",
+        "W"
+      ],
+      "points": 7,
+      "goals_for": 5,
+      "goals_against": 7
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.6208842897460018,
+    "draw": 0.2187206020696143,
+    "away": 0.16039510818438382
+  },
+  "bookmaker_odds": {
+    "home": 1.55,
+    "draw": 4.4,
+    "away": 6.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.910068426197455,
+  "ai_commentary": "Let me search for more recent news closer to the May 29 date.\nInteresting - the Ligue 1 season ended on May 16, 2026 with PSG vs Paris FC being the last match. A PSG vs Marseille match on May 29 doesn't appear to be a Ligue 1 match. The data given may be inconsistent, but let me work with what was provided. Also, PSG's Champions League final is May 30 in Budapest vs Arsenal - so May 29 would be the day before the CL final, meaning PSG might rest key players or have already played their last Ligue 1 match.\n\nLet me compose the commentary based on context:\n\n- PSG already won Ligue 1, last league match was May 16\n- May 30 is the Champions League final vs Arsenal in Budapest\n- A hypothetical PSG vs Marseille on May 29 would be in odd context - possibly rotation heavy for PSG with CL final next day\n- Marseille form LDLWW - inconsistent\n- Model gives 30% for away win vs bookmaker's 16.7% implied probability - significant discrepancy\n\nKomentarz analityczny:\n\nKluczowym czynnikiem jest kontekst kalendarzowy — \nPSG rozgrywa final Ligi Mistrzow z Arsenalem 30 maja w Budapeszcie\n, wiec dzien wczesniej Luis Enrique prawdopodobnie zrotuje sklad i oszczedzi kluczowych graczy, zwlaszcza ze \ntytul mistrzowski PSG juz dawno przypieczetowal\n. Marseille przyjedzie zmotywowane i w mieszanej formie (LDLWW), co tlumaczy, dlaczego model ProbWin (2=30%) wycenia",
+  "generated_at": "2026-05-28T07:19:57.445016Z",
+  "id": "2026-05-28_psg_marseille"
+}

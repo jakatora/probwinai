@@ -1,0 +1,49 @@
+{
+  "home_team": "Bayern Munich",
+  "away_team": "Borussia Dortmund",
+  "league": "Bundesliga",
+  "kick_off": "2026-05-28T23:00:00Z",
+  "home_context": {
+    "name": "Bayern Munich",
+    "elo": 2008.38562012,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "points": 13,
+      "goals_for": 17,
+      "goals_against": 9
+    }
+  },
+  "away_context": {
+    "name": "Borussia Dortmund",
+    "elo": 1826.88513184,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.7323091022716236,
+    "draw": 0.08,
+    "away": 0.18769089772837638
+  },
+  "implied_probability": {
+    "home": 0.5475285171102662,
+    "draw": 0.2395437262357415,
+    "away": 0.2129277566539924
+  },
+  "bookmaker_odds": {
+    "home": 1.75,
+    "draw": 4.0,
+    "away": 4.5,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.36507936507935,
+  "ai_commentary": "Zauważam, że Bundesliga sezonu 2025/26 już się zakończyła (matchday 34 to było ostatnie), a mecz wskazany w zadaniu (28.05.2026) nie wygląda na realny mecz ligowy. Niemniej, napiszę komentarz analityczny w oparciu o przekazane dane statystyczne i ogólny kontekst.\n\nKomentarz analityczny:\n\nBayern wchodzi w mecz z wyraźną przewagą Elo (+181) i znakomitą formą (4 zwycięstwa, 1 remis w ostatnich 5), co uzasadnia status zdecydowanego faworyta. \nPo stronie gospodarzy istotne pozostają kwestie zdrowotne Jamala Musiali wracającego do optymalnej formy oraz niepewność wokół Alphonso Daviesa\n, co może lekko obniżać potencjał ofensywny. Model ProbWin (73%) wycenia gospodarzy agresywniej niż Betclic (ok. 57% z kursu 1.75), co wynika z wbudowanego marginesu bukmachera i ostrożniejszej wyceny remisu w Klasykerze, który historycznie bywa otwarty i nieprzewidywalny.",
+  "generated_at": "2026-05-28T07:19:18.430709Z",
+  "id": "2026-05-28_bayern-munich_borussia-dortmund"
+}

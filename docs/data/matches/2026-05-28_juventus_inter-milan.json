@@ -1,0 +1,49 @@
+{
+  "home_team": "Juventus",
+  "away_team": "Inter Milan",
+  "league": "Serie A",
+  "kick_off": "2026-05-29T01:00:00Z",
+  "home_context": {
+    "name": "Juventus",
+    "elo": 1789.74865723,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "D",
+        "D",
+        "W",
+        "L",
+        "D"
+      ],
+      "points": 6,
+      "goals_for": 4,
+      "goals_against": 5
+    }
+  },
+  "away_context": {
+    "name": "Inter Milan",
+    "elo": 1892.42724609,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.3175847091284298,
+    "draw": 0.2645309895716832,
+    "away": 0.417884301299887
+  },
+  "implied_probability": {
+    "home": 0.33876221498371334,
+    "draw": 0.29641693811074915,
+    "away": 0.3648208469055374
+  },
+  "bookmaker_odds": {
+    "home": 2.8,
+    "draw": 3.2,
+    "away": 2.6,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.425824175824179,
+  "ai_commentary": "Sezon 2025-26 zakończył się - Inter wygrał Scudetto (dublet z Pucharem). Mecz 29 maja to ostatnia kolejka lub mecz zaległy. Sprawdźmy dokładniej.\nMam wystarczające informacje. Sezon 2025-26 zakończył się - Inter zdobył Scudetto (i Puchar Włoch, dublet). Data 29 maja 2026 sugeruje, że to mecz po zakończeniu sezonu lub mecz zaległy. Najprawdopodobniej jest to mecz o niskiej stawce dla Interu (już mistrzowie), Juventus walczy o CL. Napiszę komentarz w oparciu o dostępne informacje.\n\nKomentarz analityczny ProbWin AI:\n\nInter przystępuje do meczu jako świeży mistrz Włoch po zdobyciu dubletu, co może obniżyć motywację mistrzów, podczas gdy \nJuventus walczy o utrzymanie miejsca w czołowej czwórce i kwalifikację do Ligi Mistrzów, balansując na granicy strefy CL\n. Po stronie kadrowej kluczowe są absencje napastników Juve — \nJonathan David prawdopodobnie poprowadzi atak, gdy Vlahović i Milik pozostają poza grą\n, co ogranicza opcje ofensywne Spallettiego. Rozbieżność między modelem (42% na 2) a Betclic (kurs 2.60) jest umiarkowana i wynika prawdopodobnie z silniejszego Elo gościa (1892 vs 1790) oraz faktu, że \nJuventus wygrał tylko 1 z ostatnich 6 wizyt na San Siro\n — bukmacher mocniej waży czynnik domowy i potencjalny spad",
+  "generated_at": "2026-05-28T07:20:41.994945Z",
+  "id": "2026-05-28_juventus_inter-milan"
+}

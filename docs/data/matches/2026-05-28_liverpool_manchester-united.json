@@ -1,0 +1,49 @@
+{
+  "home_team": "Liverpool",
+  "away_team": "Manchester United",
+  "league": "Premier League",
+  "kick_off": "2026-05-29T02:00:00Z",
+  "home_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "D",
+        "L",
+        "D"
+      ],
+      "points": 5,
+      "goals_for": 9,
+      "goals_against": 10
+    }
+  },
+  "away_context": {
+    "name": "Manchester United",
+    "elo": 1896.59924316,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4725556935605835,
+    "draw": 0.23521767979782585,
+    "away": 0.29222662664159066
+  },
+  "implied_probability": {
+    "home": 0.5216280925778132,
+    "draw": 0.25395051875498803,
+    "away": 0.22442138866719874
+  },
+  "bookmaker_odds": {
+    "home": 1.85,
+    "draw": 3.8,
+    "away": 4.3,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.6256574812266296,
+  "ai_commentary": "Komentarz:\n\nLiverpool jako gospodarz na Anfield ma przewagę Elo (~28 pkt) i wsparcie atutu własnego boiska, ale forma WLDLD pokazuje niestabilność. \nKluczowy problem to długoterminowe kontuzje – Bradley, Endo, Ekitike, Leoni i Isak spędzili sporo czasu poza grą\n, a \nAlisson z urazem ścięgna może opuścić mecz, co zmusza Slota do gry rezerwowym bramkarzem\n. Różnica między modelem (47%) a kursem bukmachera (~54% implikowane na 1) wynika prawdopodobnie z tego, że model mocniej dyskontuje braki kadrowe i nierówną formę, podczas gdy bukmacher wycenia markę i atut Anfield wyżej.",
+  "generated_at": "2026-05-28T07:19:00.566435Z",
+  "id": "2026-05-28_liverpool_manchester-united"
+}
