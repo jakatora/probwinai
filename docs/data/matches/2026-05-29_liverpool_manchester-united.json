@@ -1,0 +1,49 @@
+{
+  "home_team": "Liverpool",
+  "away_team": "Manchester United",
+  "league": "Premier League",
+  "kick_off": "2026-05-30T02:00:00Z",
+  "home_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "D",
+        "L",
+        "D"
+      ],
+      "points": 5,
+      "goals_for": 9,
+      "goals_against": 10
+    }
+  },
+  "away_context": {
+    "name": "Manchester United",
+    "elo": 1896.59924316,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4725556935605835,
+    "draw": 0.23521767979782585,
+    "away": 0.29222662664159066
+  },
+  "implied_probability": {
+    "home": 0.5216280925778132,
+    "draw": 0.25395051875498803,
+    "away": 0.22442138866719874
+  },
+  "bookmaker_odds": {
+    "home": 1.85,
+    "draw": 3.8,
+    "away": 4.3,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.6256574812266296,
+  "ai_commentary": "Mecz odbywa się na Anfield (Liverpool gospodarzem 30 maja 2026). Mam dane o problemach kadrowych Liverpoolu. Tworzę komentarz.\n\nKomentarz analityczny:\n\nKluczowe znaczenie ma sytuacja bramkarska i ofensywna Liverpoolu - \nAlisson opuścił ostatnie tygodnie z urazem ścięgna, a po kontuzji Mamardashviliego między słupkami zadebiutował Freddie Woodman\n, do tego \nEkitike wypadł do końca sezonu po zerwaniu ścięgna Achillesa\n. Forma gospodarza WLDLD jest przeciętna, co ogranicza przewagę Elo i własnego stadionu. Model ProbWin (47%) jest ostrożniejszy niż bukmacher (~54% implied na 1), prawdopodobnie uwzględniając braki kadrowe i nierówną dyspozycję, podczas gdy Betclic mocniej waży rangę gospodarza.",
+  "generated_at": "2026-05-29T07:19:15.226097Z",
+  "id": "2026-05-29_liverpool_manchester-united"
+}

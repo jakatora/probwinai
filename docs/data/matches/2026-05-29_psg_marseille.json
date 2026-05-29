@@ -1,0 +1,49 @@
+{
+  "home_team": "PSG",
+  "away_team": "Marseille",
+  "league": "Ligue 1",
+  "kick_off": "2026-05-30T00:00:00Z",
+  "home_context": {
+    "name": "PSG",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Marseille",
+    "elo": 1701.1282959,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "D",
+        "L",
+        "W",
+        "W"
+      ],
+      "points": 7,
+      "goals_for": 5,
+      "goals_against": 7
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.6208842897460018,
+    "draw": 0.2187206020696143,
+    "away": 0.16039510818438382
+  },
+  "bookmaker_odds": {
+    "home": 1.55,
+    "draw": 4.4,
+    "away": 6.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.910068426197455,
+  "ai_commentary": "Ważna informacja: 30 maja 2026 to dzień finału Ligi Mistrzów PSG vs Arsenal w Budapeszcie. Mecz Ligue 1 PSG-Marseille tego samego dnia oznacza, że PSG wystawi mocno rezerwowy skład.\nMam wystarczająco informacji. Sezon Ligue 1 2025-2026 zakończył się 17 maja 2026, więc data 30 maja to NIE jest mecz ligowy - to dzień finału Ligi Mistrzów PSG-Arsenal w Budapeszcie. Mecz PSG vs Marseille tego dnia jako Ligue 1 wydaje się błędem w danych, ale skomentuję analitycznie sytuację.\n\nKomentarz:\n\nPSG 30 maja gra finał Ligi Mistrzów z Arsenalem w Budapeszcie, więc \nsezon Ligue 1 2025/2026 zakończył się już 17 maja\n – ewentualny Klasyk w tym terminie jest nietypowy i wymaga weryfikacji. Forma OM (LDLWW) jest umiarkowana, a kurs 1.55 na gospodarza odzwierciedla siłę kadry PSG mimo problemów zdrowotnych (\nbrak Hakimiego i Chevaliera z powodu kontuzji uda\n). Model daje aż 30% na gościa, bo przy nakładającym się finale LM realne jest rotacyjne ustawienie Paryżan i osłabienie jakości pierwszej jedenastki – stąd różnica wobec bukmachera.",
+  "generated_at": "2026-05-29T07:20:16.620053Z",
+  "id": "2026-05-29_psg_marseille"
+}

@@ -1,0 +1,49 @@
+{
+  "home_team": "Juventus",
+  "away_team": "Inter Milan",
+  "league": "Serie A",
+  "kick_off": "2026-05-30T01:00:00Z",
+  "home_context": {
+    "name": "Juventus",
+    "elo": 1789.74865723,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "D",
+        "D",
+        "W",
+        "L",
+        "D"
+      ],
+      "points": 6,
+      "goals_for": 4,
+      "goals_against": 5
+    }
+  },
+  "away_context": {
+    "name": "Inter Milan",
+    "elo": 1892.42724609,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.3175847091284298,
+    "draw": 0.2645309895716832,
+    "away": 0.417884301299887
+  },
+  "implied_probability": {
+    "home": 0.33876221498371334,
+    "draw": 0.29641693811074915,
+    "away": 0.3648208469055374
+  },
+  "bookmaker_odds": {
+    "home": 2.8,
+    "draw": 3.2,
+    "away": 2.6,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.425824175824179,
+  "ai_commentary": "Na podstawie znalezionych informacji widzę, że Inter jest już mistrzem (Scudetto), a Juventus walczy o miejsca europejskie. Sezon 2025-26 dobiega końca. Przygotowuję komentarz:\n\nKomentarz analityczny:\n\nInter przystępuje do meczu jako świeżo upieczony mistrz Włoch, \nzdobywca Scudetto i uczestnik Ligi Mistrzów\n, co może obniżyć motywację w meczu o nic. Juventus z kolei walczy o europejskie puchary po \ndomowej porażce 0-2 z Fiorentiną, która zmieniła kontrolowaną kwalifikację w desperacką walkę\n. Wyższy Elo i jakość kadry Interu uzasadniają kurs 2.6, ale model ProbWin AI mocniej wycenia szansę gości (42%), prawdopodobnie nie uwzględniając kontekstu rotacji składu i braku stawki dla Nerazzurrich, co tłumaczy różnicę względem bukmachera.",
+  "generated_at": "2026-05-29T07:20:57.576328Z",
+  "id": "2026-05-29_juventus_inter-milan"
+}

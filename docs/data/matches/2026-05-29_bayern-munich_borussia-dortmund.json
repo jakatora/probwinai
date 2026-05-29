@@ -1,0 +1,49 @@
+{
+  "home_team": "Bayern Munich",
+  "away_team": "Borussia Dortmund",
+  "league": "Bundesliga",
+  "kick_off": "2026-05-29T23:00:00Z",
+  "home_context": {
+    "name": "Bayern Munich",
+    "elo": 2008.38562012,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "points": 13,
+      "goals_for": 17,
+      "goals_against": 9
+    }
+  },
+  "away_context": {
+    "name": "Borussia Dortmund",
+    "elo": 1826.88513184,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.7323091022716236,
+    "draw": 0.08,
+    "away": 0.18769089772837638
+  },
+  "implied_probability": {
+    "home": 0.5475285171102662,
+    "draw": 0.2395437262357415,
+    "away": 0.2129277566539924
+  },
+  "bookmaker_odds": {
+    "home": 1.75,
+    "draw": 4.0,
+    "away": 4.5,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.36507936507935,
+  "ai_commentary": "Mam wystarczające informacje. Wiem, że Emre Can (kapitan BVB) doznał zerwania ACL w poprzednim meczu z Bayernem, a Bayern ma problemy kadrowe (Davies, Neuer, Kane wcześniej notowani z urazami).\n\nBayern z silną przewagą Elo (181 pkt) i formą WWDWW jest wyraźnym faworytem domowym. \nDortmund musi sobie radzić bez kapitana Emre Cana, który zerwał wiązadło krzyżowe w starciu z Bayernem i pauzuje wiele miesięcy\n, co dodatkowo osłabia środek defensywy BVB. Model ProbWin (73%) jest agresywniejszy niż kurs Betclic (~57% implikowane na 1), prawdopodobnie mocniej waży różnicę Elo i formę gospodarza, podczas gdy bukmacher uwzględnia zmienność derbów oraz \npoważny uraz Alphonso Daviesa wykluczający go z gry\n. Brak danych o formie i H2H zwiększa niepewność oszacowań.",
+  "generated_at": "2026-05-29T07:19:32.132013Z",
+  "id": "2026-05-29_bayern-munich_borussia-dortmund"
+}
