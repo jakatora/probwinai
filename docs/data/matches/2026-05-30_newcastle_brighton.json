@@ -1,0 +1,97 @@
+{
+  "home_team": "Newcastle",
+  "away_team": "Brighton",
+  "league": "Premier League",
+  "kick_off": "2026-05-30T21:00:00Z",
+  "home_context": {
+    "name": "Newcastle",
+    "elo": 1837.14758301,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "W",
+        "D",
+        "W",
+        "L"
+      ],
+      "points": 7,
+      "goals_for": 7,
+      "goals_against": 6
+    }
+  },
+  "away_context": {
+    "name": "Brighton",
+    "elo": 1854.48791504,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "L"
+      ],
+      "points": 6,
+      "goals_for": 7,
+      "goals_against": 7
+    }
+  },
+  "h2h": [
+    {
+      "date": "2024-05-11",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "date": "2024-10-19",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "date": "2025-05-04",
+      "home_team": "Brighton",
+      "away_team": "Newcastle",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "date": "2025-10-18",
+      "home_team": "Brighton",
+      "away_team": "Newcastle",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "date": "2026-05-02",
+      "home_team": "Newcastle",
+      "away_team": "Brighton",
+      "home_goals": 3,
+      "away_goals": 1
+    }
+  ],
+  "model_probability": {
+    "home": 0.40427292858085917,
+    "draw": 0.2702461845995079,
+    "away": 0.32548088681963294
+  },
+  "implied_probability": {
+    "home": 0.45092838196286467,
+    "draw": 0.2705570291777188,
+    "away": 0.27851458885941643
+  },
+  "bookmaker_odds": {
+    "home": 2.1,
+    "draw": 3.5,
+    "away": 3.4,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.602240896358546,
+  "ai_commentary": "Wyniki dotyczą meczu z 2 maja 2026 (który Newcastle wygrało 3-1). Mecz 30 maja to inny pojedynek - sprawdzę najnowsze info.\nWyniki dotyczą głównie meczu z 2 maja 2026 (który już się odbył - Newcastle 3-1, ujęty w H2H). Mecz z 30 maja 2026 to ostatnia kolejka sezonu. Bazuję na dostępnych informacjach kontekstowych.\n\nKomentarz analityczny:\n\nNewcastle wraca do St James' Park po wygranej 3-1 nad Brighton z początku maja, ale ich forma ogólna pozostaje chwiejna (LWDWL), a \nMagpies wciąż balansują w okolicach strefy zagrożenia z bogey side Brighton\n historycznie sprawiającym im problemy. Kluczowe będą dostępność Anthony'ego Gordona, \nktóry pozostaje najlepszym strzelcem Newcastle w tym sezonie\n, oraz motywacja Brighton, które \nwalczy o pozycję europejską\n. Model ProbWin (40/27/33) wycenia gospodarzy wyżej niż bukmacher (kurs 2.10 = ~45% implied), co sugeruje, że Betclic mocniej waży zły bilans H2H i słabszą formę Newcastle, podczas gdy model uwzględnia świeższy wynik 3-1 i przewagę własnego boiska. Różnica na korzyść remisu w modelu (27% vs 28.5% u buka) jest minimalna - rynek jest tu zasadniczo zbieżny.",
+  "generated_at": "2026-05-30T07:02:31.140102Z",
+  "id": "2026-05-30_newcastle_brighton"
+}

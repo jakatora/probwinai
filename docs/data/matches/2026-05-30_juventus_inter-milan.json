@@ -1,0 +1,49 @@
+{
+  "home_team": "Juventus",
+  "away_team": "Inter Milan",
+  "league": "Serie A",
+  "kick_off": "2026-05-31T01:00:00Z",
+  "home_context": {
+    "name": "Juventus",
+    "elo": 1789.74865723,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "D",
+        "D",
+        "W",
+        "L",
+        "D"
+      ],
+      "points": 6,
+      "goals_for": 4,
+      "goals_against": 5
+    }
+  },
+  "away_context": {
+    "name": "Inter Milan",
+    "elo": 1892.42724609,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.3175847091284298,
+    "draw": 0.2645309895716832,
+    "away": 0.417884301299887
+  },
+  "implied_probability": {
+    "home": 0.33876221498371334,
+    "draw": 0.29641693811074915,
+    "away": 0.3648208469055374
+  },
+  "bookmaker_odds": {
+    "home": 2.8,
+    "draw": 3.2,
+    "away": 2.6,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.425824175824179,
+  "ai_commentary": "Mam wystarczające informacje. Inter zapewnił już tytuł, Juventus walczy o miejsce w Lidze Mistrzów. Pisze komentarz.\n\nKomentarz analityczny:\n\n\nInter ma zapewnione 21. mistrzostwo Włoch, podczas gdy Juventus walczy o utrzymanie miejsca w Lidze Mistrzów\n — to kluczowa asymetria motywacji, bo \nJuventus jest tuż przed Como w tabeli i ryzykuje wypadnięcie z TOP 4\n. Bukmacher faworyzuje gospodarzy (2.80 vs 2.60), licząc na rozluźnienie świętującego Interu, podczas gdy model ProbWin AI (42% na 2) bardziej waży różnicę Elo (+102) i ignoruje czynnik motywacyjny. Rozbieżność wynika z odmiennej wagi kontekstu mistrzostwa względem czystej siły zespołów.",
+  "generated_at": "2026-05-30T07:01:38.734266Z",
+  "id": "2026-05-30_juventus_inter-milan"
+}

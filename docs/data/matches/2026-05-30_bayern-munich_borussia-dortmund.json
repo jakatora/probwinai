@@ -1,0 +1,49 @@
+{
+  "home_team": "Bayern Munich",
+  "away_team": "Borussia Dortmund",
+  "league": "Bundesliga",
+  "kick_off": "2026-05-30T23:00:00Z",
+  "home_context": {
+    "name": "Bayern Munich",
+    "elo": 2008.38562012,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "points": 13,
+      "goals_for": 17,
+      "goals_against": 9
+    }
+  },
+  "away_context": {
+    "name": "Borussia Dortmund",
+    "elo": 1826.88513184,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.7323091022716236,
+    "draw": 0.08,
+    "away": 0.18769089772837638
+  },
+  "implied_probability": {
+    "home": 0.5475285171102662,
+    "draw": 0.2395437262357415,
+    "away": 0.2129277566539924
+  },
+  "bookmaker_odds": {
+    "home": 1.75,
+    "draw": 4.0,
+    "away": 4.5,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.36507936507935,
+  "ai_commentary": "Komentarz analityczny:\n\nBayern w domu pozostaje zdecydowanym faworytem - \nspodziewany jest \"champagne XI\" z Neuerem, Kane'em i Olise\n, a forma WWDWW i przewaga Elo (181 pkt) potwierdzają dominację gospodarzy. Po stronie BVB istotnym osłabieniem są \nabsencje Bensebainiego (stopa) i Cana (kolano) w defensywie\n, co utrudnia powstrzymanie ataku Bayernu. Model wycenia \"1\" na 73% (kurs fair ~1.37), podczas gdy Betclic daje 1.75 - różnica wynika prawdopodobnie z marży bukmacherskiej i ostrożności wobec specyfiki Klassikera, gdzie kursy są sztucznie wyrównywane przez popyt rynkowy.",
+  "generated_at": "2026-05-30T07:00:27.836273Z",
+  "id": "2026-05-30_bayern-munich_borussia-dortmund"
+}

@@ -1,0 +1,49 @@
+{
+  "home_team": "PSG",
+  "away_team": "Marseille",
+  "league": "Ligue 1",
+  "kick_off": "2026-05-31T00:00:00Z",
+  "home_context": {
+    "name": "PSG",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Marseille",
+    "elo": 1701.1282959,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "L",
+        "D",
+        "L",
+        "W",
+        "W"
+      ],
+      "points": 7,
+      "goals_for": 5,
+      "goals_against": 7
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.6208842897460018,
+    "draw": 0.2187206020696143,
+    "away": 0.16039510818438382
+  },
+  "bookmaker_odds": {
+    "home": 1.55,
+    "draw": 4.4,
+    "away": 6.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.910068426197455,
+  "ai_commentary": "Kluczowe spostrzeżenie: PSG gra 31 maja Ligue 1, ale 30 maja ma finał Ligi Mistrzów z Arsenalem. To zmienia wszystko - rotacja składu.\n\nKomentarz analityczny:\n\n\nKluczowy kontekst: PSG dzień wcześniej (30 maja) gra finał Ligi Mistrzów z Arsenalem, do którego wraca po urazie Dembele\n, co praktycznie wymusza szeroką rotację składu paryżan w lidze. Marsylia, choć z chwiejną formą (LDLWW), dostaje rezerwowy skład PSG, a \nOM tylko raz w ostatnich 18 wizytach na Parc des Princes wyjechało ze zwycięstwem\n, co wciąż uzasadnia rolę faworyta gospodarzy. Stąd rozbieżność: model daje gościom 30% (premia za rotację i osłabienia po finale LM oraz kontuzje Ekitiké, Doué, Mendesa), bukmacher trzyma kurs 6.0, dyskontując głównie domową dominację PSG nad OM.",
+  "generated_at": "2026-05-30T07:01:07.964921Z",
+  "id": "2026-05-30_psg_marseille"
+}

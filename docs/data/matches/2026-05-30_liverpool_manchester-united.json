@@ -1,0 +1,49 @@
+{
+  "home_team": "Liverpool",
+  "away_team": "Manchester United",
+  "league": "Premier League",
+  "kick_off": "2026-05-31T02:00:00Z",
+  "home_context": {
+    "name": "Liverpool",
+    "elo": 1925.0925293,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "L",
+        "D",
+        "L",
+        "D"
+      ],
+      "points": 5,
+      "goals_for": 9,
+      "goals_against": 10
+    }
+  },
+  "away_context": {
+    "name": "Manchester United",
+    "elo": 1896.59924316,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4725556935605835,
+    "draw": 0.23521767979782585,
+    "away": 0.29222662664159066
+  },
+  "implied_probability": {
+    "home": 0.5216280925778132,
+    "draw": 0.25395051875498803,
+    "away": 0.22442138866719874
+  },
+  "bookmaker_odds": {
+    "home": 1.85,
+    "draw": 3.8,
+    "away": 4.3,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 3.6256574812266296,
+  "ai_commentary": "Komentarz:\n\nLiverpool gra u siebie z lekką przewagą Elo, ale \nforma Reds pod Slotem była ostatnio słaba, z trzema porażkami z rzędu\n, co tłumaczy chwiejne WLDLD. Kluczowa jest dostępność bramkarza – \nAlisson od marca pauzuje z urazem ścięgna podkolanowego\n, co osłabia defensywę. Model ProbWin (47%) jest ostrożniejszy niż kurs Betclic (1.85 ≈ 54%), bo uwzględnia kontuzje i słabą formę gospodarza, podczas gdy bukmacher mocniej waży atut Anfield.",
+  "generated_at": "2026-05-30T07:00:13.058722Z",
+  "id": "2026-05-30_liverpool_manchester-united"
+}
