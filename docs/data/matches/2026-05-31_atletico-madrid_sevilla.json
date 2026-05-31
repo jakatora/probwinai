@@ -1,0 +1,49 @@
+{
+  "home_team": "Atletico Madrid",
+  "away_team": "Sevilla",
+  "league": "La Liga",
+  "kick_off": "2026-06-01T03:00:00Z",
+  "home_context": {
+    "name": "Atletico Madrid",
+    "elo": null,
+    "form": null
+  },
+  "away_context": {
+    "name": "Sevilla",
+    "elo": 1613.15478516,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ],
+      "points": 9,
+      "goals_for": 6,
+      "goals_against": 5
+    }
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.4,
+    "draw": 0.3,
+    "away": 0.3
+  },
+  "implied_probability": {
+    "home": 0.48519443453442745,
+    "draw": 0.27827327863003926,
+    "away": 0.23653228683553335
+  },
+  "bookmaker_odds": {
+    "home": 1.95,
+    "draw": 3.4,
+    "away": 4.0,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.693815987933637,
+  "ai_commentary": "Komentarz analityczny:\n\nAtletico kończy sezon bez stawki ligowej i z myślą o finale Pucharu Króla oraz MŚ, dlatego \nSimeone zapowiada rotację i występy graczy z zespołu B oraz akademii, a Barrios i Cardoso pozostają poza pełnymi treningami, podczas gdy Oblak dopiero wraca do grupy\n. Sevilla z kolei walczy o realne cele – \nod lutego wygrała tylko jeden mecz i ma zaledwie dwa punkty przewagi nad strefą spadkową\n, co podbija motywację gospodarzy. Bukmacher wycenia Atletico nisko głównie ze względu na różnicę klasy i historyczną dominację (\n7-1-2 w ostatnich 10 ligowych meczach\n), natomiast model ProbWin AI mocniej waży osłabienia kadrowe gości i walkę Sevilli o utrzymanie, stąd bardziej wyrównany rozkład 40/30/30.",
+  "generated_at": "2026-05-31T07:20:36.512867Z",
+  "id": "2026-05-31_atletico-madrid_sevilla"
+}

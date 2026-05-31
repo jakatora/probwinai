@@ -1,0 +1,49 @@
+{
+  "home_team": "Juventus",
+  "away_team": "Inter Milan",
+  "league": "Serie A",
+  "kick_off": "2026-06-01T01:00:00Z",
+  "home_context": {
+    "name": "Juventus",
+    "elo": 1789.74865723,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "D",
+        "D",
+        "W",
+        "L",
+        "D"
+      ],
+      "points": 6,
+      "goals_for": 4,
+      "goals_against": 5
+    }
+  },
+  "away_context": {
+    "name": "Inter Milan",
+    "elo": 1892.42724609,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.3175847091284298,
+    "draw": 0.2645309895716832,
+    "away": 0.417884301299887
+  },
+  "implied_probability": {
+    "home": 0.33876221498371334,
+    "draw": 0.29641693811074915,
+    "away": 0.3648208469055374
+  },
+  "bookmaker_odds": {
+    "home": 2.8,
+    "draw": 3.2,
+    "away": 2.6,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.425824175824179,
+  "ai_commentary": "Komentarz:\n\nInter przyjeżdża do Turynu z wyraźną przewagą Elo (1892 vs 1790) oraz szerszą kadrą, mimo że \nInzaghi musi radzić sobie bez Carlosa Augusto, Acerbiego i przede wszystkim Hakana Calhanoglu\n, co osłabia środek pola gości. Po stronie Juventusu trwają problemy zdrowotne formacji defensywnej i ofensywnej – \nJuventus stracił Gattiego po operacji łąkotki, Rugani wypadł przez uraz mięśniowy, a Bremer po artroskopii nie zdążył wrócić\n, co przy chwiejnej formie DDWLD tłumaczy, dlaczego model ProbWin (42% na 2) wycenia gości wyżej niż bukmacher (kurs 2.60 ≈ 38%) – Betclic mocniej dyskontuje czynnik „domu” i prestiż derbów.",
+  "generated_at": "2026-05-31T07:20:05.213372Z",
+  "id": "2026-05-31_juventus_inter-milan"
+}

@@ -1,0 +1,49 @@
+{
+  "home_team": "Bayern Munich",
+  "away_team": "Borussia Dortmund",
+  "league": "Bundesliga",
+  "kick_off": "2026-05-31T23:00:00Z",
+  "home_context": {
+    "name": "Bayern Munich",
+    "elo": 2008.38562012,
+    "form": {
+      "last_n": 5,
+      "results": [
+        "W",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "points": 13,
+      "goals_for": 17,
+      "goals_against": 9
+    }
+  },
+  "away_context": {
+    "name": "Borussia Dortmund",
+    "elo": 1826.88513184,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.7323091022716236,
+    "draw": 0.08,
+    "away": 0.18769089772837638
+  },
+  "implied_probability": {
+    "home": 0.5475285171102662,
+    "draw": 0.2395437262357415,
+    "away": 0.2129277566539924
+  },
+  "bookmaker_odds": {
+    "home": 1.75,
+    "draw": 4.0,
+    "away": 4.5,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 4.36507936507935,
+  "ai_commentary": "Komentarz analityczny:\n\nBayern jest zdecydowanym faworytem - przewaga w Elo (2008 vs 1827) i forma WWDWW podkreślają dominację gospodarzy, a \nHarry Kane zdobył Złotego Buta jako najlepszy strzelec lig europejskich\n, co wzmacnia siłę ofensywną. \nNiko Kovač nie postrzega obecnie Dortmundu jako realnego pretendenta do tytułu\n, co sugeruje dysproporcję klas. Model (73%) wycenia gospodarza wyżej niż bukmacher (~57% z kursu 1.75), bo Betclic dolicza marżę i uwzględnia ryzyko rotacji składu pod koniec sezonu.",
+  "generated_at": "2026-05-31T07:18:47.545088Z",
+  "id": "2026-05-31_bayern-munich_borussia-dortmund"
+}
