@@ -1,0 +1,37 @@
+{
+  "home_team": "Arsenal",
+  "away_team": "Tottenham",
+  "league": "Premier League",
+  "kick_off": "2026-09-06T19:00:00Z",
+  "home_context": {
+    "name": "Arsenal",
+    "elo": 2053.04199219,
+    "form": null
+  },
+  "away_context": {
+    "name": "Tottenham",
+    "elo": 1770.90722656,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.8044750788128471,
+    "draw": 0.08,
+    "away": 0.11552492118715299
+  },
+  "implied_probability": {
+    "home": 0.5121951219512195,
+    "draw": 0.25609756097560976,
+    "away": 0.23170731707317074
+  },
+  "bookmaker_odds": {
+    "home": 1.9,
+    "draw": 3.8,
+    "away": 4.2,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 2.7568922305764243,
+  "ai_commentary": "Wyrazna roznica klas: Arsenal ma ratingi Elo wyzsze o 282 pkt. Model wycenia 'wygrana gospodarza' o 29pp wyzej niz kurs bukmachera - mozliwe ze rynek inaczej ocenia kontekst meczu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-09-06T06:09:46.872663Z",
+  "id": "2026-09-06_arsenal_tottenham"
+}

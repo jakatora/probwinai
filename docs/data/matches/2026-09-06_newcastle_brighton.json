@@ -1,0 +1,37 @@
+{
+  "home_team": "Newcastle",
+  "away_team": "Brighton",
+  "league": "Premier League",
+  "kick_off": "2026-09-06T21:00:00Z",
+  "home_context": {
+    "name": "Newcastle",
+    "elo": 1837.14758301,
+    "form": null
+  },
+  "away_context": {
+    "name": "Brighton",
+    "elo": 1854.48791504,
+    "form": null
+  },
+  "h2h": [],
+  "model_probability": {
+    "home": 0.40427292858085917,
+    "draw": 0.2702461845995079,
+    "away": 0.32548088681963294
+  },
+  "implied_probability": {
+    "home": 0.45092838196286467,
+    "draw": 0.2705570291777188,
+    "away": 0.27851458885941643
+  },
+  "bookmaker_odds": {
+    "home": 2.1,
+    "draw": 3.5,
+    "away": 3.4,
+    "bookmaker": "Betclic (mock)"
+  },
+  "vig_pct": 5.602240896358546,
+  "ai_commentary": "Rownorzedne ratingi Elo - mecz wyrownany na papierze. Model i bukmacher zgodni - kurs odpowiada modelowemu prawdopodobienstwu. (Komentarz wygenerowany na podstawie statystyk - brak klucza Claude API.)",
+  "generated_at": "2026-09-06T06:09:55.989183Z",
+  "id": "2026-09-06_newcastle_brighton"
+}
